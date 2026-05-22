@@ -5,7 +5,7 @@
 
 # COMMAND ----------
 
-# MAGIC %pip install dbtunnel[streamlit] streamlit pandas
+# MAGIC %pip install dbtunnel[streamlit] streamlit pandas aiohttp
 
 # COMMAND ----------
 
