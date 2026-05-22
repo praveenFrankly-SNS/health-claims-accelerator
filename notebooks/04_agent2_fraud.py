@@ -11,7 +11,8 @@ import random
 
 import importlib
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+notebook_dir = os.path.dirname(os.path.abspath(__file__)) if '__file__' in globals() else os.getcwd()
+sys.path.append(os.path.abspath(os.path.join(notebook_dir, "..")))
 import config.llm_client
 importlib.reload(config.llm_client)  # Force reload to avoid Databricks caching
 from config.llm_client import llm
