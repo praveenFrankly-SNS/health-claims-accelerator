@@ -14,23 +14,20 @@ from pyspark.sql import SparkSession
 notebook_dir = os.path.dirname(os.path.abspath(__file__)) if '__file__' in globals() else os.getcwd()
 sys.path.append(os.path.abspath(os.path.join(notebook_dir, "..")))
 
-import importlib
+import runpy
 
-# Dynamic imports since module names start with numbers
-agent1_module = importlib.import_module("notebooks.03_agent1_doc_intelligence")
-agent1_doc_intelligence = agent1_module.agent1_doc_intelligence
+# Databricks blocks standard imports of .py files that are marked as notebooks.
+# We bypass this safely by evaluating the Python file directly using runpy.
+def load_agent_function(filename, func_name):
+    filepath = os.path.join(notebook_dir, filename)
+    module_dict = runpy.run_path(filepath)
+    return module_dict[func_name]
 
-agent2_module = importlib.import_module("notebooks.04_agent2_fraud")
-agent2_fraud = agent2_module.agent2_fraud
-
-agent3_module = importlib.import_module("notebooks.05_agent3_coverage")
-agent3_coverage = agent3_module.agent3_coverage
-
-agent4_module = importlib.import_module("notebooks.06_agent4_reserve")
-agent4_reserve = agent4_module.agent4_reserve
-
-adjuster_module = importlib.import_module("notebooks.08_adjuster_allocation")
-allocate_adjuster = adjuster_module.allocate_adjuster
+agent1_doc_intelligence = load_agent_function("03_agent1_doc_intelligence.py", "agent1_doc_intelligence")
+agent2_fraud = load_agent_function("04_agent2_fraud.py", "agent2_fraud")
+agent3_coverage = load_agent_function("05_agent3_coverage.py", "agent3_coverage")
+agent4_reserve = load_agent_function("06_agent4_reserve.py", "agent4_reserve")
+allocate_adjuster = load_agent_function("08_adjuster_allocation.py", "allocate_adjuster")
 
 # COMMAND ----------
 
