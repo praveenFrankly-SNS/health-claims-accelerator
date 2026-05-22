@@ -4,13 +4,13 @@ bundle:
 variables:
   catalog:
     description: The Unity Catalog name
-    default: main
+    default: health_claims_dev
   schema:
     description: The schema (database) name inside the catalog
-    default: health_claims_dev
+    default: claims
   volume:
     description: The volume name for unstructured data
-    default: documents
+    default: raw_documents
 
 workspace:
   host: ${workspace.host}

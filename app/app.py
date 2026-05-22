@@ -26,7 +26,7 @@ def load_claims_data():
                 access_token=os.environ["DATABRICKS_TOKEN"]
             )
             with connection.cursor() as cursor:
-                cursor.execute("SELECT * FROM main.health_claims_dev.vw_claims_dashboard LIMIT 50")
+                cursor.execute("SELECT * FROM health_claims_dev.claims.vw_claims_dashboard LIMIT 50")
                 rows = cursor.fetchall()
                 columns = [desc[0] for desc in cursor.description]
                 return pd.DataFrame(rows, columns=columns)

@@ -8,9 +8,9 @@
 import os
 from pyspark.sql.functions import current_timestamp, lit
 
-CATALOG_NAME = "main"
-SCHEMA_NAME = "health_claims_dev"
-VOLUME_NAME = "documents"
+CATALOG_NAME = "health_claims_dev"
+SCHEMA_NAME = "claims"
+VOLUME_NAME = "raw_documents"
 
 spark.sql(f"USE {CATALOG_NAME}.{SCHEMA_NAME}")
 

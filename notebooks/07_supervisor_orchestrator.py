@@ -66,8 +66,8 @@ def process_single_claim(claim_id: str) -> dict:
 # COMMAND ----------
 
 spark = SparkSession.builder.getOrCreate()
-CATALOG_NAME = "main"
-SCHEMA_NAME = "health_claims_dev"
+CATALOG_NAME = "health_claims_dev"
+SCHEMA_NAME = "claims"
 
 # Read Silver claims to get claim IDs
 silver_table = f"{CATALOG_NAME}.{SCHEMA_NAME}.silver_claims"

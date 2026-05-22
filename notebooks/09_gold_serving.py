@@ -5,8 +5,8 @@
 
 # COMMAND ----------
 
-CATALOG_NAME = "main"
-SCHEMA_NAME = "health_claims_dev"
+CATALOG_NAME = "health_claims_dev"
+SCHEMA_NAME = "claims"
 spark.sql(f"USE {CATALOG_NAME}.{SCHEMA_NAME}")
 
 gold_table = "gold_claim_decisions"
