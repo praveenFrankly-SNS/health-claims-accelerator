@@ -4,9 +4,17 @@ import csv
 import random
 from datetime import datetime, timedelta
 
+# Dynamically find the repo root
+if os.path.exists("../notebooks") and os.path.exists("../data"):
+    repo_root = ".."
+elif os.path.exists("./notebooks") and os.path.exists("./data"):
+    repo_root = "."
+else:
+    repo_root = "."
+
 def create_directories():
-    os.makedirs("./data/raw/structured", exist_ok=True)
-    os.makedirs("./data/raw/unstructured", exist_ok=True)
+    os.makedirs(f"{repo_root}/data/raw/structured", exist_ok=True)
+    os.makedirs(f"{repo_root}/data/raw/unstructured", exist_ok=True)
 
 def generate_synthetic_claims(num_claims=10):
     claims = []
@@ -40,7 +48,7 @@ def generate_synthetic_claims(num_claims=10):
         generate_discharge_summary(claim, diagnosis, admission_date, discharge_date)
 
     # Save to CSV
-    csv_file = "./data/raw/structured/claims.csv"
+    csv_file = f"{repo_root}/data/raw/structured/claims.csv"
     with open(csv_file, mode='w', newline='') as file:
         writer = csv.DictWriter(file, fieldnames=claims[0].keys())
         writer.writeheader()
@@ -74,7 +82,7 @@ def generate_discharge_summary(claim, diagnosis, admin_date, discharge_date):
     if random.random() < 0.1:
         summary = summary.replace("Attending Physician: Dr. Smith (Reg No: MC-5544)", "Attending Physician: Dr. Smith")
     
-    filename = f"./data/raw/unstructured/{claim['claim_id']}_discharge_summary.txt"
+    filename = f"{repo_root}/data/raw/unstructured/{claim['claim_id']}_discharge_summary.txt"
     with open(filename, "w") as f:
         f.write(summary)
 
