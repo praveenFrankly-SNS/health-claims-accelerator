@@ -1,4 +1,5 @@
 # Databricks notebook source
+# Databricks notebook source
 # MAGIC %md
 # MAGIC # 00 — Setup
 # MAGIC **Purpose:** Create Unity Catalog resources (catalog, schemas, volumes) for the Health Claims Accelerator.
@@ -92,3 +93,32 @@ audit_data = [{
 
 print("✓ Audit log entry written")
 print("\nRun notebooks in this order next: 01 → 02 → 03 → 04 → 05 → 06 → 07")
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC # 00 Setup: Unity Catalog & Database Initialization
+# MAGIC This notebook ensures the catalog, schema, and volumes are created.
+
+# COMMAND ----------
+
+CATALOG_NAME = catalog
+SCHEMA_NAME = schema
+VOLUME_NAME = volume_name
+
+# COMMAND ----------
+
+# 1. Create Schema
+print(f"Ensuring schema {CATALOG_NAME}.{SCHEMA_NAME} exists...")
+spark.sql(f"CREATE SCHEMA IF NOT EXISTS {CATALOG_NAME}.{SCHEMA_NAME}")
+spark.sql(f"USE {CATALOG_NAME}.{SCHEMA_NAME}")
+
+# COMMAND ----------
+
+# 2. Create Volume for unstructured data
+print(f"Ensuring volume {VOLUME_NAME} exists...")
+spark.sql(f"CREATE VOLUME IF NOT EXISTS {CATALOG_NAME}.{SCHEMA_NAME}.{VOLUME_NAME}")
+
+# COMMAND ----------
+
+print("Setup Complete.")
