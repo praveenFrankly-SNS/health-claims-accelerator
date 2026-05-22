@@ -70,15 +70,37 @@ class LLMClient:
         else:
             return self._call_external_model(prompt, system_prompt, max_tokens)
 
+    def _get_available_endpoint(self, headers):
+        try:
+            res = requests.get(f"{self.workspace_url}/api/2.0/serving-endpoints", headers=headers)
+            if res.status_code == 200:
+                endpoints = res.json().get('endpoints', [])
+                # Find any Llama model
+                llama_endpoints = [e['name'] for e in endpoints if 'llama' in e['name'].lower()]
+                if llama_endpoints:
+                    # Prefer 70b
+                    for ep in llama_endpoints:
+                        if '70b' in ep: return ep
+                    return llama_endpoints[0]
+                # Fallback to DBRX
+                dbrx = [e['name'] for e in endpoints if 'dbrx' in e['name'].lower()]
+                if dbrx: return dbrx[0]
+        except Exception:
+            pass
+        return self.model_name
+
     def _call_databricks_foundation_model(self, prompt, system_prompt, max_tokens):
-        # We use the REST API of the serving endpoint
-        # If running inside databricks notebook, DATABRICKS_TOKEN and HOST might not be directly available in env
-        # A common pattern is to use the context
-        url = f"{self.workspace_url}/serving-endpoints/{self.model_name}/invocations"
         headers = {
             "Authorization": f"Bearer {self.databricks_token}",
             "Content-Type": "application/json"
         }
+        
+        # Auto-discover the correct endpoint name in this specific workspace
+        if not hasattr(self, '_resolved_model_name'):
+            self._resolved_model_name = self._get_available_endpoint(headers)
+            print(f"Using Databricks Model Endpoint: {self._resolved_model_name}")
+
+        url = f"{self.workspace_url}/serving-endpoints/{self._resolved_model_name}/invocations"
         payload = {
             "messages": [
                 {"role": "system", "content": system_prompt},
