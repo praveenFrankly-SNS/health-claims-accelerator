@@ -1,0 +1,21 @@
+
+    DISCHARGE SUMMARY
+    -----------------
+    Patient Name: Patient 13
+    Policy Number: POL-HLT-20013
+    Admission Date: 2026-05-05
+    Discharge Date: 2026-05-14
+    Hospital: Fortis Healthcare
+    
+    Diagnosis: Knee Replacement
+    ICD-10 Code: Z96.65
+    
+    Course in the Hospital:
+    The patient presented with symptoms relating to Knee Replacement. 
+    Routine investigations were carried out. The patient was managed conservatively/surgically 
+    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
+    
+    Final Bill Amount: INR 276213
+    
+    Attending Physician: Dr. Smith (Reg No: MC-5544)
+    
