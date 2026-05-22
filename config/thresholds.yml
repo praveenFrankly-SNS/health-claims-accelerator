@@ -1,0 +1,10 @@
+# Configuration Thresholds for Adjuster Allocation and Agents
+
+completeness_score_min: 0.80
+fraud_score_high: 0.70
+coverage_amount_high: 500000
+
+jurisdictions:
+  high_complexity:
+    - "CA"
+    - "NY"

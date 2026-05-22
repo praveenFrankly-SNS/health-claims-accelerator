@@ -1,0 +1,38 @@
+bundle:
+  name: health-claims-accelerator
+
+variables:
+  catalog:
+    description: The Unity Catalog name
+    default: main
+  schema:
+    description: The schema (database) name inside the catalog
+    default: health_claims_dev
+  volume:
+    description: The volume name for unstructured data
+    default: documents
+
+workspace:
+  host: ${workspace.host}
+
+environments:
+  default:
+    workspace:
+      host: ${workspace.host}
+
+resources:
+  # We are defining a single job that runs the RUNME.py script
+  jobs:
+    health_claims_pipeline:
+      name: "[MVP] Health Claims Pipeline"
+      tasks:
+        - task_key: run_pipeline
+          notebook_task:
+            notebook_path: ./RUNME.py
+            source: WORKSPACE
+      job_clusters:
+        - job_cluster_key: default_cluster
+          new_cluster:
+            spark_version: 13.3.x-scala2.12
+            node_type_id: Standard_D3_v2
+            num_workers: 1
