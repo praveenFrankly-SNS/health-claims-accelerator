@@ -9,14 +9,24 @@ import os
 import json
 import sys
 
-# In a real environment, you'd add the repo path to sys.path if not running as a package
-# We assume config.llm_client is available
+import sys
+import importlib
+
+# Ensure config module is in path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+import config.llm_client
+importlib.reload(config.llm_client)  # Force reload to avoid Databricks caching
+from config.llm_client import llm
+
+# Force inject Databricks credentials if running in a Notebook
 try:
-    from config.llm_client import llm
-except ImportError:
-    # Fallback for notebook standalone run
-    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-    from config.llm_client import llm
+    ctx = dbutils.notebook.entry_point.getDbutils().notebook().getContext()
+    if not llm.workspace_url:
+        llm.workspace_url = ctx.apiUrl().get()
+    if not llm.databricks_token:
+        llm.databricks_token = ctx.apiToken().get()
+except Exception:
+    pass
 
 def agent1_doc_intelligence(claim_state: dict) -> dict:
     """
