@@ -19,7 +19,7 @@ except Exception:
     dbutils = None
 
 class LLMClient:
-    def __init__(self, mode="databricks", model_name="databricks-meta-llama-3-1-70b-instruct"):
+    def __init__(self, mode="databricks", model_name="databricks-meta-llama-3-70b-instruct"):
         """
         mode: 'databricks' or 'external'
         model_name: Foundation model endpoint name or external model name
