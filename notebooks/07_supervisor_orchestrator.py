@@ -83,20 +83,13 @@ for cid in claim_ids:
 
 # Write to Gold Table
 if results:
-    # Convert dicts to string JSONs to store easily in a single column for the MVP,
-    # or flatten it. We will write as JSON to a temp file and read via spark.
-    import tempfile
-    with tempfile.NamedTemporaryFile(mode="w", delete=False, suffix=".json") as f:
-        for r in results:
-            f.write(json.dumps(r) + "\n")
-        temp_path = f.name
-        
-    df_gold = spark.read.json("file:" + temp_path)
+    from pyspark.sql import Row
+    rows = [Row(claim_id=r.get("claim_id", "UNKNOWN"), payload=json.dumps(r)) for r in results]
+    df_gold = spark.createDataFrame(rows)
     
     gold_table = f"{CATALOG_NAME}.{SCHEMA_NAME}.gold_claim_decisions"
     print(f"Writing Gold decision packets to {gold_table}...")
     df_gold.write.format("delta").mode("overwrite").saveAsTable(gold_table)
-    os.remove(temp_path)
 else:
     print("No claims processed.")
 
