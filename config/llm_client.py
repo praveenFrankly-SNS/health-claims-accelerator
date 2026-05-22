@@ -31,15 +31,28 @@ class LLMClient:
         
         # If running inside a Databricks notebook, fetch from context dynamically
         if not self.workspace_url or not self.databricks_token:
-            if dbutils:
-                try:
-                    ctx = dbutils.notebook.entry_point.getDbutils().notebook().getContext()
-                    if not self.workspace_url:
-                        self.workspace_url = ctx.apiUrl().get()
-                    if not self.databricks_token:
-                        self.databricks_token = ctx.apiToken().get()
-                except Exception as e:
-                    pass
+            # Try getting via mlflow which is robust in Databricks
+            try:
+                from mlflow.utils.databricks_utils import get_databricks_host_creds
+                creds = get_databricks_host_creds()
+                if not self.workspace_url:
+                    self.workspace_url = creds.host
+                if not self.databricks_token:
+                    self.databricks_token = creds.token
+            except Exception as e:
+                pass
+            
+            # Fallback to dbutils IPython magic if mlflow fails
+            if not self.workspace_url or not self.databricks_token:
+                if dbutils:
+                    try:
+                        ctx = dbutils.notebook.entry_point.getDbutils().notebook().getContext()
+                        if not self.workspace_url:
+                            self.workspace_url = ctx.apiUrl().get()
+                        if not self.databricks_token:
+                            self.databricks_token = ctx.apiToken().get()
+                    except Exception as e:
+                        pass
         
         if self.mode == "external":
             if dbutils:
