@@ -28,14 +28,14 @@ view_query = f"""
 CREATE OR REPLACE VIEW vw_claims_dashboard AS
 SELECT
     claim_id,
-    pipeline_status,
-    extracted_data.claimant_name as claimant_name,
-    extracted_data.diagnosis_icd_code as diagnosis,
-    fraud.fraud_score as fraud_score,
-    fraud.confidence as fraud_confidence,
-    coverage.coverage_status as coverage_status,
-    reserve.initial_reserve_amount as reserve_amount,
-    adjuster_allocation as assigned_adjuster
+    get_json_object(payload, '$.pipeline_status') as pipeline_status,
+    get_json_object(payload, '$.extracted_data.claimant_name') as claimant_name,
+    get_json_object(payload, '$.extracted_data.diagnosis_icd_code') as diagnosis,
+    cast(get_json_object(payload, '$.fraud.fraud_score') as double) as fraud_score,
+    get_json_object(payload, '$.fraud.confidence') as fraud_confidence,
+    get_json_object(payload, '$.coverage.coverage_status') as coverage_status,
+    cast(get_json_object(payload, '$.reserve.initial_reserve_amount') as double) as reserve_amount,
+    get_json_object(payload, '$.adjuster_allocation') as assigned_adjuster
 FROM {gold_table}
 """
 
