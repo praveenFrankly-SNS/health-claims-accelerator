@@ -29,6 +29,18 @@ class LLMClient:
         self.workspace_url = os.environ.get("DATABRICKS_HOST", "")
         self.databricks_token = os.environ.get("DATABRICKS_TOKEN", "")
         
+        # If running inside a Databricks notebook, fetch from context dynamically
+        if not self.workspace_url or not self.databricks_token:
+            if dbutils:
+                try:
+                    ctx = dbutils.notebook.entry_point.getDbutils().notebook().getContext()
+                    if not self.workspace_url:
+                        self.workspace_url = ctx.apiUrl().get()
+                    if not self.databricks_token:
+                        self.databricks_token = ctx.apiToken().get()
+                except Exception as e:
+                    pass
+        
         if self.mode == "external":
             if dbutils:
                 try:
