@@ -46,7 +46,14 @@ def agent2_fraud(claim_state: dict) -> dict:
     ml_score = get_ml_fraud_score(claim_state)
     
     # LLM Narrative Check
-    file_path = f"./data/raw/unstructured/{claim_id}_discharge_summary.txt"
+    if os.path.exists("./data/raw/unstructured"):
+        repo_root = "."
+    elif os.path.exists("../data/raw/unstructured"):
+        repo_root = ".."
+    else:
+        repo_root = "."
+
+    file_path = f"{repo_root}/data/raw/unstructured/{claim_id}_discharge_summary.txt"
     document_text = ""
     if os.path.exists(file_path):
         with open(file_path, "r") as f:

@@ -29,7 +29,14 @@ def agent1_doc_intelligence(claim_state: dict) -> dict:
     print(f"[Agent 1] Processing document extraction for {claim_id}...")
     
     # Simulate reading from UC Volume
-    file_path = f"./data/raw/unstructured/{claim_id}_discharge_summary.txt"
+    if os.path.exists("./data/raw/unstructured"):
+        repo_root = "."
+    elif os.path.exists("../data/raw/unstructured"):
+        repo_root = ".."
+    else:
+        repo_root = "."
+
+    file_path = f"{repo_root}/data/raw/unstructured/{claim_id}_discharge_summary.txt"
     try:
         with open(file_path, "r") as f:
             document_text = f.read()

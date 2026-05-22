@@ -17,7 +17,15 @@ spark.sql(f"USE {CATALOG_NAME}.{SCHEMA_NAME}")
 # COMMAND ----------
 
 # 1. Ingest Structured CSV to Bronze Table
-raw_csv_path = "file:" + os.path.abspath("./data/raw/structured/claims.csv")
+# Dynamically find repo root
+if os.path.exists("./data/raw/structured/claims.csv"):
+    repo_root = "."
+elif os.path.exists("../data/raw/structured/claims.csv"):
+    repo_root = ".."
+else:
+    raise FileNotFoundError("Could not find the data directory. Did you run generate_synthetic_data.py?")
+
+raw_csv_path = "file:" + os.path.abspath(f"{repo_root}/data/raw/structured/claims.csv")
 print(f"Reading from {raw_csv_path}")
 
 df_raw = spark.read.csv(raw_csv_path, header=True, inferSchema=True)
@@ -42,7 +50,7 @@ print(f"Simulating copy of unstructured data to {volume_path}")
 try:
     # If dbutils.fs is available, we copy to the volume
     dbutils.fs.mkdirs(volume_path)
-    local_unstructured_dir = "file:" + os.path.abspath("./data/raw/unstructured")
+    local_unstructured_dir = "file:" + os.path.abspath(f"{repo_root}/data/raw/unstructured")
     dbutils.fs.cp(local_unstructured_dir, volume_path, recurse=True)
     print("Files copied to Unity Catalog Volume successfully.")
 except Exception as e:
