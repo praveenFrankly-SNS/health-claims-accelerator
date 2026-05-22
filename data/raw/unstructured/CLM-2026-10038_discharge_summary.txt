@@ -1,0 +1,21 @@
+
+    DISCHARGE SUMMARY
+    -----------------
+    Patient Name: Patient 38
+    Policy Number: POL-HLT-20038
+    Admission Date: 2026-03-25
+    Discharge Date: 2026-03-29
+    Hospital: Max Super Speciality
+    
+    Diagnosis: Cataract Surgery
+    ICD-10 Code: H25.9
+    
+    Course in the Hospital:
+    The patient presented with symptoms relating to Cataract Surgery. 
+    Routine investigations were carried out. The patient was managed conservatively/surgically 
+    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
+    
+    Final Bill Amount: INR 43718
+    
+    Attending Physician: Dr. Smith (Reg No: MC-5544)
+    
