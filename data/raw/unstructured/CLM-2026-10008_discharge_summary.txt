@@ -1,6 +1,6 @@
 SUMMARY OF DISCHARGE
-        Location: Manipal Hospital Bangalore
-        Name: Patient 53 - POL-HLT-20053
-        From 2025-05-01 to 2025-05-08
-        Condition: Appendectomy [K35.80]
-        Bill: 104759
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 90 - POL-HLT-20090
+        From 2023-04-11 to 2023-04-14
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 92342

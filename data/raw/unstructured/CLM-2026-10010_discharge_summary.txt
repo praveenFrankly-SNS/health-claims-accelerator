@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 61 | Policy: POL-HLT-20061
-        Admitted: 2023-05-25 | Discharged: 2023-05-27
+        Hospital: Manipal Hospital Bangalore
+        Patient: Patient 169 | Policy: POL-HLT-20169
+        Admitted: 2026-03-25 | Discharged: 2026-04-02
         
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 292018
+        Principal Diagnosis: Appendectomy (K35.80)
+        Total Charges: 158409
         
         Physician: Dr. A. Kumar, MC-8821

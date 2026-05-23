@@ -1,19 +1,22 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 67
-        Policy Number: POL-HLT-20067
-        Admission Date: 2026-04-15
-        Discharge Date: 2026-04-24
-        Hospital: City Clinic Chennai
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Fortis Healthcare Mumbai
         
-        Diagnosis: Dengue Fever
-        ICD-10 Code: A90
+        PATIENT INFORMATION
+        Name: Patient 186
+        Insurance ID: POL-HLT-20186
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Dengue Fever. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-18
+        Date of Discharge: 2026-05-24
         
-        Final Bill Amount: INR 82969
+        CLINICAL FINDINGS
+        Diagnosis: Appendectomy
+        ICD Reference: K35.80
+        The patient was admitted and treated for the above condition.
         
-        Attending Physician: Dr. Smith (Reg No: MC-5544)
+        FINANCIAL
+        Total Incurred Amount: 85263 INR
+        
+        Signed: Dr. R. Sharma (MCI-9902)

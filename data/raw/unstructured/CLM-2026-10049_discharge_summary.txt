@@ -1,6 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: Max Super Speciality Delhi
-        Name: Patient 24 - POL-HLT-20024
-        From 2023-08-14 to 2023-08-24
-        Condition: Appendectomy [K35.80]
-        Bill: 108479
+| Hospital       | City Clinic Chennai |
+        | Patient        | Patient 19 |
+        | Policy         | POL-HLT-20019 |
+        | Admitted       | 2026-05-21 |
+        | Discharged     | 2026-05-24 |
+        | Diagnosis      | Cataract Surgery |
+        | ICD-10         | H25.9 |
+        | Total Bill     | 63178 |
+        | Doctor         | Dr. J. Doe (Reg: MC-1122) |

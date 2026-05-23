@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 153
-        Policy Number: POL-HLT-20153
-        Admission Date: 2024-08-20
-        Discharge Date: 2024-08-26
-        Hospital: AIIMS New Delhi
-        
-        Diagnosis: Cataract Surgery
-        ICD-10 Code: H25.9
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Cataract Surgery. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 63768
-        
-        Attending Physician: Dr. Smith (Reg No: MC-5544)
+| Hospital       | AIIMS New Delhi |
+        | Patient        | Patient 145 |
+        | Policy         | POL-HLT-20145 |
+        | Admitted       | 2026-04-12 |
+        | Discharged     | 2026-04-21 |
+        | Diagnosis      | Dengue Fever |
+        | ICD-10         | A90 |
+        | Total Bill     | 70824 |
+        | Doctor         | Dr. J. Doe (Reg: MC-1122) |

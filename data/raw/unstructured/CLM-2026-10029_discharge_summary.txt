@@ -1,6 +1,6 @@
 SUMMARY OF DISCHARGE
         Location: Manipal Hospital Bangalore
-        Name: Patient 113 - POL-HLT-20113
-        From 2026-05-17 to 2026-05-20
-        Condition: Knee Replacement [Z96.65]
-        Bill: 273269
+        Name: Patient 110 - POL-HLT-20110
+        From 2026-04-18 to 2026-04-23
+        Condition: Appendectomy [K35.80]
+        Bill: 202462

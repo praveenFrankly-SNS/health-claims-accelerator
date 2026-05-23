@@ -1,9 +1,22 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Manipal Hospital Bangalore
-        Patient: Patient 39 | Policy: POL-HLT-20039
-        Admitted: 2026-03-26 | Discharged: 2026-04-04
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Max Super Speciality Delhi
         
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 829504
+        PATIENT INFORMATION
+        Name: Patient 156
+        Insurance ID: POL-HLT-20156
         
-        Physician: Dr. A. Kumar, MC-8821
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-16
+        Date of Discharge: 2026-05-19
+        
+        CLINICAL FINDINGS
+        Diagnosis: Cataract Surgery
+        ICD Reference: H25.9
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 58444 INR
+        
+        Signed: Dr. R. Sharma (MCI-9902)

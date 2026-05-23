@@ -1,6 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 61 - POL-HLT-20061
-        From 2026-05-13 to 2026-05-21
-        Condition: Knee Replacement [Z96.65]
-        Bill: 278723
+HOSPITAL DISCHARGE RECORD
+        Hospital: AIIMS New Delhi
+        Patient: Patient 188 | Policy: POL-HLT-20188
+        Admitted: 2026-05-17 | Discharged: 2026-05-18
+        
+        Principal Diagnosis: Knee Replacement (Z96.65)
+        Total Charges: 267498
+        
+        Physician: Dr. A. Kumar, MC-8821

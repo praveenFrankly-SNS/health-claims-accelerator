@@ -1,10 +1,10 @@
 DISCHARGE SUMMARY
         -----------------
-        Patient Name: Patient 158
-        Policy Number: POL-HLT-20158
-        Admission Date: 2025-04-03
-        Discharge Date: 2025-04-06
-        Hospital: AIIMS New Delhi
+        Patient Name: Patient 21
+        Policy Number: POL-HLT-20021
+        Admission Date: 2026-05-15
+        Discharge Date: 2026-05-22
+        Hospital: Max Super Speciality Delhi
         
         Diagnosis: Dengue Fever
         ICD-10 Code: A90
@@ -14,6 +14,6 @@ DISCHARGE SUMMARY
         Routine investigations were carried out. The patient was managed conservatively/surgically 
         and responded well to the treatment.
         
-        Final Bill Amount: INR 70075
+        Final Bill Amount: INR 44652
         
         Attending Physician: Dr. Smith (Reg No: MC-5544)

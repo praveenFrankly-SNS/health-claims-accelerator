@@ -1,6 +1,19 @@
-SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 112 - POL-HLT-20112
-        From 2024-03-15 to 2024-03-23
-        Condition: Dengue Fever [A90]
-        Bill: 47736
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 146
+        Policy Number: POL-HLT-20146
+        Admission Date: 2026-04-13
+        Discharge Date: 2026-04-17
+        Hospital: Apollo Hospital Coimbatore
+        
+        Diagnosis: Cataract Surgery
+        ICD-10 Code: H25.9
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Cataract Surgery. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 134187
+        
+        Attending Physician: Dr. Smith (Reg No: MC-5544)

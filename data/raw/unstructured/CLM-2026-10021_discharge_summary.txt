@@ -1,9 +1,6 @@
-| Hospital       | AIIMS New Delhi |
-        | Patient        | Patient 96 |
-        | Policy         | POL-HLT-20096 |
-        | Admitted       | 2026-05-21 |
-        | Discharged     | 2026-05-28 |
-        | Diagnosis      | Dengue Fever |
-        | ICD-10         | A90 |
-        | Total Bill     | 40642 |
-        | Doctor         | Dr. J. Doe (Reg: MC-1122) |
+SUMMARY OF DISCHARGE
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 123 - POL-HLT-20123
+        From 2026-03-24 to 2026-03-30
+        Condition: Cataract Surgery [H25.9]
+        Bill: 87595

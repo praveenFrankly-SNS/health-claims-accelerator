@@ -1,9 +1,6 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Fortis Healthcare Mumbai
-        Patient: Patient 5 | Policy: POL-HLT-20005
-        Admitted: 2026-05-25 | Discharged: 2026-05-28
-        
-        Principal Diagnosis: Cataract Surgery (H25.9)
-        Total Charges: 80135
-        
-        Physician: Dr. A. Kumar, MC-8821
+SUMMARY OF DISCHARGE
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 71 - POL-HLT-20071
+        From 2023-08-17 to 2023-08-25
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 80132

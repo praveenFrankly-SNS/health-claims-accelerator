@@ -1,6 +1,22 @@
-SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 50 - POL-HLT-20050
-        From 2025-02-09 to 2025-02-19
-        Condition: Dengue Fever [A90]
-        Bill: 69889
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Apollo Hospital Coimbatore
+        
+        PATIENT INFORMATION
+        Name: Patient 51
+        Insurance ID: POL-HLT-20051
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-04-11
+        Date of Discharge: 2026-04-20
+        
+        CLINICAL FINDINGS
+        Diagnosis: Knee Replacement
+        ICD Reference: Z96.65
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 648947 INR
+        
+        Signed: Dr. R. Sharma (MCI-9902)

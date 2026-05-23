@@ -1,22 +1,19 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: Manipal Hospital Bangalore
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 39
+        Policy Number: POL-HLT-20039
+        Admission Date: 2026-04-28
+        Discharge Date: 2026-05-05
+        Hospital: Apollo Hospital Coimbatore
         
-        PATIENT INFORMATION
-        Name: Patient 155
-        Insurance ID: POL-HLT-20155
+        Diagnosis: Cataract Surgery
+        ICD-10 Code: H25.9
         
-        ENCOUNTER DETAILS
-        Date of Admission: 2026-03-25
-        Date of Discharge: 2026-04-04
+        Course in the Hospital:
+        The patient presented with symptoms relating to Cataract Surgery. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
         
-        CLINICAL FINDINGS
-        Diagnosis: Knee Replacement
-        ICD Reference: Z96.65
-        The patient was admitted and treated for the above condition.
+        Final Bill Amount: INR 90010
         
-        FINANCIAL
-        Total Incurred Amount: 849416 INR
-        
-        Signed: Dr. R. Sharma (MCI-9902)
+        Attending Physician: Dr. Smith (Reg No: MC-5544)

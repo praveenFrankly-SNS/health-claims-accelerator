@@ -1,6 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 121 - POL-HLT-20121
-        From 2026-03-29 to 2026-04-07
-        Condition: Cataract Surgery [H25.9]
-        Bill: 134830
+HOSPITAL DISCHARGE RECORD
+        Hospital: AIIMS New Delhi
+        Patient: Patient 31 | Policy: POL-HLT-20031
+        Admitted: 2026-05-18 | Discharged: 2026-05-25
+        
+        Principal Diagnosis: Dengue Fever (A90)
+        Total Charges: 43892
+        
+        Physician: Dr. A. Kumar, MC-8821

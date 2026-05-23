@@ -1,9 +1,22 @@
-| Hospital       | City Clinic Chennai |
-        | Patient        | Patient 68 |
-        | Policy         | POL-HLT-20068 |
-        | Admitted       | 2022-04-28 |
-        | Discharged     | 2022-05-07 |
-        | Diagnosis      | Dengue Fever |
-        | ICD-10         | A90 |
-        | Total Bill     | 51963 |
-        | Doctor         | Dr. J. Doe (Reg: MC-1122) |
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Fortis Healthcare Mumbai
+        
+        PATIENT INFORMATION
+        Name: Patient 56
+        Insurance ID: POL-HLT-20056
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2023-12-10
+        Date of Discharge: 2023-12-12
+        
+        CLINICAL FINDINGS
+        Diagnosis: Appendectomy
+        ICD Reference: K35.80
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 93648 INR
+        
+        Signed: Dr. R. Sharma (MCI-9902)

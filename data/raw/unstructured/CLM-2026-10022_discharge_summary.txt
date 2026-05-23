@@ -1,9 +1,6 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: AIIMS New Delhi
-        Patient: Patient 136 | Policy: POL-HLT-20136
-        Admitted: 2022-09-10 | Discharged: 2022-09-16
-        
-        Principal Diagnosis: Viral Pneumonia (J12.9)
-        Total Charges: 82598
-        
-        Physician: Dr. A. Kumar, MC-8821
+SUMMARY OF DISCHARGE
+        Location: Max Super Speciality Delhi
+        Name: Patient 49 - POL-HLT-20049
+        From 2026-04-26 to 2026-05-06
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 133073

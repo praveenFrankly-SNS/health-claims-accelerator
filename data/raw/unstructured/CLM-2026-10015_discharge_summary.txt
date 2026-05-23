@@ -1,9 +1,6 @@
-| Hospital       | AIIMS New Delhi |
-        | Patient        | Patient 72 |
-        | Policy         | POL-HLT-20072 |
-        | Admitted       | 2026-05-19 |
-        | Discharged     | 2026-05-20 |
-        | Diagnosis      | Appendectomy |
-        | ICD-10         | K35.80 |
-        | Total Bill     | 75157 |
-        | Doctor         | Dr. J. Doe (Reg: MC-1122) |
+SUMMARY OF DISCHARGE
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 57 - POL-HLT-20057
+        From 2024-04-16 to 2024-04-23
+        Condition: Appendectomy [K35.80]
+        Bill: 94074

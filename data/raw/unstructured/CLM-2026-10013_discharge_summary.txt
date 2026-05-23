@@ -1,6 +1,22 @@
-SUMMARY OF DISCHARGE
-        Location: Max Super Speciality Delhi
-        Name: Patient 112 - POL-HLT-20112
-        From 2026-05-19 to 2026-05-23
-        Condition: Dengue Fever [A90]
-        Bill: 53055
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Max Super Speciality Delhi
+        
+        PATIENT INFORMATION
+        Name: Patient 16
+        Insurance ID: POL-HLT-20016
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-04-23
+        Date of Discharge: 2026-04-25
+        
+        CLINICAL FINDINGS
+        Diagnosis: Appendectomy
+        ICD Reference: K35.80
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 180877 INR
+        
+        Signed: Dr. R. Sharma (MCI-9902)

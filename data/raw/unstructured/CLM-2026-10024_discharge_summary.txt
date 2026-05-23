@@ -1,19 +1,6 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 107
-        Policy Number: POL-HLT-20107
-        Admission Date: 2026-05-17
-        Discharge Date: 2026-05-23
-        Hospital: Fortis Healthcare Mumbai
-        
-        Diagnosis: Appendectomy
-        ICD-10 Code: K35.80
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Appendectomy. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 72894
-        
-        Attending Physician: Dr. Smith (Reg No: MC-5544)
+SUMMARY OF DISCHARGE
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 160 - POL-HLT-20160
+        From 2026-04-18 to 2026-04-21
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 147621

@@ -1,19 +1,6 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 64
-        Policy Number: POL-HLT-20064
-        Admission Date: 2026-05-20
-        Discharge Date: 2026-05-21
-        Hospital: Manipal Hospital Bangalore
-        
-        Diagnosis: Appendectomy
-        ICD-10 Code: K35.80
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Appendectomy. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 78343
-        
-        Attending Physician: Dr. Smith (Reg No: MC-5544)
+SUMMARY OF DISCHARGE
+        Location: City Clinic Chennai
+        Name: Patient 20 - POL-HLT-20020
+        From 2026-04-27 to 2026-04-29
+        Condition: Appendectomy [K35.80]
+        Bill: 159763

@@ -1,9 +1,9 @@
-| Hospital       | Manipal Hospital Bangalore |
-        | Patient        | Patient 92 |
-        | Policy         | POL-HLT-20092 |
-        | Admitted       | 2026-05-14 |
-        | Discharged     | 2026-05-16 |
-        | Diagnosis      | Cataract Surgery |
-        | ICD-10         | H25.9 |
-        | Total Bill     | 49183 |
-        | Doctor         | Dr. J. Doe (Reg: MC-1122) |
+HOSPITAL DISCHARGE RECORD
+        Hospital: Fortis Healthcare Mumbai
+        Patient: Patient 60 | Policy: POL-HLT-20060
+        Admitted: 2026-05-22 | Discharged: 2026-05-25
+        
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 62626
+        
+        Physician: Dr. A. Kumar, MC-8821

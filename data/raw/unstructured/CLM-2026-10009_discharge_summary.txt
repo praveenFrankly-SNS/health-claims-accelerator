@@ -1,22 +1,9 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: Max Super Speciality Delhi
+HOSPITAL DISCHARGE RECORD
+        Hospital: Fortis Healthcare Mumbai
+        Patient: Patient 172 | Policy: POL-HLT-20172
+        Admitted: 2026-04-21 | Discharged: 2026-05-01
         
-        PATIENT INFORMATION
-        Name: Patient 108
-        Insurance ID: POL-HLT-20108
+        Principal Diagnosis: Appendectomy (K35.80)
+        Total Charges: 228348
         
-        ENCOUNTER DETAILS
-        Date of Admission: 2026-04-25
-        Date of Discharge: 2026-05-02
-        
-        CLINICAL FINDINGS
-        Diagnosis: Appendectomy
-        ICD Reference: K35.80
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 174584 INR
-        
-        Signed: Dr. R. Sharma (MCI-9902)
+        Physician: Dr. A. Kumar, MC-8821

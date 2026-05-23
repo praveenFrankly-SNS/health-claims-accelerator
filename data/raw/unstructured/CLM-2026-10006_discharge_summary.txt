@@ -1,6 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: City Clinic Chennai
-        Name: Patient 187 - POL-HLT-20187
-        From 2026-05-19 to 2026-05-21
-        Condition: Viral Pneumonia [J12.9]
-        Bill: 60529
+HOSPITAL DISCHARGE RECORD
+        Hospital: Manipal Hospital Bangalore
+        Patient: Patient 62 | Policy: POL-HLT-20062
+        Admitted: 2024-02-09 | Discharged: 2024-02-18
+        
+        Principal Diagnosis: Viral Pneumonia (J12.9)
+        Total Charges: 90519
+        
+        Physician: Dr. A. Kumar, MC-8821

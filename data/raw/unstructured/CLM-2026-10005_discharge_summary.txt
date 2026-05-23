@@ -1,9 +1,22 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Fortis Healthcare Mumbai
-        Patient: Patient 181 | Policy: POL-HLT-20181
-        Admitted: 2026-05-18 | Discharged: 2026-05-26
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: AIIMS New Delhi
         
-        Principal Diagnosis: Cataract Surgery (H25.9)
-        Total Charges: 61659
+        PATIENT INFORMATION
+        Name: Patient 134
+        Insurance ID: POL-HLT-20134
         
-        Physician: Dr. A. Kumar, MC-8821
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-15
+        Date of Discharge: 2026-05-16
+        
+        CLINICAL FINDINGS
+        Diagnosis: Knee Replacement
+        ICD Reference: Z96.65
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 261750 INR
+        
+        Signed: Dr. R. Sharma (MCI-9902)

@@ -1,6 +1,6 @@
 SUMMARY OF DISCHARGE
         Location: AIIMS New Delhi
-        Name: Patient 180 - POL-HLT-20180
-        From 2026-05-19 to 2026-05-23
-        Condition: Knee Replacement [Z96.65]
-        Bill: 276243
+        Name: Patient 52 - POL-HLT-20052
+        From 2026-03-30 to 2026-04-03
+        Condition: Appendectomy [K35.80]
+        Bill: 230612

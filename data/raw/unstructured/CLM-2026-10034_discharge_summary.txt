@@ -1,10 +1,10 @@
 DISCHARGE SUMMARY
         -----------------
-        Patient Name: Patient 132
-        Policy Number: POL-HLT-20132
-        Admission Date: 2026-04-11
-        Discharge Date: 2026-04-16
-        Hospital: Manipal Hospital Bangalore
+        Patient Name: Patient 147
+        Policy Number: POL-HLT-20147
+        Admission Date: 2026-05-19
+        Discharge Date: 2026-05-27
+        Hospital: City Clinic Chennai
         
         Diagnosis: Appendectomy
         ICD-10 Code: K35.80
@@ -14,6 +14,6 @@ DISCHARGE SUMMARY
         Routine investigations were carried out. The patient was managed conservatively/surgically 
         and responded well to the treatment.
         
-        Final Bill Amount: INR 204862
+        Final Bill Amount: INR 72046
         
         Attending Physician: Dr. Smith (Reg No: MC-5544)

@@ -1,9 +1,19 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Apollo Hospital Coimbatore
-        Patient: Patient 95 | Policy: POL-HLT-20095
-        Admitted: 2023-09-03 | Discharged: 2023-09-04
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 38
+        Policy Number: POL-HLT-20038
+        Admission Date: 2022-05-22
+        Discharge Date: 2022-05-29
+        Hospital: Max Super Speciality Delhi
         
-        Principal Diagnosis: Cataract Surgery (H25.9)
-        Total Charges: 65780
+        Diagnosis: Knee Replacement
+        ICD-10 Code: Z96.65
         
-        Physician: Dr. A. Kumar, MC-8821
+        Course in the Hospital:
+        The patient presented with symptoms relating to Knee Replacement. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 285975
+        
+        Attending Physician: Dr. Smith (Reg No: MC-5544)

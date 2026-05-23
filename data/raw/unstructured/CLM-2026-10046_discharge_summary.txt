@@ -1,6 +1,6 @@
 SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 171 - POL-HLT-20171
-        From 2024-06-21 to 2024-06-24
-        Condition: Viral Pneumonia [J12.9]
-        Bill: 86706
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 198 - POL-HLT-20198
+        From 2026-05-21 to 2026-05-29
+        Condition: Cataract Surgery [H25.9]
+        Bill: 63679

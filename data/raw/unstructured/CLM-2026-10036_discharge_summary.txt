@@ -1,19 +1,19 @@
 DISCHARGE SUMMARY
         -----------------
-        Patient Name: Patient 9
-        Policy Number: POL-HLT-20009
-        Admission Date: 2026-03-29
-        Discharge Date: 2026-04-06
-        Hospital: AIIMS New Delhi
+        Patient Name: Patient 10
+        Policy Number: POL-HLT-20010
+        Admission Date: 2026-05-14
+        Discharge Date: 2026-05-22
+        Hospital: Max Super Speciality Delhi
         
-        Diagnosis: Cataract Surgery
-        ICD-10 Code: H25.9
+        Diagnosis: Appendectomy
+        ICD-10 Code: K35.80
         
         Course in the Hospital:
-        The patient presented with symptoms relating to Cataract Surgery. 
+        The patient presented with symptoms relating to Appendectomy. 
         Routine investigations were carried out. The patient was managed conservatively/surgically 
         and responded well to the treatment.
         
-        Final Bill Amount: INR 119669
+        Final Bill Amount: INR 92791
         
         Attending Physician: Dr. Smith (Reg No: MC-5544)

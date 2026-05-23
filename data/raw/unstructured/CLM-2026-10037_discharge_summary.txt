@@ -1,6 +1,6 @@
 SUMMARY OF DISCHARGE
-        Location: Apollo Hospital Coimbatore
-        Name: Patient 80 - POL-HLT-20080
-        From 2025-05-06 to 2025-05-14
-        Condition: Dengue Fever [A90]
-        Bill: 50182
+        Location: City Clinic Chennai
+        Name: Patient 82 - POL-HLT-20082
+        From 2026-05-22 to 2026-06-01
+        Condition: Knee Replacement [Z96.65]
+        Bill: 262811

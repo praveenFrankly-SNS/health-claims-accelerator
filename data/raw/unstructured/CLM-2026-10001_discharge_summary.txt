@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: Fortis Healthcare Mumbai
-        Patient: Patient 62 | Policy: POL-HLT-20062
-        Admitted: 2026-03-29 | Discharged: 2026-04-08
+        Hospital: Manipal Hospital Bangalore
+        Patient: Patient 164 | Policy: POL-HLT-20164
+        Admitted: 2026-04-27 | Discharged: 2026-05-04
         
-        Principal Diagnosis: Appendectomy (K35.80)
-        Total Charges: 226772
+        Principal Diagnosis: Dengue Fever (A90)
+        Total Charges: 81339
         
         Physician: Dr. A. Kumar, MC-8821

@@ -1,6 +1,22 @@
-SUMMARY OF DISCHARGE
-        Location: Manipal Hospital Bangalore
-        Name: Patient 30 - POL-HLT-20030
-        From 2026-05-01 to 2026-05-07
-        Condition: Knee Replacement [Z96.65]
-        Bill: 743532
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Fortis Healthcare Mumbai
+        
+        PATIENT INFORMATION
+        Name: Patient 189
+        Insurance ID: POL-HLT-20189
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2022-06-08
+        Date of Discharge: 2022-06-10
+        
+        CLINICAL FINDINGS
+        Diagnosis: Viral Pneumonia
+        ICD Reference: J12.9
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 94441 INR
+        
+        Signed: Dr. R. Sharma (MCI-9902)

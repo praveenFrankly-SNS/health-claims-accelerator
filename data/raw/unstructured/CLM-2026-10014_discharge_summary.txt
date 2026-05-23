@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: Manipal Hospital Bangalore
-        Patient: Patient 46 | Policy: POL-HLT-20046
-        Admitted: 2026-03-24 | Discharged: 2026-04-02
+        Hospital: Apollo Hospital Coimbatore
+        Patient: Patient 42 | Policy: POL-HLT-20042
+        Admitted: 2023-08-01 | Discharged: 2023-08-02
         
         Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 893596
+        Total Charges: 283717
         
         Physician: Dr. A. Kumar, MC-8821

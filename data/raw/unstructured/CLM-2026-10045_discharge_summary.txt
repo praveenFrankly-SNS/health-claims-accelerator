@@ -1,9 +1,6 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 167 | Policy: POL-HLT-20167
-        Admitted: 2026-05-02 | Discharged: 2026-05-12
-        
-        Principal Diagnosis: Appendectomy (K35.80)
-        Total Charges: 174342
-        
-        Physician: Dr. A. Kumar, MC-8821
+SUMMARY OF DISCHARGE
+        Location: Max Super Speciality Delhi
+        Name: Patient 149 - POL-HLT-20149
+        From 2026-05-03 to 2026-05-07
+        Condition: Knee Replacement [Z96.65]
+        Bill: 889706

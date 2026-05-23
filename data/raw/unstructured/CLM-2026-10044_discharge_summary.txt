@@ -1,6 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: Apollo Hospital Coimbatore
-        Name: Patient 7 - POL-HLT-20007
-        From 2026-05-19 to 2026-05-28
-        Condition: Appendectomy [K35.80]
-        Bill: 88676
+| Hospital       | Manipal Hospital Bangalore |
+        | Patient        | Patient 102 |
+        | Policy         | POL-HLT-20102 |
+        | Admitted       | 2026-05-02 |
+        | Discharged     | 2026-05-07 |
+        | Diagnosis      | Viral Pneumonia |
+        | ICD-10         | J12.9 |
+        | Total Bill     | 192528 |
+        | Doctor         | Dr. J. Doe (Reg: MC-1122) |

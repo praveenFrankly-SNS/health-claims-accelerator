@@ -1,9 +1,6 @@
-| Hospital       | Manipal Hospital Bangalore |
-        | Patient        | Patient 177 |
-        | Policy         | POL-HLT-20177 |
-        | Admitted       | 2026-05-15 |
-        | Discharged     | 2026-05-20 |
-        | Diagnosis      | Knee Replacement |
-        | ICD-10         | Z96.65 |
-        | Total Bill     | 272524 |
-        | Doctor         | Dr. J. Doe (Reg: MC-1122) |
+SUMMARY OF DISCHARGE
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 131 - POL-HLT-20131
+        From 2023-05-17 to 2023-05-20
+        Condition: Dengue Fever [A90]
+        Bill: 61868

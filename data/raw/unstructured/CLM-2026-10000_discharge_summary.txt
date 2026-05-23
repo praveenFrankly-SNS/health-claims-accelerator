@@ -1,9 +1,6 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Fortis Healthcare Mumbai
-        Patient: Patient 98 | Policy: POL-HLT-20098
-        Admitted: 2026-05-21 | Discharged: 2026-05-26
-        
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 262287
-        
-        Physician: Dr. A. Kumar, MC-8821
+SUMMARY OF DISCHARGE
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 199 - POL-HLT-20199
+        From 2026-05-22 to 2026-05-23
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 68397

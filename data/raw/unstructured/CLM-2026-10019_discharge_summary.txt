@@ -1,6 +1,6 @@
 SUMMARY OF DISCHARGE
-        Location: City Clinic Chennai
-        Name: Patient 184 - POL-HLT-20184
-        From 2026-04-05 to 2026-04-07
-        Condition: Viral Pneumonia [J12.9]
-        Bill: 184339
+        Location: Manipal Hospital Bangalore
+        Name: Patient 1 - POL-HLT-20001
+        From 2022-06-10 to 2022-06-17
+        Condition: Knee Replacement [Z96.65]
+        Bill: 282911

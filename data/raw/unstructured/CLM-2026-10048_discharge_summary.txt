@@ -1,6 +1,22 @@
-SUMMARY OF DISCHARGE
-        Location: Apollo Hospital Coimbatore
-        Name: Patient 13 - POL-HLT-20013
-        From 2026-05-10 to 2026-05-16
-        Condition: Cataract Surgery [H25.9]
-        Bill: 74520
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Fortis Healthcare Mumbai
+        
+        PATIENT INFORMATION
+        Name: Patient 45
+        Insurance ID: POL-HLT-20045
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-03-27
+        Date of Discharge: 2026-03-31
+        
+        CLINICAL FINDINGS
+        Diagnosis: Appendectomy
+        ICD Reference: K35.80
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 157683 INR
+        
+        Signed: Dr. R. Sharma (MCI-9902)

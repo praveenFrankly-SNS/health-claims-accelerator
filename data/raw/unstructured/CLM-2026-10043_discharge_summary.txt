@@ -1,19 +1,22 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 24
-        Policy Number: POL-HLT-20024
-        Admission Date: 2026-04-24
-        Discharge Date: 2026-04-26
-        Hospital: AIIMS New Delhi
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: AIIMS New Delhi
         
-        Diagnosis: Dengue Fever
-        ICD-10 Code: A90
+        PATIENT INFORMATION
+        Name: Patient 140
+        Insurance ID: POL-HLT-20140
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Dengue Fever. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
+        ENCOUNTER DETAILS
+        Date of Admission: 2024-10-11
+        Date of Discharge: 2024-10-21
         
-        Final Bill Amount: INR 66639
+        CLINICAL FINDINGS
+        Diagnosis: Cataract Surgery
+        ICD Reference: H25.9
+        The patient was admitted and treated for the above condition.
         
-        Attending Physician: Dr. Smith (Reg No: MC-5544)
+        FINANCIAL
+        Total Incurred Amount: 83911 INR
+        
+        Signed: Dr. R. Sharma (MCI-9902)

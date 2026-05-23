@@ -4,12 +4,12 @@
         Facility: Fortis Healthcare Mumbai
         
         PATIENT INFORMATION
-        Name: Patient 96
-        Insurance ID: POL-HLT-20096
+        Name: Patient 55
+        Insurance ID: POL-HLT-20055
         
         ENCOUNTER DETAILS
-        Date of Admission: 2022-11-21
-        Date of Discharge: 2022-11-29
+        Date of Admission: 2026-04-07
+        Date of Discharge: 2026-04-15
         
         CLINICAL FINDINGS
         Diagnosis: Viral Pneumonia
@@ -17,6 +17,6 @@
         The patient was admitted and treated for the above condition.
         
         FINANCIAL
-        Total Incurred Amount: 73979 INR
+        Total Incurred Amount: 168378 INR
         
         Signed: Dr. R. Sharma (MCI-9902)

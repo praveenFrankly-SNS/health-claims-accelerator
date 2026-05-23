@@ -1,9 +1,19 @@
-| Hospital       | AIIMS New Delhi |
-        | Patient        | Patient 89 |
-        | Policy         | POL-HLT-20089 |
-        | Admitted       | 2023-07-06 |
-        | Discharged     | 2023-07-11 |
-        | Diagnosis      | Cataract Surgery |
-        | ICD-10         | H25.9 |
-        | Total Bill     | 75743 |
-        | Doctor         | Dr. J. Doe (Reg: MC-1122) |
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 157
+        Policy Number: POL-HLT-20157
+        Admission Date: 2026-05-21
+        Discharge Date: 2026-05-27
+        Hospital: Manipal Hospital Bangalore
+        
+        Diagnosis: Knee Replacement
+        ICD-10 Code: Z96.65
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Knee Replacement. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 269690
+        
+        Attending Physician: Dr. Smith (Reg No: MC-5544)
