@@ -65,7 +65,6 @@ def retrieve_policy_chunks(policy_number: str, diagnosis: str, hospital: str, pl
         from sentence_transformers import SentenceTransformer
         from sklearn.metrics.pairwise import cosine_similarity
         import numpy as np
-        import os
         
         # Disable HuggingFace progress bars to prevent Databricks widget spam
         os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
