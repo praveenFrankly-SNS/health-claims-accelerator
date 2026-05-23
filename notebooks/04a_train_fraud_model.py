@@ -100,8 +100,11 @@ with mlflow.start_run(run_name="fraud_xgboost_training"):
         )
         print(f"Model registered to Unity Catalog: {MODEL_NAME}")
     except Exception as e:
-        print(f"Could not register to Unity Catalog (expected if running locally). Saving locally instead. {e}")
-        mlflow.xgboost.log_model(xgb_model=model, artifact_path="model", signature=signature)
+        print("Could not register to Unity Catalog (expected on Free Edition). Saving locally instead.")
+        try:
+            mlflow.xgboost.log_model(xgb_model=model, artifact_path="model", signature=signature)
+        except Exception:
+            pass
 
 # Also save a local pickle for the orchestrator to use if MLflow is not configured locally
 import pickle

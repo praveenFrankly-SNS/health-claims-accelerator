@@ -106,8 +106,11 @@ with mlflow.start_run(run_name="reserve_gbm_training"):
         )
         print(f"P50 Model registered to Unity Catalog: {MODEL_NAME}")
     except Exception as e:
-        print(f"Could not register to Unity Catalog (expected locally). {e}")
-        mlflow.sklearn.log_model(sk_model=model_p50, artifact_path="model_p50", signature=signature)
+        print("Could not register to Unity Catalog (expected on Free Edition). Saving locally instead.")
+        try:
+            mlflow.sklearn.log_model(sk_model=model_p50, artifact_path="model_p50", signature=signature)
+        except Exception:
+            pass
 
 # Save all 3 to a local pickle file to simulate a multi-model artifact
 os.makedirs("models", exist_ok=True)
