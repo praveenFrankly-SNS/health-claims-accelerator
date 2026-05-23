@@ -35,7 +35,7 @@ df_bronze = df_raw.withColumn("ingested_at", current_timestamp()) \
 # Write to Bronze Delta Table (Append-only)
 bronze_table = f"{CATALOG_NAME}.{SCHEMA_NAME}.bronze_claims"
 print(f"Writing to {bronze_table}")
-df_bronze.write.format("delta").mode("append").saveAsTable(bronze_table)
+df_bronze.write.format("delta").mode("append").option("mergeSchema", "true").saveAsTable(bronze_table)
 
 # COMMAND ----------
 
