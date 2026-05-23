@@ -86,17 +86,22 @@ with mlflow.start_run(run_name="fraud_xgboost_training"):
     
     print(f"Metrics: Accuracy={acc:.2f}, Precision={prec:.2f}, Recall={rec:.2f}")
     
+    # Infer signature
+    from mlflow.models.signature import infer_signature
+    signature = infer_signature(X_train, model.predict(X_train))
+    
     # Log model
     try:
         mlflow.xgboost.log_model(
             xgb_model=model,
             artifact_path="model",
+            signature=signature,
             registered_model_name=MODEL_NAME
         )
         print(f"Model registered to Unity Catalog: {MODEL_NAME}")
     except Exception as e:
         print(f"Could not register to Unity Catalog (expected if running locally). Saving locally instead. {e}")
-        mlflow.xgboost.log_model(xgb_model=model, artifact_path="model")
+        mlflow.xgboost.log_model(xgb_model=model, artifact_path="model", signature=signature)
 
 # Also save a local pickle for the orchestrator to use if MLflow is not configured locally
 import pickle
