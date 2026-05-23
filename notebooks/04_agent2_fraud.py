@@ -29,25 +29,55 @@ except Exception:
     pass
 
 def get_ml_fraud_score(claim_state: dict) -> float:
-    # In a real scenario, this would load a trained XGBoost model from MLflow Registry
-    # and run inference on features like claim velocity, amount/premium ratio, etc.
-    # For MVP, we simulate a score based on amount logic.
-    amount = claim_state.get("extracted_data", {}).get("claimed_amount", 0)
-    if amount is None: amount = 0
+    import pandas as pd
+    import mlflow
+    import pickle
+    import os
+    
+    # Extract features from state
+    extracted = claim_state.get("extracted_data", {})
+    amount = float(extracted.get("claimed_amount", 0))
+    
+    # Try to load the trained model
+    model = None
     try:
-        amount = float(amount)
-    except:
-        amount = 0
+        model = mlflow.xgboost.load_model("models:/health_claims_dev.claims.fraud_detection_xgboost/latest")
+    except Exception:
+        pass
         
-    score = 0.1 # base
-    if amount > 200000:
-        score += 0.3
-    if amount > 300000:
-        score += 0.2
-        
-    # random noise
-    score += random.uniform(0, 0.15)
-    return min(score, 1.0)
+    if model is None:
+        try:
+            repo_root = "." if os.path.exists("./models") else ".."
+            with open(f"{repo_root}/models/fraud_xgboost.pkl", "rb") as f:
+                model = pickle.load(f)
+        except Exception as e:
+            print(f"[Agent 2] Could not load ML model: {e}")
+            return 0.1 # Fallback
+            
+    # Need amount_to_premium_ratio, days_since_inception, claim_velocity
+    # Since these are computed in Silver DLT, in a real streaming pipeline they'd be read from the DB.
+    # For now we'll check if they are in the claim_state (if we enrich it), or we will mock them if missing.
+    premium = float(extracted.get("premium_paid", 12000))
+    if premium == 0: premium = 1
+    
+    # If the orchestrator passes these from silver_table, we use them.
+    # Otherwise we estimate.
+    features = {
+        'claimed_amount': [amount],
+        'amount_to_premium_ratio': [claim_state.get("amount_to_premium_ratio", amount / premium)],
+        'days_since_inception': [claim_state.get("days_since_inception", 500)],
+        'claim_velocity': [claim_state.get("claim_velocity", 0)]
+    }
+    
+    df_features = pd.DataFrame(features)
+    
+    try:
+        # Predict probability of fraud (class 1)
+        prob = model.predict_proba(df_features)[0][1]
+        return float(prob)
+    except Exception as e:
+        print(f"[Agent 2] ML Prediction failed: {e}")
+        return 0.1
 
 def agent2_fraud(claim_state: dict) -> dict:
     """

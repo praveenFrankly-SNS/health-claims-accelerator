@@ -1,21 +1,6 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 6
-    Policy Number: POL-HLT-20006
-    Admission Date: 2026-03-30
-    Discharge Date: 2026-04-03
-    Hospital: Apollo Hospital
-    
-    Diagnosis: Dengue Fever
-    ICD-10 Code: A90
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Dengue Fever. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 29697
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+SUMMARY OF DISCHARGE
+        Location: City Clinic Chennai
+        Name: Patient 187 - POL-HLT-20187
+        From 2026-05-19 to 2026-05-21
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 60529

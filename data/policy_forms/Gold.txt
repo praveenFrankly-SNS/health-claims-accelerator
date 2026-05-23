@@ -1,0 +1,22 @@
+# Gold Tier Policy Forms
+
+Section 4.1 - Room Rent Limit
+Room Rent Limit: The policy covers room rent up to 2% of the Base Sum Insured per day, capped at $300 per day.
+
+Section 5.1 - Exclusions
+Exclusions: Treatment for congenital diseases and cosmetic surgery are excluded. However, experimental therapies for standard infections like A90 or J18.9 may be reviewed for partial coverage under the Gold plan.
+
+Section 7.1 - Network Hospital Coverage
+Network Hospital Coverage: Claims from network hospitals are eligible for cashless processing. Non-network hospitals are reimbursement only with a 10% co-pay.
+
+Section 8.1 - Waiting Period
+Waiting Period: The Gold plan has a reduced 24-month waiting period for specified illnesses. The initial 30-day waiting period applies, but emergency hospitalizations are evaluated for waiver.
+
+Section 9.1 - Sub-limits for Specific ICD Codes
+Sub-limits: Cataract surgery (H25.9) is covered up to $3,500 per eye. Appendicitis (K35.80) is capped at $7,000. Joint replacements (Z96.65) have a specific 10% co-pay requirement.
+
+Section 10.1 - Maternity Exclusion
+Maternity: Maternity coverage is not included in the standard Gold plan but can be activated as an optional rider subject to an 18-month independent waiting period.
+
+Section 11.1 - Pre-existing Disease Clause
+Pre-existing Disease: Pre-existing conditions are covered after a 24-month continuous coverage period under the Gold plan.

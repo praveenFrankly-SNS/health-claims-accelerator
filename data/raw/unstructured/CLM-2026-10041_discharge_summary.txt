@@ -1,21 +1,19 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 41
-    Policy Number: POL-HLT-20041
-    Admission Date: 2026-04-12
-    Discharge Date: 2026-04-13
-    Hospital: Apollo Hospital
-    
-    Diagnosis: Cataract Surgery
-    ICD-10 Code: H25.9
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Cataract Surgery. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 43711
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 8
+        Policy Number: POL-HLT-20008
+        Admission Date: 2026-05-17
+        Discharge Date: 2026-05-23
+        Hospital: Max Super Speciality Delhi
+        
+        Diagnosis: Appendectomy
+        ICD-10 Code: K35.80
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Appendectomy. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 84996
+        
+        Attending Physician: Dr. Smith (Reg No: MC-5544)

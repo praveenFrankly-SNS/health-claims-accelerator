@@ -1,21 +1,9 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 28
-    Policy Number: POL-HLT-20028
-    Admission Date: 2026-04-11
-    Discharge Date: 2026-04-18
-    Hospital: Fortis Healthcare
-    
-    Diagnosis: Cataract Surgery
-    ICD-10 Code: H25.9
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Cataract Surgery. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 44447
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+HOSPITAL DISCHARGE RECORD
+        Hospital: Apollo Hospital Coimbatore
+        Patient: Patient 95 | Policy: POL-HLT-20095
+        Admitted: 2023-09-03 | Discharged: 2023-09-04
+        
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 65780
+        
+        Physician: Dr. A. Kumar, MC-8821

@@ -1,21 +1,6 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 48
-    Policy Number: POL-HLT-20048
-    Admission Date: 2026-03-25
-    Discharge Date: 2026-04-02
-    Hospital: Max Super Speciality
-    
-    Diagnosis: Knee Replacement
-    ICD-10 Code: Z96.65
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Knee Replacement. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 341135
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+SUMMARY OF DISCHARGE
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 13 - POL-HLT-20013
+        From 2026-05-10 to 2026-05-16
+        Condition: Cataract Surgery [H25.9]
+        Bill: 74520

@@ -1,0 +1,22 @@
+# Premium Tier Policy Forms
+
+Section 4.1 - Room Rent Limit
+Room Rent Limit: The Premium policy provides a private single AC room with no daily cap up to the sum insured.
+
+Section 5.1 - Exclusions
+Exclusions: Cosmetic surgery is excluded unless required post-accident. All standard treatments for A90, J18.9, K35.80 and Z96.65 are fully covered with no sub-limits.
+
+Section 7.1 - Network Hospital Coverage
+Network Hospital Coverage: Claims from any hospital (network or non-network) are eligible for 100% reimbursement with no co-pay applied.
+
+Section 8.1 - Waiting Period
+Waiting Period: The Premium plan waives the 30-day initial waiting period. Specified illnesses have a minimal 12-month waiting period.
+
+Section 9.1 - Sub-limits for Specific ICD Codes
+Sub-limits: There are no sub-limits for any ICD codes including H25.9 (Cataract), K35.80 (Appendicitis), and Z96.65 (Joint replacements), up to the maximum Base Sum Insured.
+
+Section 10.1 - Maternity Exclusion
+Maternity: Maternity and childbirth expenses are fully covered up to $15,000 per policy year after a 9-month waiting period.
+
+Section 11.1 - Pre-existing Disease Clause
+Pre-existing Disease: All pre-existing diseases declared at the time of proposal are covered after a 12-month waiting period under the Premium tier.

@@ -71,6 +71,28 @@ for row in volumes:
     print(f"  Volume: {row.volume_name}")
 
 # COMMAND ----------
+# DBTITLE 1,Seed Gold Reference Tables from Synthetic CSVs
+import os
+
+repo_root = "."
+if os.path.exists("../data/raw/structured/policy_master.csv"):
+    repo_root = ".."
+
+def seed_gold_table(csv_name, table_name):
+    csv_path = f"file:" + os.path.abspath(f"{repo_root}/data/raw/structured/{csv_name}")
+    try:
+        df = spark.read.csv(csv_path, header=True, inferSchema=True)
+        df.write.format("delta").mode("overwrite").saveAsTable(f"`{catalog}`.`claims`.`{table_name}`")
+        print(f"✓ Seeded {table_name} ({df.count()} rows)")
+    except Exception as e:
+        print(f"Failed to seed {table_name}. Did you run generate_synthetic_data.py? Error: {e}")
+
+seed_gold_table("policy_master.csv", "policy_master")
+seed_gold_table("claims_history.csv", "claims_history")
+seed_gold_table("network_hospitals.csv", "network_hospitals")
+
+
+# COMMAND ----------
 # DBTITLE 1,Write setup completion record to audit log
 from datetime import datetime
 import json

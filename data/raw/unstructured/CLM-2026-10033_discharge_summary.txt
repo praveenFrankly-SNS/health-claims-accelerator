@@ -1,21 +1,9 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 33
-    Policy Number: POL-HLT-20033
-    Admission Date: 2026-04-07
-    Discharge Date: 2026-04-14
-    Hospital: AIIMS
-    
-    Diagnosis: Knee Replacement
-    ICD-10 Code: Z96.65
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Knee Replacement. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 341607
-    
-    Attending Physician: Dr. Smith
-    
+HOSPITAL DISCHARGE RECORD
+        Hospital: Max Super Speciality Delhi
+        Patient: Patient 156 | Policy: POL-HLT-20156
+        Admitted: 2023-03-10 | Discharged: 2023-03-12
+        
+        Principal Diagnosis: Viral Pneumonia (J12.9)
+        Total Charges: 82301
+        
+        Physician: Dr. A. Kumar, MC-8821

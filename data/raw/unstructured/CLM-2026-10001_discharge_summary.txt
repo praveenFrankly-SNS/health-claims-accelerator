@@ -1,21 +1,9 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 1
-    Policy Number: POL-HLT-20001
-    Admission Date: 2026-04-23
-    Discharge Date: 2026-04-29
-    Hospital: Fortis Healthcare
-    
-    Diagnosis: Dengue Fever
-    ICD-10 Code: A90
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Dengue Fever. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 23735
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+HOSPITAL DISCHARGE RECORD
+        Hospital: Fortis Healthcare Mumbai
+        Patient: Patient 62 | Policy: POL-HLT-20062
+        Admitted: 2026-03-29 | Discharged: 2026-04-08
+        
+        Principal Diagnosis: Appendectomy (K35.80)
+        Total Charges: 226772
+        
+        Physician: Dr. A. Kumar, MC-8821

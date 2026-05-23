@@ -1,21 +1,9 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 2
-    Policy Number: POL-HLT-20002
-    Admission Date: 2026-04-01
-    Discharge Date: 2026-04-10
-    Hospital: Max Super Speciality
-    
-    Diagnosis: Dengue Fever
-    ICD-10 Code: A90
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Dengue Fever. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 25339
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+| Hospital       | Manipal Hospital Bangalore |
+        | Patient        | Patient 177 |
+        | Policy         | POL-HLT-20177 |
+        | Admitted       | 2026-05-15 |
+        | Discharged     | 2026-05-20 |
+        | Diagnosis      | Knee Replacement |
+        | ICD-10         | Z96.65 |
+        | Total Bill     | 272524 |
+        | Doctor         | Dr. J. Doe (Reg: MC-1122) |

@@ -1,21 +1,22 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 9
-    Policy Number: POL-HLT-20009
-    Admission Date: 2026-04-24
-    Discharge Date: 2026-04-25
-    Hospital: Manipal Hospital
-    
-    Diagnosis: Knee Replacement
-    ICD-10 Code: Z96.65
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Knee Replacement. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 340239
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Max Super Speciality Delhi
+        
+        PATIENT INFORMATION
+        Name: Patient 108
+        Insurance ID: POL-HLT-20108
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-04-25
+        Date of Discharge: 2026-05-02
+        
+        CLINICAL FINDINGS
+        Diagnosis: Appendectomy
+        ICD Reference: K35.80
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 174584 INR
+        
+        Signed: Dr. R. Sharma (MCI-9902)

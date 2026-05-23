@@ -94,9 +94,41 @@ def agent1_doc_intelligence(claim_state: dict) -> dict:
     
     completeness_score = (len(required_fields) - len(missing_fields)) / len(required_fields)
     
+    # CROSS-VALIDATION against policy_master
+    cross_val_status = "UNKNOWN"
+    policy_number = extracted_data.get("policy_number")
+    claimant_name = extracted_data.get("claimant_name")
+    
+    if policy_number:
+        try:
+            from pyspark.sql import SparkSession
+            spark = SparkSession.builder.getOrCreate()
+            df_policy = spark.table("health_claims_dev.claims.policy_master")
+            
+            # Check if policy exists, is active, and name matches roughly
+            policy_row = df_policy.filter(df_policy.policy_number == policy_number).collect()
+            if not policy_row:
+                cross_val_status = "FAILED_POLICY_NOT_FOUND"
+            else:
+                row = policy_row[0]
+                if row.status != "ACTIVE":
+                    cross_val_status = "FAILED_POLICY_LAPSED"
+                elif claimant_name and claimant_name.lower() not in row.claimant_name.lower() and row.claimant_name.lower() not in claimant_name.lower():
+                    cross_val_status = "FAILED_NAME_MISMATCH"
+                else:
+                    cross_val_status = "PASSED"
+                    # enriching with sum insured and plan tier
+                    extracted_data["plan_tier"] = row.plan_tier
+                    extracted_data["sum_insured"] = row.sum_insured
+                    extracted_data["premium_paid"] = row.premium_paid
+        except Exception as e:
+            print(f"[Agent 1] Cross-validation failed to run: {e}")
+            cross_val_status = "SKIPPED_DUE_TO_ERROR"
+
     result = {
         "completeness_score": round(completeness_score, 2),
         "missing_fields": missing_fields,
+        "cross_validation_status": cross_val_status,
         "extracted_data": extracted_data
     }
     

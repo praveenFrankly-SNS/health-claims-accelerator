@@ -1,21 +1,6 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 37
-    Policy Number: POL-HLT-20037
-    Admission Date: 2026-04-09
-    Discharge Date: 2026-04-12
-    Hospital: AIIMS
-    
-    Diagnosis: Appendectomy
-    ICD-10 Code: K35.80
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Appendectomy. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 37771
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+SUMMARY OF DISCHARGE
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 80 - POL-HLT-20080
+        From 2025-05-06 to 2025-05-14
+        Condition: Dengue Fever [A90]
+        Bill: 50182

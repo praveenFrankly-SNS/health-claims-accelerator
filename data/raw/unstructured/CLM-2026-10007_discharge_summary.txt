@@ -1,21 +1,6 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 7
-    Policy Number: POL-HLT-20007
-    Admission Date: 2026-03-27
-    Discharge Date: 2026-04-06
-    Hospital: Fortis Healthcare
-    
-    Diagnosis: Cataract Surgery
-    ICD-10 Code: H25.9
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Cataract Surgery. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 43814
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+SUMMARY OF DISCHARGE
+        Location: Manipal Hospital Bangalore
+        Name: Patient 30 - POL-HLT-20030
+        From 2026-05-01 to 2026-05-07
+        Condition: Knee Replacement [Z96.65]
+        Bill: 743532

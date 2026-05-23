@@ -1,21 +1,6 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 46
-    Policy Number: POL-HLT-20046
-    Admission Date: 2026-03-27
-    Discharge Date: 2026-03-30
-    Hospital: Max Super Speciality
-    
-    Diagnosis: Cataract Surgery
-    ICD-10 Code: H25.9
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Cataract Surgery. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 47200
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+SUMMARY OF DISCHARGE
+        Location: AIIMS New Delhi
+        Name: Patient 171 - POL-HLT-20171
+        From 2024-06-21 to 2024-06-24
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 86706

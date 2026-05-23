@@ -1,21 +1,19 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 36
-    Policy Number: POL-HLT-20036
-    Admission Date: 2026-03-31
-    Discharge Date: 2026-04-08
-    Hospital: Manipal Hospital
-    
-    Diagnosis: Dengue Fever
-    ICD-10 Code: A90
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Dengue Fever. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 23079
-    
-    Attending Physician: Dr. Smith
-    
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 9
+        Policy Number: POL-HLT-20009
+        Admission Date: 2026-03-29
+        Discharge Date: 2026-04-06
+        Hospital: AIIMS New Delhi
+        
+        Diagnosis: Cataract Surgery
+        ICD-10 Code: H25.9
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Cataract Surgery. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 119669
+        
+        Attending Physician: Dr. Smith (Reg No: MC-5544)

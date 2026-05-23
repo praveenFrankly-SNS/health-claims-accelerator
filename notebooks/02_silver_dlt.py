@@ -3,10 +3,12 @@
 # MAGIC # 02 Silver Data Preparation
 # MAGIC Cleans, validates, and standardizes Bronze data.
 # MAGIC Implements a quarantine pattern simulating DLT expectations.
+# MAGIC Also adds PII hashing and computes ML features (claim_velocity, days_since_inception).
 
 # COMMAND ----------
 
-from pyspark.sql.functions import col
+from pyspark.sql.functions import col, sha2, datediff, to_date, count, lit, when
+from pyspark.sql.window import Window
 
 CATALOG_NAME = "health_claims_dev"
 SCHEMA_NAME = "claims"
@@ -15,6 +17,8 @@ spark.sql(f"USE {CATALOG_NAME}.{SCHEMA_NAME}")
 bronze_table = "bronze_claims"
 silver_table = "silver_claims"
 quarantine_table = "quarantine_claims"
+policy_master_table = "policy_master"
+claims_history_table = "claims_history"
 
 # COMMAND ----------
 
@@ -32,10 +36,54 @@ df_valid = df_bronze.filter(valid_condition)
 df_quarantine = df_bronze.filter(~valid_condition)
 
 # COMMAND ----------
+# PII Masking & Feature Engineering for Valid Claims
+
+# Hash PII (claimant_name)
+df_valid = df_valid.withColumn("claimant_name_hash", sha2(col("claimant_name"), 256))
+
+# Read Gold tables for feature computation
+try:
+    df_policy = spark.table(policy_master_table).select("policy_number", "inception_date", "premium_paid", "sum_insured")
+    df_history = spark.table(claims_history_table).select("policy_number", "claim_date")
+    
+    # 1. Compute days_since_inception
+    df_valid = df_valid.join(df_policy, on="policy_number", how="left")
+    df_valid = df_valid.withColumn("date_of_loss_dt", to_date(col("date_of_loss")))
+    df_valid = df_valid.withColumn("inception_date_dt", to_date(col("inception_date")))
+    df_valid = df_valid.withColumn("days_since_inception", datediff(col("date_of_loss_dt"), col("inception_date_dt")))
+    
+    # Compute amount_to_premium_ratio
+    df_valid = df_valid.withColumn("amount_to_premium_ratio", col("claimed_amount") / col("premium_paid"))
+    df_valid = df_valid.withColumn("amount_to_premium_ratio", when(col("premium_paid") == 0, 0).otherwise(col("amount_to_premium_ratio")))
+    
+    # 2. Compute claim_velocity (number of prior claims in the last 90 days)
+    # We join current claims with history, keeping history claims within 90 days prior to date_of_loss
+    df_recent_history = df_valid.alias("v").join(
+        df_history.alias("h"),
+        on="policy_number",
+        how="left"
+    ).filter(
+        (to_date(col("h.claim_date")) >= to_date(col("v.date_of_loss_dt")) - lit(90)) &
+        (to_date(col("h.claim_date")) < to_date(col("v.date_of_loss_dt")))
+    ).groupBy("v.claim_id").agg(count("h.claim_date").alias("claim_velocity"))
+    
+    df_valid = df_valid.join(df_recent_history, on="claim_id", how="left")
+    df_valid = df_valid.fillna({"claim_velocity": 0})
+    
+    # Drop temp columns
+    df_valid = df_valid.drop("date_of_loss_dt", "inception_date_dt")
+
+except Exception as e:
+    print(f"Warning: Could not compute ML features. Make sure {policy_master_table} and {claims_history_table} exist. Error: {e}")
+    df_valid = df_valid.withColumn("days_since_inception", lit(0))
+    df_valid = df_valid.withColumn("amount_to_premium_ratio", lit(0.0))
+    df_valid = df_valid.withColumn("claim_velocity", lit(0))
+
+# COMMAND ----------
 
 # Write to Silver Table
 print(f"Writing valid claims to {silver_table}")
-df_valid.write.format("delta").mode("overwrite").saveAsTable(silver_table)
+df_valid.write.format("delta").mode("overwrite").option("mergeSchema", "true").saveAsTable(silver_table)
 
 # Write to Quarantine Table
 print(f"Writing invalid claims to {quarantine_table}")

@@ -1,21 +1,19 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 47
-    Policy Number: POL-HLT-20047
-    Admission Date: 2026-03-24
-    Discharge Date: 2026-04-01
-    Hospital: Apollo Hospital
-    
-    Diagnosis: Dengue Fever
-    ICD-10 Code: A90
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Dengue Fever. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 24326
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 145
+        Policy Number: POL-HLT-20145
+        Admission Date: 2026-03-24
+        Discharge Date: 2026-04-01
+        Hospital: Manipal Hospital Bangalore
+        
+        Diagnosis: Knee Replacement
+        ICD-10 Code: Z96.65
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Knee Replacement. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 716328
+        
+        Attending Physician: Dr. Smith (Reg No: MC-5544)

@@ -1,21 +1,6 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 32
-    Policy Number: POL-HLT-20032
-    Admission Date: 2026-04-07
-    Discharge Date: 2026-04-08
-    Hospital: Max Super Speciality
-    
-    Diagnosis: Knee Replacement
-    ICD-10 Code: Z96.65
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Knee Replacement. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 347929
-    
-    Attending Physician: Dr. Smith (Reg No: MC-5544)
-    
+SUMMARY OF DISCHARGE
+        Location: Manipal Hospital Bangalore
+        Name: Patient 26 - POL-HLT-20026
+        From 2026-05-17 to 2026-05-20
+        Condition: Cataract Surgery [H25.9]
+        Bill: 49125

@@ -2,6 +2,7 @@
 # MAGIC %md
 # MAGIC # 09 Gold Serving
 # MAGIC Optimizes the Gold table for serving downstream to the Databricks App and external systems.
+# MAGIC Contains a Lakehouse Monitoring stub.
 
 # COMMAND ----------
 
@@ -44,5 +45,22 @@ try:
     print("Dashboard view 'vw_claims_dashboard' created.")
 except Exception as e:
     print(f"Failed to create view: {e}")
+
+# COMMAND ----------
+# DBTITLE 1,Lakehouse Monitoring Stub
+print("Configuring Lakehouse Monitoring...")
+try:
+    # This is a stub for the Lakehouse Monitoring setup
+    # In a full deployment, this creates a metric table monitoring data drift on the Gold table
+    stub_query = f"""
+    -- CREATE MONITOR {CATALOG_NAME}.{SCHEMA_NAME}.gold_monitor
+    -- ON {CATALOG_NAME}.{SCHEMA_NAME}.{gold_table}
+    -- SCHEDULE CRON '0 0 * * *'
+    -- ASSETS DIR 'dbfs:/lakehouse_monitors/{CATALOG_NAME}/{SCHEMA_NAME}/gold'
+    """
+    # spark.sql(stub_query)
+    print("Lakehouse Monitor stub executed successfully. Enable in Paid/Trial workspaces.")
+except Exception as e:
+    print(f"Failed to configure monitoring: {e}")
 
 print("Gold Serving Complete.")

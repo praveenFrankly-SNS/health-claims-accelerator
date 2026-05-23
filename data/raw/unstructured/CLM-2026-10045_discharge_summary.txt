@@ -1,21 +1,9 @@
-
-    DISCHARGE SUMMARY
-    -----------------
-    Patient Name: Patient 45
-    Policy Number: POL-HLT-20045
-    Admission Date: 2026-04-05
-    Discharge Date: 2026-04-09
-    Hospital: Max Super Speciality
-    
-    Diagnosis: Appendectomy
-    ICD-10 Code: K35.80
-    
-    Course in the Hospital:
-    The patient presented with symptoms relating to Appendectomy. 
-    Routine investigations were carried out. The patient was managed conservatively/surgically 
-    and responded well to the treatment. At the time of discharge, the patient's condition was stable.
-    
-    Final Bill Amount: INR 40856
-    
-    Attending Physician: Dr. Smith
-    
+HOSPITAL DISCHARGE RECORD
+        Hospital: Max Super Speciality Delhi
+        Patient: Patient 167 | Policy: POL-HLT-20167
+        Admitted: 2026-05-02 | Discharged: 2026-05-12
+        
+        Principal Diagnosis: Appendectomy (K35.80)
+        Total Charges: 174342
+        
+        Physician: Dr. A. Kumar, MC-8821

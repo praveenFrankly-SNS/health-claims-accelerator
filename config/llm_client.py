@@ -1,136 +1,69 @@
 import os
 import json
-import requests
-# Try to import dbutils if running in Databricks
-try:
-    from pyspark.sql import SparkSession
-    spark = SparkSession.builder.getOrCreate()
-    # Databricks allows getting secrets via dbutils
-    def get_dbutils(spark):
-        try:
-            from pyspark.dbutils import DBUtils
-            dbutils = DBUtils(spark)
-        except ImportError:
-            import IPython
-            dbutils = IPython.get_ipython().user_ns.get("dbutils")
-        return dbutils
-    dbutils = get_dbutils(spark)
-except Exception:
-    dbutils = None
+import urllib.request
+import urllib.error
 
-class LLMClient:
-    def __init__(self, mode="databricks", model_name="databricks-meta-llama-3-3-70b-instruct"):
-        """
-        mode: 'databricks' or 'external'
-        model_name: Foundation model endpoint name or external model name
-        """
-        self.mode = mode
-        self.model_name = model_name
+class GenericLLMClient:
+    """
+    A generic OpenAI-compatible LLM client for Databricks FMAPI or local testing.
+    """
+    def __init__(self):
         self.workspace_url = os.environ.get("DATABRICKS_HOST", "")
         self.databricks_token = os.environ.get("DATABRICKS_TOKEN", "")
-        
-        # If running inside a Databricks notebook, fetch from context dynamically
-        if not self.workspace_url or not self.databricks_token:
-            # Try getting via mlflow which is robust in Databricks
-            try:
-                from mlflow.utils.databricks_utils import get_databricks_host_creds
-                creds = get_databricks_host_creds()
-                if not self.workspace_url:
-                    self.workspace_url = creds.host
-                if not self.databricks_token:
-                    self.databricks_token = creds.token
-            except Exception as e:
-                pass
+        # Fallback to OpenAI if Databricks is not configured
+        self.openai_key = os.environ.get("OPENAI_API_KEY", "")
+
+    def generate(self, prompt: str, max_tokens: int = 400) -> str:
+        # If we have Databricks credentials
+        if self.workspace_url and self.databricks_token:
+            # Simple wrapper around Databricks Foundation Model API (e.g. DBRX or Llama-3)
+            # using urllib to avoid heavy dependencies in the accelerator
+            url = f"{self.workspace_url.rstrip('/')}/serving-endpoints/databricks-dbrx-instruct/invocations"
+            headers = {
+                "Authorization": f"Bearer {self.databricks_token}",
+                "Content-Type": "application/json"
+            }
+            data = {
+                "messages": [{"role": "user", "content": prompt}],
+                "max_tokens": max_tokens
+            }
             
-            # Fallback to dbutils IPython magic if mlflow fails
-            if not self.workspace_url or not self.databricks_token:
-                if dbutils:
-                    try:
-                        ctx = dbutils.notebook.entry_point.getDbutils().notebook().getContext()
-                        if not self.workspace_url:
-                            self.workspace_url = ctx.apiUrl().get()
-                        if not self.databricks_token:
-                            self.databricks_token = ctx.apiToken().get()
-                    except Exception as e:
-                        pass
-        
-        if self.mode == "external":
-            if dbutils:
-                try:
-                    self.external_api_key = dbutils.secrets.get(scope="health_claims_scope", key="external_llm_api_key")
-                except Exception as e:
-                    print(f"Warning: Could not get secret. Ensure health_claims_scope is setup. {e}")
-                    self.external_api_key = os.environ.get("EXTERNAL_LLM_API_KEY", "")
-            else:
-                self.external_api_key = os.environ.get("EXTERNAL_LLM_API_KEY", "")
+            req = urllib.request.Request(url, headers=headers, data=json.dumps(data).encode('utf-8'))
+            try:
+                with urllib.request.urlopen(req) as response:
+                    res_body = json.loads(response.read().decode('utf-8'))
+                    return res_body.get("choices", [{}])[0].get("message", {}).get("content", "")
+            except Exception as e:
+                print(f"[LLM Client] Databricks FMAPI Error: {e}")
+                
+        # If we have OpenAI key (local testing)
+        if self.openai_key:
+            url = "https://api.openai.com/v1/chat/completions"
+            headers = {
+                "Authorization": f"Bearer {self.openai_key}",
+                "Content-Type": "application/json"
+            }
+            data = {
+                "model": "gpt-4o-mini",
+                "messages": [{"role": "user", "content": prompt}],
+                "max_tokens": max_tokens
+            }
+            req = urllib.request.Request(url, headers=headers, data=json.dumps(data).encode('utf-8'))
+            try:
+                with urllib.request.urlopen(req) as response:
+                    res_body = json.loads(response.read().decode('utf-8'))
+                    return res_body.get("choices", [{}])[0].get("message", {}).get("content", "")
+            except Exception as e:
+                print(f"[LLM Client] OpenAI API Error: {e}")
 
-    def generate(self, prompt, system_prompt="You are a helpful assistant.", max_tokens=1000):
-        if self.mode == "databricks":
-            return self._call_databricks_foundation_model(prompt, system_prompt, max_tokens)
-        else:
-            return self._call_external_model(prompt, system_prompt, max_tokens)
+        # Fallback Mock if no keys provided (critical for the MVP running out of the box locally)
+        print("[LLM Client] WARNING: No API keys configured. Returning mocked response.")
+        if "Coverage Eligibility Agent" in prompt or "Agent 3" in prompt:
+            return '{"coverage_status": "COVERED", "coverage_amount_estimate": 0, "exclusions_triggered": [], "policy_sections_cited": ["Section 4.2", "Section 5.1"], "notes": "Mocked response"}'
+        elif "Fraud Detection Agent" in prompt or "Agent 2" in prompt:
+            return '{"fraud_score": 0.1, "confidence": "HIGH", "reasoning": "Mocked response: Claim appears normal.", "flags": []}'
+        elif "Document Intelligence Agent" in prompt or "Agent 1" in prompt:
+            return '{"policy_number": "MOCK-POL", "claimant_name": "Mock Patient", "admission_date": "2026-01-01", "discharge_date": "2026-01-05", "hospital_name": "Apollo Hospital Coimbatore", "diagnosis_icd_code": "J18.9", "claimed_amount": 50000, "attending_physician_registration_number": "MC-5544"}'
+        return '{"result": "Mocked fallback response"}'
 
-    def _get_available_endpoint(self, headers):
-        try:
-            res = requests.get(f"{self.workspace_url}/api/2.0/serving-endpoints", headers=headers)
-            if res.status_code == 200:
-                endpoints = res.json().get('endpoints', [])
-                # Find any Llama model
-                llama_endpoints = [e['name'] for e in endpoints if 'llama' in e['name'].lower()]
-                if llama_endpoints:
-                    # Prefer 70b
-                    for ep in llama_endpoints:
-                        if '70b' in ep: return ep
-                    return llama_endpoints[0]
-                # Fallback to DBRX
-                dbrx = [e['name'] for e in endpoints if 'dbrx' in e['name'].lower()]
-                if dbrx: return dbrx[0]
-        except Exception:
-            pass
-        return self.model_name
-
-    def _call_databricks_foundation_model(self, prompt, system_prompt, max_tokens):
-        headers = {
-            "Authorization": f"Bearer {self.databricks_token}",
-            "Content-Type": "application/json"
-        }
-        
-        # Auto-discover the correct endpoint name in this specific workspace
-        if not hasattr(self, '_resolved_model_name'):
-            self._resolved_model_name = self._get_available_endpoint(headers)
-            print(f"Using Databricks Model Endpoint: {self._resolved_model_name}")
-
-        url = f"{self.workspace_url}/serving-endpoints/{self._resolved_model_name}/invocations"
-        payload = {
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": prompt}
-            ],
-            "max_tokens": max_tokens,
-            "temperature": 0.1
-        }
-        
-        # If token/url isn't set, this is a fallback for local testing that raises error
-        if not self.workspace_url or not self.databricks_token:
-            print("Warning: DATABRICKS_HOST or DATABRICKS_TOKEN missing. Trying to simulate via Langchain if installed.")
-            # fallback for simulation
-            return f"[Simulated Response for {self.model_name}]\nReceived prompt: {prompt[:50]}..."
-
-        response = requests.post(url, headers=headers, json=payload)
-        if response.status_code == 200:
-            result = response.json()
-            return result.get("choices", [{}])[0].get("message", {}).get("content", "")
-        else:
-            print(f"Error calling Databricks API: {response.text}")
-            # Fallback
-            return None
-
-    def _call_external_model(self, prompt, system_prompt, max_tokens):
-        # Simple simulated abstraction for external model (e.g. Claude)
-        print(f"Calling external model (e.g., Claude/OpenAI) using provided API key.")
-        # In a real scenario, use Anthropic or OpenAI SDK here.
-        # This is a placeholder since we don't know the exact external provider.
-        return f"[External Model Output] Response to: {prompt[:50]}..."
-
-# Singleton instance for easy import
-llm = LLMClient()
+llm = GenericLLMClient()

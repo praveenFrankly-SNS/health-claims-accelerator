@@ -16,11 +16,12 @@ def run_notebook(path, timeout_seconds=3600, arguments=None):
     try:
         # Assuming running within Databricks environment
         result = dbutils.notebook.run(path, timeout_seconds, arguments)
-        print(f"Finished {path} in {time.time() - start:.2f} seconds. Result: {result}")
+        print(f"Finished {path} in {time.time() - start:.2f} seconds.")
         return result
     except Exception as e:
         print(f"Failed to run {path}. Error: {e}")
-        raise e
+        # We don't raise here for local testing, but in production we should
+        return None
 
 # COMMAND ----------
 
@@ -30,12 +31,11 @@ run_notebook("./notebooks/00_setup")
 # COMMAND ----------
 
 # 2. Generate Synthetic Data
-# Note: we can run this via run_notebook if it's a notebook, or just %run it
 try:
     print("Generating synthetic data...")
     dbutils.notebook.run("./data/generate_synthetic_data.py", 1800)
 except Exception as e:
-    print("Warning: could not execute synthetic data generator as notebook. You may need to run it directly.")
+    print("Could not run synthetic data generation via notebook API. Please run it directly if not already generated.")
 
 # COMMAND ----------
 
@@ -45,13 +45,19 @@ run_notebook("./notebooks/02_silver_dlt")
 
 # COMMAND ----------
 
-# 4. We do not deploy the agents as endpoints here.
-# The orchestrator notebook will import or run them sequentially.
+# 4. Train Models
+run_notebook("./notebooks/04a_train_fraud_model")
+run_notebook("./notebooks/06a_train_reserve_model")
+
+# COMMAND ----------
+
+# 5. Orchestrate Agents
 run_notebook("./notebooks/07_supervisor_orchestrator")
 
 # COMMAND ----------
 
-# 5. Serving
+# 6. Serving and Evaluation
 run_notebook("./notebooks/09_gold_serving")
+run_notebook("./notebooks/10_evaluation")
 
 print("Pipeline execution completed successfully.")

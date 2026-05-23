@@ -41,12 +41,62 @@ def agent4_reserve(claim_state: dict) -> dict:
     except:
         claimed_amount = 0
 
-    # Base reserve is the claimed amount or a percentage of it if partially covered
-    base_reserve = claimed_amount
+    import pandas as pd
+    import pickle
+    
+    # 1. Base reserve from GBM models
+    diagnosis = extracted.get("diagnosis_icd_code", "UNKNOWN")
+    df_features = pd.DataFrame({"diagnosis_icd": [diagnosis]})
+    
+    # Load models
+    models = None
+    try:
+        repo_root = "." if os.path.exists("./models") else ".."
+        with open(f"{repo_root}/models/reserve_gbms.pkl", "rb") as f:
+            models = pickle.load(f)
+    except Exception as e:
+        print(f"[Agent 4] Could not load GBM models: {e}")
+        
+    if models:
+        try:
+            p50_reserve = models["P50"].predict(df_features)[0]
+            p10_reserve = models["P10"].predict(df_features)[0]
+            p90_reserve = models["P90"].predict(df_features)[0]
+            base_reserve = p50_reserve
+        except Exception as e:
+            print(f"[Agent 4] GBM Prediction failed: {e}")
+            base_reserve = claimed_amount
+            p10_reserve = base_reserve * 0.8
+            p90_reserve = base_reserve * 1.2
+    else:
+        # Fallback if model missing
+        base_reserve = claimed_amount
+        p10_reserve = base_reserve * 0.8
+        p90_reserve = base_reserve * 1.2
+
     if coverage.get("coverage_status") == "PARTIAL":
-        base_reserve = claimed_amount * 0.8
+        base_reserve *= 0.8
+        p10_reserve *= 0.8
+        p90_reserve *= 0.8
     elif coverage.get("coverage_status") == "EXCLUDED":
         base_reserve = 0
+        p10_reserve = 0
+        p90_reserve = 0
+        
+    # 2. Find comparable claims
+    comparable_claims = []
+    try:
+        from pyspark.sql import SparkSession
+        spark = SparkSession.builder.getOrCreate()
+        df_history = spark.table("health_claims_dev.claims.claims_history")
+        comps = df_history.filter(df_history.diagnosis_icd == diagnosis).limit(3).collect()
+        for c in comps:
+            comparable_claims.append({
+                "historical_claim_id": c.historical_claim_id,
+                "settled_amount": float(c.settled_amount)
+            })
+    except Exception as e:
+        print(f"[Agent 4] Could not fetch comparable claims: {e}")
         
     # LLM Severity Uplift based on diagnosis
     diagnosis = extracted.get("diagnosis_icd_code", "UNKNOWN")
@@ -81,11 +131,12 @@ def agent4_reserve(claim_state: dict) -> dict:
         "reserve": {
             "initial_reserve_amount": round(final_reserve, 2),
             "confidence_interval": {
-                "P10": round(final_reserve * 0.8, 2),
+                "P10": round(p10_reserve * uplift, 2),
                 "P50": round(final_reserve, 2),
-                "P90": round(final_reserve * 1.2, 2)
+                "P90": round(p90_reserve * uplift, 2)
             },
-            "reasoning": reasoning
+            "reasoning": reasoning,
+            "comparable_claims_cited": comparable_claims
         }
     }
     
