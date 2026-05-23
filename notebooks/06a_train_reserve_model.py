@@ -6,6 +6,10 @@
 
 # COMMAND ----------
 
+# MAGIC %pip install scikit-learn pandas
+
+# COMMAND ----------
+
 import os
 import mlflow
 import mlflow.sklearn

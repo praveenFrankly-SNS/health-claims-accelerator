@@ -5,6 +5,10 @@
 
 # COMMAND ----------
 
+# MAGIC %pip install xgboost pandas
+
+# COMMAND ----------
+
 import os
 import sys
 import random

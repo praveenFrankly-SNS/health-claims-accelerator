@@ -5,6 +5,10 @@
 
 # COMMAND ----------
 
+# MAGIC %pip install scikit-learn pandas
+
+# COMMAND ----------
+
 import os
 import sys
 import json

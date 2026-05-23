@@ -9,6 +9,10 @@
 
 # COMMAND ----------
 
+# MAGIC %pip install langgraph langchain-core
+
+# COMMAND ----------
+
 import os
 import sys
 import json
