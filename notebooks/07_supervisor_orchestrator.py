@@ -5,11 +5,15 @@
 # MAGIC Agents 2 and 3 run sequentially.
 
 # COMMAND ----------
-# MAGIC %pip install langgraph sentence-transformers xgboost
+# MAGIC %pip install langgraph langchain-core sentence-transformers xgboost
 
 # COMMAND ----------
 
-# MAGIC %pip install langgraph langchain-core
+# Automatically restart Python to ensure typing_extensions updates are loaded cleanly
+try:
+    dbutils.library.restartPython()
+except Exception:
+    pass
 
 # COMMAND ----------
 
