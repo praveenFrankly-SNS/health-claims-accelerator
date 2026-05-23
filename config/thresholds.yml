@@ -8,7 +8,7 @@ fraud_weight_ml: 0.60
 fraud_weight_llm: 0.40
 
 # Agent 3
-coverage_similarity_threshold: 0.70
+coverage_similarity_threshold: 0.25
 
 # Agent 4
 reserve_p_band_low: 0.80
