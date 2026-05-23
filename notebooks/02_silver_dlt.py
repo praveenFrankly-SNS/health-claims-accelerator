@@ -83,10 +83,10 @@ except Exception as e:
 
 # Write to Silver Table
 print(f"Writing valid claims to {silver_table}")
-df_valid.write.format("delta").mode("overwrite").option("mergeSchema", "true").saveAsTable(silver_table)
+df_valid.write.format("delta").mode("overwrite").option("overwriteSchema", "true").saveAsTable(silver_table)
 
 # Write to Quarantine Table
 print(f"Writing invalid claims to {quarantine_table}")
-df_quarantine.write.format("delta").mode("overwrite").saveAsTable(quarantine_table)
+df_quarantine.write.format("delta").mode("overwrite").option("overwriteSchema", "true").saveAsTable(quarantine_table)
 
 print(f"Silver preparation complete. Valid: {df_valid.count()}, Quarantined: {df_quarantine.count()}")

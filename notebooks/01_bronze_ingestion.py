@@ -39,21 +39,26 @@ df_bronze.write.format("delta").mode("append").option("mergeSchema", "true").sav
 
 # COMMAND ----------
 
-# 2. Copy unstructured data to UC Volume
+# 2. Copy data to UC Volumes
 # In a real scenario, Auto Loader / external system would land files directly in the Volume.
-# Here, we copy our synthetic text files to the volume path.
+# Here, we copy our synthetic text files to the volume paths.
 # Databricks volume paths look like /Volumes/catalog/schema/volume/
-volume_path = f"/Volumes/{CATALOG_NAME}/{SCHEMA_NAME}/{VOLUME_NAME}/"
 
-# For local development simulation if /Volumes is not accessible directly in file system:
-print(f"Simulating copy of unstructured data to {volume_path}")
-try:
-    # If dbutils.fs is available, we copy to the volume
-    dbutils.fs.mkdirs(volume_path)
-    local_unstructured_dir = "file:" + os.path.abspath(f"{repo_root}/data/raw/unstructured")
-    dbutils.fs.cp(local_unstructured_dir, volume_path, recurse=True)
-    print("Files copied to Unity Catalog Volume successfully.")
-except Exception as e:
-    print(f"Could not copy files to volume (expected if running outside Databricks). {e}")
+volumes_to_copy = {
+    "raw_documents": f"file:{os.path.abspath(f'{repo_root}/data/raw/unstructured')}",
+    "policy_forms": f"file:{os.path.abspath(f'{repo_root}/data/policy_forms')}",
+    "synthetic_data": f"file:{os.path.abspath(f'{repo_root}/data/raw/structured')}"
+}
+
+for vol_name, local_dir in volumes_to_copy.items():
+    volume_path = f"/Volumes/{CATALOG_NAME}/{SCHEMA_NAME}/{vol_name}/"
+    print(f"Simulating copy of data to {volume_path}")
+    try:
+        # If dbutils.fs is available, we copy to the volume
+        dbutils.fs.mkdirs(volume_path)
+        dbutils.fs.cp(local_dir, volume_path, recurse=True)
+        print(f"Files copied to {vol_name} successfully.")
+    except Exception as e:
+        print(f"Could not copy files to {vol_name} (expected if running outside Databricks). {e}")
 
 print("Bronze ingestion complete.")
