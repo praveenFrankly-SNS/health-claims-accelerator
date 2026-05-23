@@ -34,7 +34,10 @@ class GenericLLMClient:
                     res_body = json.loads(response.read().decode('utf-8'))
                     return res_body.get("choices", [{}])[0].get("message", {}).get("content", "")
             except Exception as e:
-                print(f"[LLM Client] Databricks FMAPI Error: {e}")
+                if hasattr(e, 'code') and e.code == 404:
+                    print("[LLM Client] Info: Databricks FMAPI not available (Expected on Free Edition).")
+                else:
+                    print(f"[LLM Client] Databricks FMAPI Error: {e}")
                 
         # If we have OpenAI key (local testing)
         if self.openai_key:

@@ -38,21 +38,24 @@ def get_ml_fraud_score(claim_state: dict) -> float:
     extracted = claim_state.get("extracted_data", {})
     amount = float(extracted.get("claimed_amount", 0))
     
-    # Try to load the trained model
+    # Try to load the trained model (prioritize local pickle for Free Edition)
     model = None
-    try:
-        model = mlflow.xgboost.load_model("models:/health_claims_dev.claims.fraud_detection_xgboost/latest")
-    except Exception:
-        pass
-        
-    if model is None:
+    repo_root = "." if os.path.exists("./models") else ".."
+    local_model_path = f"{repo_root}/models/fraud_xgboost.pkl"
+    
+    if os.path.exists(local_model_path):
         try:
-            repo_root = "." if os.path.exists("./models") else ".."
-            with open(f"{repo_root}/models/fraud_xgboost.pkl", "rb") as f:
+            with open(local_model_path, "rb") as f:
                 model = pickle.load(f)
         except Exception as e:
-            print(f"[Agent 2] Could not load ML model: {e}")
-            return 0.1 # Fallback
+            print(f"[Agent 2] Could not load local ML model: {e}")
+    else:
+        try:
+            import logging
+            logging.getLogger("pyspark.sql.connect.client.core").setLevel(logging.CRITICAL)
+            model = mlflow.xgboost.load_model("models:/health_claims_dev.claims.fraud_detection_xgboost/latest")
+        except Exception:
+            print(f"[Agent 2] ML model not found locally or in MLflow. Please run 04a_train_fraud_model.py first!")
             
     # Need amount_to_premium_ratio, days_since_inception, claim_velocity
     # Since these are computed in Silver DLT, in a real streaming pipeline they'd be read from the DB.
