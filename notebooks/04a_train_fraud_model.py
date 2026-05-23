@@ -49,8 +49,8 @@ for f in features + [target]:
     if f not in df_silver.columns:
         df_silver[f] = 0
 
-X = df_silver[features]
-y = df_silver[target]
+X = df_silver[features].fillna(0)
+y = df_silver[target].fillna(0).astype(int)
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
