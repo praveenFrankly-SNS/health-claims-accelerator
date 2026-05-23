@@ -102,7 +102,7 @@ def agent3_coverage(claim_state: dict) -> dict:
     policy_number = extracted.get("policy_number", "UNKNOWN")
     diagnosis = extracted.get("diagnosis_icd_code", "UNKNOWN")
     hospital = extracted.get("hospital_name", "UNKNOWN")
-    plan_tier = extracted.get("plan_tier", "Silver")  # default to Silver
+    plan_tier = extracted.get("plan_tier", "Silver").capitalize()  # Ensure matches file casing like Premium.txt
     
     retrieval = retrieve_policy_chunks(policy_number, diagnosis, hospital, plan_tier)
     
