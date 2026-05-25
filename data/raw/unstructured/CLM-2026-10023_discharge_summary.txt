@@ -1,9 +1,19 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Manipal Hospital Bangalore
-        Patient: Patient 106 | Policy: POL-HLT-20106
-        Admitted: 2026-05-19 | Discharged: 2026-05-24
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 90
+        Policy Number: POL-HLT-20090
+        Admission Date: 2026-04-24
+        Discharge Date: 2026-04-30
+        Hospital: AIIMS New Delhi
         
-        Principal Diagnosis: Dengue Fever (A90)
-        Total Charges: 48665
+        Diagnosis: Appendectomy
+        ICD-10 Code: K35.80
         
-        Physician: Dr. B. Iyer, MC-5010
+        Course in the Hospital:
+        The patient presented with symptoms relating to Appendectomy. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 229724
+        
+        Attending Physician: Dr. R. Gupta (Reg No: MC-9973)

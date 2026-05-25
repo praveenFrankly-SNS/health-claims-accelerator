@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: Manipal Hospital Bangalore
-        Patient: Patient 135 | Policy: POL-HLT-20135
-        Admitted: 2024-09-12 | Discharged: 2024-09-19
+        Hospital: Fortis Healthcare Mumbai
+        Patient: Patient 185 | Policy: POL-HLT-20185
+        Admitted: 2026-05-23 | Discharged: 2026-05-27
         
-        Principal Diagnosis: Cataract Surgery (H25.9)
-        Total Charges: 74191
+        Principal Diagnosis: Appendectomy (K35.80)
+        Total Charges: 88269
         
-        Physician: Dr. A. Kumar, MC-9099
+        Physician: Dr. L. Rao, MC-7697

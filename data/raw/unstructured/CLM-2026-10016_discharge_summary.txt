@@ -1,9 +1,7 @@
-| Hospital       | City Clinic Chennai |
-        | Patient        | Patient 9 |
-        | Policy         | POL-HLT-20009 |
-        | Admitted       | 2026-05-24 |
-        | Discharged     | 2026-05-28 |
-        | Diagnosis      | Cataract Surgery |
-        | ICD-10         | H25.9 |
-        | Total Bill     | 64344 |
-        | Doctor         | Dr. M. Shah (Reg: MC-9346) |
+SUMMARY OF DISCHARGE
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 6 - POL-HLT-20006
+        From 2025-05-10 to 2025-05-18
+        Condition: Cataract Surgery [H25.9]
+        Bill: 75640
+        Physician: Dr. L. Rao (Reg No: MC-9606)

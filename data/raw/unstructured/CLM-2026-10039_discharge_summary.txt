@@ -1,7 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: Manipal Hospital Bangalore
-        Name: Patient 173 - POL-HLT-20173
-        From 2026-05-16 to 2026-05-19
-        Condition: Cataract Surgery [H25.9]
-        Bill: 54777
-        Physician: Dr. P. Singh (Reg No: MC-9379)
+HOSPITAL DISCHARGE RECORD
+        Hospital: Max Super Speciality Delhi
+        Patient: Patient 198 | Policy: POL-HLT-20198
+        Admitted: 2026-05-21 | Discharged: 2026-05-26
+        
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 48242
+        
+        Physician: Dr. L. Rao, MC-5369

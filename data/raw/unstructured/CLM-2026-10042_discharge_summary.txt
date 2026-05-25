@@ -1,7 +1,7 @@
 SUMMARY OF DISCHARGE
-        Location: Manipal Hospital Bangalore
-        Name: Patient 192 - POL-HLT-20192
-        From 2026-05-16 to 2026-05-23
-        Condition: Dengue Fever [A90]
-        Bill: 38452
-        Physician: Dr. K. Menon (Reg No: MC-2144)
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 118 - POL-HLT-20118
+        From 2026-04-19 to 2026-04-20
+        Condition: Knee Replacement [Z96.65]
+        Bill: 943365
+        Physician: Dr. L. Rao (Reg No: MC-7518)

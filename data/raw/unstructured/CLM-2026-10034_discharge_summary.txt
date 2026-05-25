@@ -1,19 +1,22 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 88
-        Policy Number: POL-HLT-20088
-        Admission Date: 2024-02-13
-        Discharge Date: 2024-02-19
-        Hospital: Apollo Hospital Coimbatore
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: AIIMS New Delhi
         
-        Diagnosis: Dengue Fever
-        ICD-10 Code: A90
+        PATIENT INFORMATION
+        Name: Patient 51
+        Insurance ID: POL-HLT-20051
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Dengue Fever. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-04-20
+        Date of Discharge: 2026-04-24
         
-        Final Bill Amount: INR 47856
+        CLINICAL FINDINGS
+        Diagnosis: Knee Replacement
+        ICD Reference: Z96.65
+        The patient was admitted and treated for the above condition.
         
-        Attending Physician: Dr. P. Singh (Reg No: MC-1359)
+        FINANCIAL
+        Total Incurred Amount: 776521 INR
+        
+        Signed: Dr. R. Gupta (MC-6702)

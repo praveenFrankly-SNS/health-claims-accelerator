@@ -1,9 +1,9 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Fortis Healthcare Mumbai
-        Patient: Patient 120 | Policy: POL-HLT-20120
-        Admitted: 2026-05-17 | Discharged: 2026-05-22
-        
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 263079
-        
-        Physician: Dr. B. Iyer, MC-4904
+| Hospital       | AIIMS New Delhi |
+        | Patient        | Patient 195 |
+        | Policy         | POL-HLT-20195 |
+        | Admitted       | 2024-10-29 |
+        | Discharged     | 2024-11-08 |
+        | Diagnosis      | Appendectomy |
+        | ICD-10         | K35.80 |
+        | Total Bill     | 107469 |
+        | Doctor         | Dr. R. Gupta (Reg: MC-9391) |

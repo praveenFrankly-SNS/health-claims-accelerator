@@ -1,22 +1,9 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: Manipal Hospital Bangalore
+HOSPITAL DISCHARGE RECORD
+        Hospital: City Clinic Chennai
+        Patient: Patient 168 | Policy: POL-HLT-20168
+        Admitted: 2026-05-20 | Discharged: 2026-05-28
         
-        PATIENT INFORMATION
-        Name: Patient 46
-        Insurance ID: POL-HLT-20046
+        Principal Diagnosis: Dengue Fever (A90)
+        Total Charges: 47247
         
-        ENCOUNTER DETAILS
-        Date of Admission: 2026-05-18
-        Date of Discharge: 2026-05-27
-        
-        CLINICAL FINDINGS
-        Diagnosis: Viral Pneumonia
-        ICD Reference: J12.9
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 74204 INR
-        
-        Signed: Dr. S. Reddy (MC-4577)
+        Physician: Dr. M. Shah, MC-6293

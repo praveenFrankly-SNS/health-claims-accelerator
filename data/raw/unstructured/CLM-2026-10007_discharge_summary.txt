@@ -1,7 +1,7 @@
 SUMMARY OF DISCHARGE
-        Location: Manipal Hospital Bangalore
-        Name: Patient 89 - POL-HLT-20089
-        From 2026-03-27 to 2026-04-06
-        Condition: Cataract Surgery [H25.9]
-        Bill: 117649
-        Physician: Dr. L. Rao (Reg No: MC-1400)
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 60 - POL-HLT-20060
+        From 2024-10-27 to 2024-11-03
+        Condition: Knee Replacement [Z96.65]
+        Bill: 270476
+        Physician: Dr. L. Rao (Reg No: MC-5235)

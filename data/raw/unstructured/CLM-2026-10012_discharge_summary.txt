@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: Manipal Hospital Bangalore
-        Patient: Patient 45 | Policy: POL-HLT-20045
-        Admitted: 2026-05-02 | Discharged: 2026-05-08
+        Hospital: Apollo Hospital Coimbatore
+        Patient: Patient 170 | Policy: POL-HLT-20170
+        Admitted: 2026-04-16 | Discharged: 2026-04-20
         
-        Principal Diagnosis: Viral Pneumonia (J12.9)
-        Total Charges: 185078
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 119004
         
-        Physician: Dr. M. Shah, MC-2043
+        Physician: Dr. L. Rao, MC-9522

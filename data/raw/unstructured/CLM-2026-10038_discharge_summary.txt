@@ -1,7 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: Fortis Healthcare Mumbai
-        Name: Patient 99 - POL-HLT-20099
-        From 2023-01-08 to 2023-01-12
-        Condition: Dengue Fever [A90]
-        Bill: 56336
-        Physician: Dr. M. Shah (Reg No: MC-6334)
+HOSPITAL DISCHARGE RECORD
+        Hospital: Manipal Hospital Bangalore
+        Patient: Patient 110 | Policy: POL-HLT-20110
+        Admitted: 2026-05-16 | Discharged: 2026-05-25
+        
+        Principal Diagnosis: Appendectomy (K35.80)
+        Total Charges: 73069
+        
+        Physician: Dr. B. Iyer, MC-6736

@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 65
-        Policy Number: POL-HLT-20065
-        Admission Date: 2026-05-17
-        Discharge Date: 2026-05-23
+HOSPITAL DISCHARGE RECORD
         Hospital: Manipal Hospital Bangalore
+        Patient: Patient 121 | Policy: POL-HLT-20121
+        Admitted: 2026-05-05 | Discharged: 2026-05-11
         
-        Diagnosis: Viral Pneumonia
-        ICD-10 Code: J12.9
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 128728
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Viral Pneumonia. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 72319
-        
-        Attending Physician: Dr. L. Rao (Reg No: MC-5544)
+        Physician: Dr. N. Verma, MC-8859

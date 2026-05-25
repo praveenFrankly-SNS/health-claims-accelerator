@@ -1,7 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: City Clinic Chennai
-        Name: Patient 43 - POL-HLT-20043
-        From 2026-05-15 to 2026-05-22
-        Condition: Knee Replacement [Z96.65]
-        Bill: 272525
-        Physician: Dr. K. Menon (Reg No: MC-4649)
+HOSPITAL DISCHARGE RECORD
+        Hospital: Fortis Healthcare Mumbai
+        Patient: Patient 175 | Policy: POL-HLT-20175
+        Admitted: 2026-05-13 | Discharged: 2026-05-22
+        
+        Principal Diagnosis: Dengue Fever (A90)
+        Total Charges: 47045
+        
+        Physician: Dr. B. Iyer, MC-7794

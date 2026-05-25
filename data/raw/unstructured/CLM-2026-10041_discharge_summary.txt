@@ -1,7 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: Fortis Healthcare Mumbai
-        Name: Patient 129 - POL-HLT-20129
-        From 2026-04-04 to 2026-04-13
-        Condition: Viral Pneumonia [J12.9]
-        Bill: 176771
-        Physician: Dr. R. Gupta (Reg No: MC-5839)
+| Hospital       | Fortis Healthcare Mumbai |
+        | Patient        | Patient 32 |
+        | Policy         | POL-HLT-20032 |
+        | Admitted       | 2024-10-03 |
+        | Discharged     | 2024-10-07 |
+        | Diagnosis      | Appendectomy |
+        | ICD-10         | K35.80 |
+        | Total Bill     | 91004 |
+        | Doctor         | Dr. P. Singh (Reg: MC-1155) |

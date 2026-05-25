@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 194
-        Policy Number: POL-HLT-20194
-        Admission Date: 2026-04-14
-        Discharge Date: 2026-04-18
-        Hospital: City Clinic Chennai
-        
-        Diagnosis: Knee Replacement
-        ICD-10 Code: Z96.65
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Knee Replacement. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 917854
-        
-        Attending Physician: Dr. N. Verma (Reg No: MC-9852)
+| Hospital       | Max Super Speciality Delhi |
+        | Patient        | Patient 143 |
+        | Policy         | POL-HLT-20143 |
+        | Admitted       | 2026-05-17 |
+        | Discharged     | 2026-05-21 |
+        | Diagnosis      | Knee Replacement |
+        | ICD-10         | Z96.65 |
+        | Total Bill     | 279032 |
+        | Doctor         | Dr. S. Reddy (Reg: MC-3262) |

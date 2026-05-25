@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: AIIMS New Delhi
-        Patient: Patient 142 | Policy: POL-HLT-20142
-        Admitted: 2026-04-30 | Discharged: 2026-05-02
+        Hospital: Manipal Hospital Bangalore
+        Patient: Patient 159 | Policy: POL-HLT-20159
+        Admitted: 2022-09-14 | Discharged: 2022-09-20
         
-        Principal Diagnosis: Dengue Fever (A90)
-        Total Charges: 70308
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 74786
         
-        Physician: Dr. N. Verma, MC-1649
+        Physician: Dr. S. Reddy, MC-2475

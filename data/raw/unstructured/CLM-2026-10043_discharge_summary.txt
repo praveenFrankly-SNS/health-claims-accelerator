@@ -1,22 +1,9 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: Max Super Speciality Delhi
-        
-        PATIENT INFORMATION
-        Name: Patient 63
-        Insurance ID: POL-HLT-20063
-        
-        ENCOUNTER DETAILS
-        Date of Admission: 2026-04-25
-        Date of Discharge: 2026-04-27
-        
-        CLINICAL FINDINGS
-        Diagnosis: Dengue Fever
-        ICD Reference: A90
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 62977 INR
-        
-        Signed: Dr. B. Iyer (MC-8727)
+| Hospital       | Manipal Hospital Bangalore |
+        | Patient        | Patient 129 |
+        | Policy         | POL-HLT-20129 |
+        | Admitted       | 2026-03-27 |
+        | Discharged     | 2026-03-31 |
+        | Diagnosis      | Cataract Surgery |
+        | ICD-10         | H25.9 |
+        | Total Bill     | 133150 |
+        | Doctor         | Dr. L. Rao (Reg: MC-7025) |

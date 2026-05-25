@@ -1,19 +1,22 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 100
-        Policy Number: POL-HLT-20100
-        Admission Date: 2026-05-18
-        Discharge Date: 2026-05-24
-        Hospital: AIIMS New Delhi
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Manipal Hospital Bangalore
         
+        PATIENT INFORMATION
+        Name: Patient 84
+        Insurance ID: POL-HLT-20084
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-04-25
+        Date of Discharge: 2026-04-29
+        
+        CLINICAL FINDINGS
         Diagnosis: Cataract Surgery
-        ICD-10 Code: H25.9
+        ICD Reference: H25.9
+        The patient was admitted and treated for the above condition.
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Cataract Surgery. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
+        FINANCIAL
+        Total Incurred Amount: 91973 INR
         
-        Final Bill Amount: INR 55389
-        
-        Attending Physician: Dr. N. Verma (Reg No: MC-9709)
+        Signed: Dr. R. Gupta (MC-8581)

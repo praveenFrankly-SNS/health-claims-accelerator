@@ -1,7 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: City Clinic Chennai
-        Name: Patient 96 - POL-HLT-20096
-        From 2026-05-22 to 2026-05-30
-        Condition: Knee Replacement [Z96.65]
-        Bill: 272204
-        Physician: Dr. K. Menon (Reg No: MC-9970)
+HOSPITAL DISCHARGE RECORD
+        Hospital: City Clinic Chennai
+        Patient: Patient 107 | Policy: POL-HLT-20107
+        Admitted: 2026-05-19 | Discharged: 2026-05-25
+        
+        Principal Diagnosis: Viral Pneumonia (J12.9)
+        Total Charges: 79394
+        
+        Physician: Dr. H. Patel, MC-9721

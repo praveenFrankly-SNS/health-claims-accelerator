@@ -1,9 +1,7 @@
-| Hospital       | Manipal Hospital Bangalore |
-        | Patient        | Patient 35 |
-        | Policy         | POL-HLT-20035 |
-        | Admitted       | 2026-05-21 |
-        | Discharged     | 2026-05-23 |
-        | Diagnosis      | Appendectomy |
-        | ICD-10         | K35.80 |
-        | Total Bill     | 73152 |
-        | Doctor         | Dr. L. Rao (Reg: MC-8759) |
+SUMMARY OF DISCHARGE
+        Location: Max Super Speciality Delhi
+        Name: Patient 177 - POL-HLT-20177
+        From 2026-05-23 to 2026-05-29
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 71933
+        Physician: Dr. L. Rao (Reg No: MC-2424)

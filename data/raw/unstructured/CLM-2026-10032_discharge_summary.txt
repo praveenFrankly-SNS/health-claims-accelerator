@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 103
-        Policy Number: POL-HLT-20103
-        Admission Date: 2024-03-10
-        Discharge Date: 2024-03-12
-        Hospital: Max Super Speciality Delhi
-        
-        Diagnosis: Cataract Surgery
-        ICD-10 Code: H25.9
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Cataract Surgery. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 61577
-        
-        Attending Physician: Dr. M. Shah (Reg No: MC-3080)
+| Hospital       | Manipal Hospital Bangalore |
+        | Patient        | Patient 196 |
+        | Policy         | POL-HLT-20196 |
+        | Admitted       | 2026-04-12 |
+        | Discharged     | 2026-04-13 |
+        | Diagnosis      | Cataract Surgery |
+        | ICD-10         | H25.9 |
+        | Total Bill     | 111152 |
+        | Doctor         | Dr. H. Patel (Reg: MC-6628) |

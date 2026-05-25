@@ -1,7 +1,22 @@
-SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 3 - POL-HLT-20003
-        From 2026-05-24 to 2026-05-26
-        Condition: Appendectomy [K35.80]
-        Bill: 79128
-        Physician: Dr. K. Menon (Reg No: MC-2265)
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Max Super Speciality Delhi
+        
+        PATIENT INFORMATION
+        Name: Patient 33
+        Insurance ID: POL-HLT-20033
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2023-03-06
+        Date of Discharge: 2023-03-14
+        
+        CLINICAL FINDINGS
+        Diagnosis: Appendectomy
+        ICD Reference: K35.80
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 106656 INR
+        
+        Signed: Dr. M. Shah (MC-1787)

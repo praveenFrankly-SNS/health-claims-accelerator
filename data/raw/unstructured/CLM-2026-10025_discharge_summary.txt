@@ -1,22 +1,9 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: Apollo Hospital Coimbatore
-        
-        PATIENT INFORMATION
-        Name: Patient 175
-        Insurance ID: POL-HLT-20175
-        
-        ENCOUNTER DETAILS
-        Date of Admission: 2026-05-19
-        Date of Discharge: 2026-05-26
-        
-        CLINICAL FINDINGS
-        Diagnosis: Cataract Surgery
-        ICD Reference: H25.9
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 47823 INR
-        
-        Signed: Dr. R. Gupta (MC-2153)
+| Hospital       | Max Super Speciality Delhi |
+        | Patient        | Patient 93 |
+        | Policy         | POL-HLT-20093 |
+        | Admitted       | 2026-04-14 |
+        | Discharged     | 2026-04-16 |
+        | Diagnosis      | Cataract Surgery |
+        | ICD-10         | H25.9 |
+        | Total Bill     | 101823 |
+        | Doctor         | Dr. A. Kumar (Reg: MC-8872) |

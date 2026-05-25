@@ -1,9 +1,22 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Fortis Healthcare Mumbai
-        Patient: Patient 123 | Policy: POL-HLT-20123
-        Admitted: 2026-04-24 | Discharged: 2026-04-28
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: City Clinic Chennai
         
-        Principal Diagnosis: Cataract Surgery (H25.9)
-        Total Charges: 131678
+        PATIENT INFORMATION
+        Name: Patient 15
+        Insurance ID: POL-HLT-20015
         
-        Physician: Dr. N. Verma, MC-3437
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-03-31
+        Date of Discharge: 2026-04-08
+        
+        CLINICAL FINDINGS
+        Diagnosis: Cataract Surgery
+        ICD Reference: H25.9
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 110842 INR
+        
+        Signed: Dr. R. Gupta (MC-1131)

@@ -1,9 +1,22 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 21 | Policy: POL-HLT-20021
-        Admitted: 2026-04-14 | Discharged: 2026-04-19
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Fortis Healthcare Mumbai
         
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 718800
+        PATIENT INFORMATION
+        Name: Patient 181
+        Insurance ID: POL-HLT-20181
         
-        Physician: Dr. L. Rao, MC-9397
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-01
+        Date of Discharge: 2026-05-05
+        
+        CLINICAL FINDINGS
+        Diagnosis: Dengue Fever
+        ICD Reference: A90
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 73487 INR
+        
+        Signed: Dr. H. Patel (MC-8975)

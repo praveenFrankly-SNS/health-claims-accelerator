@@ -1,9 +1,9 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: City Clinic Chennai
-        Patient: Patient 171 | Policy: POL-HLT-20171
-        Admitted: 2024-12-12 | Discharged: 2024-12-19
-        
-        Principal Diagnosis: Appendectomy (K35.80)
-        Total Charges: 81745
-        
-        Physician: Dr. L. Rao, MC-6313
+| Hospital       | Max Super Speciality Delhi |
+        | Patient        | Patient 137 |
+        | Policy         | POL-HLT-20137 |
+        | Admitted       | 2026-05-17 |
+        | Discharged     | 2026-05-25 |
+        | Diagnosis      | Viral Pneumonia |
+        | ICD-10         | J12.9 |
+        | Total Bill     | 77772 |
+        | Doctor         | Dr. L. Rao (Reg: MC-7104) |

@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: Manipal Hospital Bangalore
-        Patient: Patient 157 | Policy: POL-HLT-20157
-        Admitted: 2026-03-31 | Discharged: 2026-04-03
+        Hospital: AIIMS New Delhi
+        Patient: Patient 27 | Policy: POL-HLT-20027
+        Admitted: 2026-04-23 | Discharged: 2026-04-28
         
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 998861
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 93399
         
-        Physician: Dr. B. Iyer, MC-2602
+        Physician: Dr. H. Patel, MC-6847

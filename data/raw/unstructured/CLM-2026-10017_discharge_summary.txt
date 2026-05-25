@@ -1,9 +1,9 @@
-| Hospital       | AIIMS New Delhi |
-        | Patient        | Patient 1 |
-        | Policy         | POL-HLT-20001 |
-        | Admitted       | 2026-05-12 |
-        | Discharged     | 2026-05-15 |
-        | Diagnosis      | Knee Replacement |
-        | ICD-10         | Z96.65 |
-        | Total Bill     | 270769 |
-        | Doctor         | Dr. P. Singh (Reg: MC-1906) |
+| Hospital       | Manipal Hospital Bangalore |
+        | Patient        | Patient 95 |
+        | Policy         | POL-HLT-20095 |
+        | Admitted       | 2026-04-27 |
+        | Discharged     | 2026-04-29 |
+        | Diagnosis      | Cataract Surgery |
+        | ICD-10         | H25.9 |
+        | Total Bill     | 98324 |
+        | Doctor         | Dr. A. Kumar (Reg: MC-3479) |

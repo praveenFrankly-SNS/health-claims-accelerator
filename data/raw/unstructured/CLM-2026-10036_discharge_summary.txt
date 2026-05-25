@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 122 | Policy: POL-HLT-20122
-        Admitted: 2026-05-16 | Discharged: 2026-05-22
+        Hospital: AIIMS New Delhi
+        Patient: Patient 108 | Policy: POL-HLT-20108
+        Admitted: 2022-04-26 | Discharged: 2022-04-27
         
-        Principal Diagnosis: Dengue Fever (A90)
-        Total Charges: 54353
+        Principal Diagnosis: Appendectomy (K35.80)
+        Total Charges: 104379
         
-        Physician: Dr. L. Rao, MC-2012
+        Physician: Dr. P. Singh, MC-9106

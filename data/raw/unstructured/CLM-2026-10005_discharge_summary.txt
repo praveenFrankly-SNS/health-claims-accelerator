@@ -1,9 +1,7 @@
-| Hospital       | AIIMS New Delhi |
-        | Patient        | Patient 24 |
-        | Policy         | POL-HLT-20024 |
-        | Admitted       | 2026-04-11 |
-        | Discharged     | 2026-04-20 |
-        | Diagnosis      | Viral Pneumonia |
-        | ICD-10         | J12.9 |
-        | Total Bill     | 146002 |
-        | Doctor         | Dr. B. Iyer (Reg: MC-5978) |
+SUMMARY OF DISCHARGE
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 15 - POL-HLT-20015
+        From 2022-10-26 to 2022-10-31
+        Condition: Knee Replacement [Z96.65]
+        Bill: 274183
+        Physician: Dr. N. Verma (Reg No: MC-6762)

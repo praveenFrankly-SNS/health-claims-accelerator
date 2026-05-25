@@ -1,7 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 187 - POL-HLT-20187
-        From 2026-05-23 to 2026-05-29
-        Condition: Knee Replacement [Z96.65]
-        Bill: 261846
-        Physician: Dr. P. Singh (Reg No: MC-9226)
+| Hospital       | Fortis Healthcare Mumbai |
+        | Patient        | Patient 10 |
+        | Policy         | POL-HLT-20010 |
+        | Admitted       | 2023-07-11 |
+        | Discharged     | 2023-07-13 |
+        | Diagnosis      | Viral Pneumonia |
+        | ICD-10         | J12.9 |
+        | Total Bill     | 82996 |
+        | Doctor         | Dr. K. Menon (Reg: MC-4439) |

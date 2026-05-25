@@ -1,9 +1,7 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 163 | Policy: POL-HLT-20163
-        Admitted: 2023-03-12 | Discharged: 2023-03-19
-        
-        Principal Diagnosis: Cataract Surgery (H25.9)
-        Total Charges: 63403
-        
-        Physician: Dr. K. Menon, MC-9521
+SUMMARY OF DISCHARGE
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 102 - POL-HLT-20102
+        From 2026-05-22 to 2026-06-01
+        Condition: Dengue Fever [A90]
+        Bill: 52918
+        Physician: Dr. M. Shah (Reg No: MC-8993)
