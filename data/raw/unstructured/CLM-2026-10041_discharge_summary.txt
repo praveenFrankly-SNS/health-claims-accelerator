@@ -1,9 +1,9 @@
-| Hospital       | Apollo Hospital Coimbatore |
-        | Patient        | Patient 152 |
-        | Policy         | POL-HLT-20152 |
-        | Admitted       | 2026-05-23 |
-        | Discharged     | 2026-05-24 |
-        | Diagnosis      | Cataract Surgery |
-        | ICD-10         | H25.9 |
-        | Total Bill     | 57072 |
-        | Doctor         | Dr. K. Menon (Reg: MC-9509) |
+HOSPITAL DISCHARGE RECORD
+        Hospital: Max Super Speciality Delhi
+        Patient: Patient 183 | Policy: POL-HLT-20183
+        Admitted: 2024-09-02 | Discharged: 2024-09-12
+        
+        Principal Diagnosis: Dengue Fever (A90)
+        Total Charges: 67145
+        
+        Physician: Dr. P. Singh, MC-5476

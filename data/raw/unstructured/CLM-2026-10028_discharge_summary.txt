@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: City Clinic Chennai
-        Patient: Patient 111 | Policy: POL-HLT-20111
-        Admitted: 2026-04-13 | Discharged: 2026-04-15
+        Hospital: Max Super Speciality Delhi
+        Patient: Patient 57 | Policy: POL-HLT-20057
+        Admitted: 2023-07-05 | Discharged: 2023-07-10
         
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 682476
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 69721
         
-        Physician: Dr. A. Kumar, MC-7202
+        Physician: Dr. R. Gupta, MC-3670

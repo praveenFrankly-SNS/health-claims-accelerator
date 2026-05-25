@@ -1,22 +1,7 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: Fortis Healthcare Mumbai
-        
-        PATIENT INFORMATION
-        Name: Patient 63
-        Insurance ID: POL-HLT-20063
-        
-        ENCOUNTER DETAILS
-        Date of Admission: 2026-05-22
-        Date of Discharge: 2026-05-27
-        
-        CLINICAL FINDINGS
-        Diagnosis: Knee Replacement
-        ICD Reference: Z96.65
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 296246 INR
-        
-        Signed: Dr. M. Shah (MC-3691)
+SUMMARY OF DISCHARGE
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 49 - POL-HLT-20049
+        From 2026-05-05 to 2026-05-12
+        Condition: Appendectomy [K35.80]
+        Bill: 227980
+        Physician: Dr. R. Gupta (Reg No: MC-8707)

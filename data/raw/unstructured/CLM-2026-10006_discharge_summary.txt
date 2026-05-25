@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: City Clinic Chennai
-        Patient: Patient 39 | Policy: POL-HLT-20039
-        Admitted: 2026-05-21 | Discharged: 2026-05-22
+        Hospital: Max Super Speciality Delhi
+        Patient: Patient 70 | Policy: POL-HLT-20070
+        Admitted: 2023-11-22 | Discharged: 2023-11-28
         
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 269422
+        Principal Diagnosis: Dengue Fever (A90)
+        Total Charges: 57499
         
-        Physician: Dr. N. Verma, MC-9869
+        Physician: Dr. P. Singh, MC-2816

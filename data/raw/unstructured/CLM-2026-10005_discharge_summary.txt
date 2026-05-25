@@ -1,9 +1,9 @@
 DISCHARGE SUMMARY
         -----------------
-        Patient Name: Patient 19
-        Policy Number: POL-HLT-20019
-        Admission Date: 2026-05-21
-        Discharge Date: 2026-05-25
+        Patient Name: Patient 191
+        Policy Number: POL-HLT-20191
+        Admission Date: 2026-05-22
+        Discharge Date: 2026-05-29
         Hospital: AIIMS New Delhi
         
         Diagnosis: Dengue Fever
@@ -14,6 +14,6 @@ DISCHARGE SUMMARY
         Routine investigations were carried out. The patient was managed conservatively/surgically 
         and responded well to the treatment.
         
-        Final Bill Amount: INR 42757
+        Final Bill Amount: INR 45912
         
-        Attending Physician: Dr. P. Singh (Reg No: MC-8496)
+        Attending Physician: Dr. L. Rao (Reg No: MC-4200)

@@ -1,9 +1,9 @@
-| Hospital       | Apollo Hospital Coimbatore |
-        | Patient        | Patient 22 |
-        | Policy         | POL-HLT-20022 |
-        | Admitted       | 2026-04-26 |
-        | Discharged     | 2026-04-27 |
-        | Diagnosis      | Cataract Surgery |
-        | ICD-10         | H25.9 |
-        | Total Bill     | 136837 |
-        | Doctor         | Dr. M. Shah (Reg: MC-1876) |
+HOSPITAL DISCHARGE RECORD
+        Hospital: Manipal Hospital Bangalore
+        Patient: Patient 110 | Policy: POL-HLT-20110
+        Admitted: 2026-05-01 | Discharged: 2026-05-10
+        
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 128905
+        
+        Physician: Dr. H. Patel, MC-7826

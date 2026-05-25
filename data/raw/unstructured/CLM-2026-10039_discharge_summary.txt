@@ -1,22 +1,7 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: City Clinic Chennai
-        
-        PATIENT INFORMATION
-        Name: Patient 55
-        Insurance ID: POL-HLT-20055
-        
-        ENCOUNTER DETAILS
-        Date of Admission: 2026-04-28
-        Date of Discharge: 2026-05-01
-        
-        CLINICAL FINDINGS
-        Diagnosis: Appendectomy
-        ICD Reference: K35.80
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 210619 INR
-        
-        Signed: Dr. M. Shah (MC-8093)
+SUMMARY OF DISCHARGE
+        Location: Max Super Speciality Delhi
+        Name: Patient 42 - POL-HLT-20042
+        From 2026-03-30 to 2026-04-02
+        Condition: Dengue Fever [A90]
+        Bill: 96349
+        Physician: Dr. H. Patel (Reg No: MC-7473)

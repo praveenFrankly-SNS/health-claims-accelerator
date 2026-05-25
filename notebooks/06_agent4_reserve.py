@@ -150,7 +150,7 @@ def agent4_reserve(claim_state: dict) -> dict:
 # COMMAND ----------
 
 if __name__ == "__main__":
-    test_state = {"claim_id": "CLM-2026-10000", "extracted_data": {"claimed_amount": 50000, "diagnosis_icd_code": "J12.9"}, "coverage": {"coverage_status": "COVERED"}}
+    test_state = {"claim_id": "CLM-2026-10000", "extracted_data": {"claimed_amount": 50000, "diagnosis_icd": "J12.9"}, "coverage": {"coverage_status": "COVERED"}}
     res = agent4_reserve(test_state)
     import json
     print(json.dumps(res, indent=2))

@@ -1,7 +1,19 @@
-SUMMARY OF DISCHARGE
-        Location: Manipal Hospital Bangalore
-        Name: Patient 175 - POL-HLT-20175
-        From 2026-03-29 to 2026-04-04
-        Condition: Dengue Fever [A90]
-        Bill: 66546
-        Physician: Dr. M. Shah (Reg No: MC-6702)
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 142
+        Policy Number: POL-HLT-20142
+        Admission Date: 2026-04-22
+        Discharge Date: 2026-04-29
+        Hospital: Fortis Healthcare Mumbai
+        
+        Diagnosis: Knee Replacement
+        ICD-10 Code: Z96.65
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Knee Replacement. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 977283
+        
+        Attending Physician: Dr. N. Verma (Reg No: MC-4769)

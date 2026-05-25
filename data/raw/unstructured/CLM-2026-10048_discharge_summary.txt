@@ -1,9 +1,7 @@
-| Hospital       | City Clinic Chennai |
-        | Patient        | Patient 101 |
-        | Policy         | POL-HLT-20101 |
-        | Admitted       | 2026-05-19 |
-        | Discharged     | 2026-05-21 |
-        | Diagnosis      | Appendectomy |
-        | ICD-10         | K35.80 |
-        | Total Bill     | 83680 |
-        | Doctor         | Dr. M. Shah (Reg: MC-4538) |
+SUMMARY OF DISCHARGE
+        Location: Max Super Speciality Delhi
+        Name: Patient 96 - POL-HLT-20096
+        From 2025-06-07 to 2025-06-12
+        Condition: Appendectomy [K35.80]
+        Bill: 93597
+        Physician: Dr. M. Shah (Reg No: MC-6473)

@@ -1,22 +1,9 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: City Clinic Chennai
-        
-        PATIENT INFORMATION
-        Name: Patient 22
-        Insurance ID: POL-HLT-20022
-        
-        ENCOUNTER DETAILS
-        Date of Admission: 2023-08-02
-        Date of Discharge: 2023-08-11
-        
-        CLINICAL FINDINGS
-        Diagnosis: Cataract Surgery
-        ICD Reference: H25.9
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 69398 INR
-        
-        Signed: Dr. N. Verma (MC-8934)
+| Hospital       | AIIMS New Delhi |
+        | Patient        | Patient 26 |
+        | Policy         | POL-HLT-20026 |
+        | Admitted       | 2023-08-21 |
+        | Discharged     | 2023-08-27 |
+        | Diagnosis      | Cataract Surgery |
+        | ICD-10         | H25.9 |
+        | Total Bill     | 63523 |
+        | Doctor         | Dr. K. Menon (Reg: MC-7074) |

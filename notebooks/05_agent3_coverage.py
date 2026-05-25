@@ -61,31 +61,61 @@ def retrieve_policy_chunks(policy_number: str, diagnosis: str, hospital: str, pl
     
     query = f"diagnosis {diagnosis} hospital {hospital}"
     
+    vs_success = False
     try:
-        from sentence_transformers import SentenceTransformer
-        from sklearn.metrics.pairwise import cosine_similarity
-        import numpy as np
+        from databricks.vector_search.client import VectorSearchClient
+        vsc = VectorSearchClient()
         
-        # Disable HuggingFace progress bars to prevent Databricks widget spam
-        os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
+        endpoint_name = "health_claims_vs_endpoint"
+        index_name = "health_claims_dev.claims.policy_forms_index"
         
-        # Load a small local model to simulate Vector Search embeddings
-        model = SentenceTransformer('all-MiniLM-L6-v2')
-        section_texts = [s["text"] for s in sections]
-        embeddings = model.encode(section_texts)
-        query_embedding = model.encode([query])
+        # This will fail gracefully in the free version if endpoint is missing/not running
+        index = vsc.get_index(endpoint_name, index_name)
         
-        similarities = cosine_similarity(query_embedding, embeddings)[0]
-        best_idx = np.argmax(similarities)
-        max_sim = float(similarities[best_idx])
+        results = index.similarity_search(
+            query_text=query,
+            columns=["id", "text"],
+            num_results=3
+        )
         
-        # We will return all chunks for context, but note the top similarity for the hallucination guard
-        # In a real RAG, we'd only return chunks above the threshold.
-        # Here we just want to ensure we have a realistic score.
-    except ImportError:
-        # Fallback if sentence-transformers is not installed
-        print("Warning: sentence-transformers not installed. Using simulated similarity score.")
-        max_sim = 0.85 if "pneumonia" in diagnosis.lower() or "j1" in diagnosis.lower() else 0.65
+        # Parse Databricks VS results (usually contains 'result' -> 'data_array')
+        if "result" in results and "data_array" in results["result"]:
+            data_array = results["result"]["data_array"]
+            if len(data_array) > 0:
+                # Assuming score is returned as the last element in the array
+                max_sim = float(data_array[0][-1])
+                vs_success = True
+                print(f"Successfully retrieved chunks from Databricks Vector Search. Max similarity: {max_sim}")
+                
+    except Exception as e:
+        print(f"Notice: Databricks Vector Search unavailable or failed ({e}). Falling back to local RAG simulation.")
+        
+    if not vs_success:
+        try:
+            from sentence_transformers import SentenceTransformer
+            from sklearn.metrics.pairwise import cosine_similarity
+            import numpy as np
+            
+            # Disable HuggingFace progress bars to prevent Databricks widget spam
+            os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
+            
+            # Load a small local model to simulate Vector Search embeddings
+            model = SentenceTransformer('all-MiniLM-L6-v2')
+            section_texts = [s["text"] for s in sections]
+            embeddings = model.encode(section_texts)
+            query_embedding = model.encode([query])
+            
+            similarities = cosine_similarity(query_embedding, embeddings)[0]
+            best_idx = np.argmax(similarities)
+            max_sim = float(similarities[best_idx])
+            
+            # We will return all chunks for context, but note the top similarity for the hallucination guard
+            # In a real RAG, we'd only return chunks above the threshold.
+            # Here we just want to ensure we have a realistic score.
+        except ImportError:
+            # Fallback if sentence-transformers is not installed
+            print("Warning: sentence-transformers not installed. Using simulated similarity score.")
+            max_sim = 0.85 if "pneumonia" in diagnosis.lower() or "j1" in diagnosis.lower() else 0.65
         
     policy_text = "\n".join([f"{s['id']} - {s['text']}" for s in sections])
     return {
@@ -182,6 +212,6 @@ def agent3_coverage(claim_state: dict) -> dict:
 
 # Standalone Test
 if __name__ == "__main__":
-    test_state = {"claim_id": "CLM-2026-10000", "extracted_data": {"policy_number": "POL-123", "claimed_amount": 50000, "diagnosis_icd_code": "J18.9", "hospital_name": "Apollo"}}
+    test_state = {"claim_id": "CLM-2026-10000", "extracted_data": {"policy_number": "POL-123", "claimed_amount": 50000, "diagnosis_icd": "J18.9", "hospital_name": "Apollo"}}
     res = agent3_coverage(test_state)
     print(json.dumps(res, indent=2))

@@ -1,9 +1,7 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 177 | Policy: POL-HLT-20177
-        Admitted: 2026-05-22 | Discharged: 2026-05-24
-        
-        Principal Diagnosis: Viral Pneumonia (J12.9)
-        Total Charges: 77748
-        
-        Physician: Dr. N. Verma, MC-9887
+SUMMARY OF DISCHARGE
+        Location: Max Super Speciality Delhi
+        Name: Patient 141 - POL-HLT-20141
+        From 2025-01-04 to 2025-01-11
+        Condition: Cataract Surgery [H25.9]
+        Bill: 83226
+        Physician: Dr. S. Reddy (Reg No: MC-2832)

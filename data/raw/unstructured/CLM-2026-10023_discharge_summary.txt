@@ -1,22 +1,9 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: AIIMS New Delhi
+HOSPITAL DISCHARGE RECORD
+        Hospital: AIIMS New Delhi
+        Patient: Patient 4 | Policy: POL-HLT-20004
+        Admitted: 2026-04-05 | Discharged: 2026-04-07
         
-        PATIENT INFORMATION
-        Name: Patient 160
-        Insurance ID: POL-HLT-20160
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 95896
         
-        ENCOUNTER DETAILS
-        Date of Admission: 2024-05-08
-        Date of Discharge: 2024-05-12
-        
-        CLINICAL FINDINGS
-        Diagnosis: Knee Replacement
-        ICD Reference: Z96.65
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 298991 INR
-        
-        Signed: Dr. N. Verma (MC-7129)
+        Physician: Dr. H. Patel, MC-1937

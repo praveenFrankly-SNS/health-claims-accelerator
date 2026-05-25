@@ -1,9 +1,9 @@
-| Hospital       | Max Super Speciality Delhi |
-        | Patient        | Patient 132 |
-        | Policy         | POL-HLT-20132 |
-        | Admitted       | 2026-05-24 |
-        | Discharged     | 2026-05-31 |
-        | Diagnosis      | Viral Pneumonia |
-        | ICD-10         | J12.9 |
-        | Total Bill     | 68183 |
-        | Doctor         | Dr. B. Iyer (Reg: MC-2062) |
+| Hospital       | Manipal Hospital Bangalore |
+        | Patient        | Patient 82 |
+        | Policy         | POL-HLT-20082 |
+        | Admitted       | 2026-05-20 |
+        | Discharged     | 2026-05-29 |
+        | Diagnosis      | Knee Replacement |
+        | ICD-10         | Z96.65 |
+        | Total Bill     | 269079 |
+        | Doctor         | Dr. S. Reddy (Reg: MC-7684) |

@@ -1,7 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 35 - POL-HLT-20035
-        From 2026-04-29 to 2026-05-01
-        Condition: Cataract Surgery [H25.9]
-        Bill: 130160
-        Physician: Dr. R. Gupta (Reg No: MC-1080)
+HOSPITAL DISCHARGE RECORD
+        Hospital: Manipal Hospital Bangalore
+        Patient: Patient 44 | Policy: POL-HLT-20044
+        Admitted: 2026-04-13 | Discharged: 2026-04-14
+        
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 121346
+        
+        Physician: Dr. N. Verma, MC-3215

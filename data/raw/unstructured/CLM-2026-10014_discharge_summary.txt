@@ -1,9 +1,9 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 198 | Policy: POL-HLT-20198
-        Admitted: 2023-01-10 | Discharged: 2023-01-15
-        
-        Principal Diagnosis: Dengue Fever (A90)
-        Total Charges: 72084
-        
-        Physician: Dr. L. Rao, MC-3342
+| Hospital       | Max Super Speciality Delhi |
+        | Patient        | Patient 134 |
+        | Policy         | POL-HLT-20134 |
+        | Admitted       | 2023-10-09 |
+        | Discharged     | 2023-10-19 |
+        | Diagnosis      | Appendectomy |
+        | ICD-10         | K35.80 |
+        | Total Bill     | 80727 |
+        | Doctor         | Dr. S. Reddy (Reg: MC-1744) |

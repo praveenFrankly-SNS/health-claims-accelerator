@@ -1,1 +1,8 @@
+# Python ignores
+__pycache__/
+*.pyc
+.env
+data/raw/unstructured/*.txt
+models/*.pkl
+
 /docs/

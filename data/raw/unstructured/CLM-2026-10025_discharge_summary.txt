@@ -1,9 +1,7 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Apollo Hospital Coimbatore
-        Patient: Patient 104 | Policy: POL-HLT-20104
-        Admitted: 2026-05-20 | Discharged: 2026-05-24
-        
-        Principal Diagnosis: Cataract Surgery (H25.9)
-        Total Charges: 64741
-        
-        Physician: Dr. P. Singh, MC-1243
+SUMMARY OF DISCHARGE
+        Location: Max Super Speciality Delhi
+        Name: Patient 47 - POL-HLT-20047
+        From 2025-06-10 to 2025-06-19
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 97780
+        Physician: Dr. P. Singh (Reg No: MC-9145)

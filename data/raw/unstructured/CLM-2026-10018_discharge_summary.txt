@@ -1,7 +1,22 @@
-SUMMARY OF DISCHARGE
-        Location: Fortis Healthcare Mumbai
-        Name: Patient 139 - POL-HLT-20139
-        From 2023-02-06 to 2023-02-16
-        Condition: Knee Replacement [Z96.65]
-        Bill: 278494
-        Physician: Dr. S. Reddy (Reg No: MC-1820)
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Apollo Hospital Coimbatore
+        
+        PATIENT INFORMATION
+        Name: Patient 86
+        Insurance ID: POL-HLT-20086
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-17
+        Date of Discharge: 2026-05-21
+        
+        CLINICAL FINDINGS
+        Diagnosis: Knee Replacement
+        ICD Reference: Z96.65
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 264439 INR
+        
+        Signed: Dr. A. Kumar (MC-5217)

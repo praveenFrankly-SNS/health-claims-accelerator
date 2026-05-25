@@ -1,9 +1,19 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 147 | Policy: POL-HLT-20147
-        Admitted: 2026-05-17 | Discharged: 2026-05-19
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 120
+        Policy Number: POL-HLT-20120
+        Admission Date: 2026-05-23
+        Discharge Date: 2026-06-01
+        Hospital: City Clinic Chennai
         
-        Principal Diagnosis: Dengue Fever (A90)
-        Total Charges: 35042
+        Diagnosis: Cataract Surgery
+        ICD-10 Code: H25.9
         
-        Physician: Dr. A. Kumar, MC-3961
+        Course in the Hospital:
+        The patient presented with symptoms relating to Cataract Surgery. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 49759
+        
+        Attending Physician: Dr. R. Gupta (Reg No: MC-9682)

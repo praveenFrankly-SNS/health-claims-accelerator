@@ -1,9 +1,7 @@
-| Hospital       | Max Super Speciality Delhi |
-        | Patient        | Patient 70 |
-        | Policy         | POL-HLT-20070 |
-        | Admitted       | 2024-09-09 |
-        | Discharged     | 2024-09-11 |
-        | Diagnosis      | Viral Pneumonia |
-        | ICD-10         | J12.9 |
-        | Total Bill     | 90214 |
-        | Doctor         | Dr. K. Menon (Reg: MC-1752) |
+SUMMARY OF DISCHARGE
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 138 - POL-HLT-20138
+        From 2026-05-01 to 2026-05-04
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 133795
+        Physician: Dr. B. Iyer (Reg No: MC-5506)

@@ -1,19 +1,7 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 42
-        Policy Number: POL-HLT-20042
-        Admission Date: 2026-05-18
-        Discharge Date: 2026-05-27
-        Hospital: Apollo Hospital Coimbatore
-        
-        Diagnosis: Appendectomy
-        ICD-10 Code: K35.80
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Appendectomy. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 80958
-        
-        Attending Physician: Dr. N. Verma (Reg No: MC-4108)
+SUMMARY OF DISCHARGE
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 104 - POL-HLT-20104
+        From 2026-05-17 to 2026-05-18
+        Condition: Appendectomy [K35.80]
+        Bill: 87631
+        Physician: Dr. A. Kumar (Reg No: MC-7704)

@@ -1,9 +1,22 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: AIIMS New Delhi
-        Patient: Patient 180 | Policy: POL-HLT-20180
-        Admitted: 2024-04-15 | Discharged: 2024-04-17
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Apollo Hospital Coimbatore
         
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 285709
+        PATIENT INFORMATION
+        Name: Patient 90
+        Insurance ID: POL-HLT-20090
         
-        Physician: Dr. N. Verma, MC-4957
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-23
+        Date of Discharge: 2026-06-02
+        
+        CLINICAL FINDINGS
+        Diagnosis: Viral Pneumonia
+        ICD Reference: J12.9
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 64913 INR
+        
+        Signed: Dr. K. Menon (MC-7600)

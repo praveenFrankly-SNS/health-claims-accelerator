@@ -1,22 +1,22 @@
 ========================================
         CLINICAL DISCHARGE REPORT
         ========================================
-        Facility: Max Super Speciality Delhi
+        Facility: Apollo Hospital Coimbatore
         
         PATIENT INFORMATION
-        Name: Patient 53
-        Insurance ID: POL-HLT-20053
+        Name: Patient 76
+        Insurance ID: POL-HLT-20076
         
         ENCOUNTER DETAILS
-        Date of Admission: 2025-03-01
-        Date of Discharge: 2025-03-05
+        Date of Admission: 2026-04-07
+        Date of Discharge: 2026-04-12
         
         CLINICAL FINDINGS
-        Diagnosis: Appendectomy
-        ICD Reference: K35.80
+        Diagnosis: Cataract Surgery
+        ICD Reference: H25.9
         The patient was admitted and treated for the above condition.
         
         FINANCIAL
-        Total Incurred Amount: 99600 INR
+        Total Incurred Amount: 138757 INR
         
-        Signed: Dr. M. Shah (MC-9067)
+        Signed: Dr. P. Singh (MC-6835)

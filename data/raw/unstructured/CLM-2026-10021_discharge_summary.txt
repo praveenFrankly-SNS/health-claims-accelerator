@@ -1,9 +1,19 @@
-HOSPITAL DISCHARGE RECORD
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 26
+        Policy Number: POL-HLT-20026
+        Admission Date: 2023-08-20
+        Discharge Date: 2023-08-27
         Hospital: City Clinic Chennai
-        Patient: Patient 146 | Policy: POL-HLT-20146
-        Admitted: 2026-05-18 | Discharged: 2026-05-26
         
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 261902
+        Diagnosis: Dengue Fever
+        ICD-10 Code: A90
         
-        Physician: Dr. L. Rao, MC-1679
+        Course in the Hospital:
+        The patient presented with symptoms relating to Dengue Fever. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 45541
+        
+        Attending Physician: Dr. H. Patel (Reg No: MC-6630)

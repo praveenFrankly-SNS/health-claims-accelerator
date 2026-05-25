@@ -1,19 +1,22 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 164
-        Policy Number: POL-HLT-20164
-        Admission Date: 2026-04-15
-        Discharge Date: 2026-04-24
-        Hospital: Apollo Hospital Coimbatore
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: AIIMS New Delhi
         
-        Diagnosis: Appendectomy
-        ICD-10 Code: K35.80
+        PATIENT INFORMATION
+        Name: Patient 41
+        Insurance ID: POL-HLT-20041
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Appendectomy. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-04-19
+        Date of Discharge: 2026-04-27
         
-        Final Bill Amount: INR 168702
+        CLINICAL FINDINGS
+        Diagnosis: Dengue Fever
+        ICD Reference: A90
+        The patient was admitted and treated for the above condition.
         
-        Attending Physician: Dr. K. Menon (Reg No: MC-3792)
+        FINANCIAL
+        Total Incurred Amount: 83405 INR
+        
+        Signed: Dr. M. Shah (MC-5496)

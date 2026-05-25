@@ -1,7 +1,7 @@
 SUMMARY OF DISCHARGE
-        Location: Max Super Speciality Delhi
-        Name: Patient 41 - POL-HLT-20041
-        From 2022-11-14 to 2022-11-22
-        Condition: Cataract Surgery [H25.9]
-        Bill: 83319
-        Physician: Dr. A. Kumar (Reg No: MC-5789)
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 111 - POL-HLT-20111
+        From 2024-05-05 to 2024-05-06
+        Condition: Knee Replacement [Z96.65]
+        Bill: 276589
+        Physician: Dr. H. Patel (Reg No: MC-7436)

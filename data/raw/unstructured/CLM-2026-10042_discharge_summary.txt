@@ -1,19 +1,7 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 165
-        Policy Number: POL-HLT-20165
-        Admission Date: 2023-10-29
-        Discharge Date: 2023-11-04
-        Hospital: Apollo Hospital Coimbatore
-        
-        Diagnosis: Knee Replacement
-        ICD-10 Code: Z96.65
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Knee Replacement. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 279269
-        
-        Attending Physician: Dr. M. Shah (Reg No: MC-8633)
+SUMMARY OF DISCHARGE
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 194 - POL-HLT-20194
+        From 2026-04-13 to 2026-04-14
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 194167
+        Physician: Dr. A. Kumar (Reg No: MC-2169)

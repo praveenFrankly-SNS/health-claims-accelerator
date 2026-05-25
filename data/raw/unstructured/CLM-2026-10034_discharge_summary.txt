@@ -1,22 +1,19 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: AIIMS New Delhi
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 16
+        Policy Number: POL-HLT-20016
+        Admission Date: 2026-05-20
+        Discharge Date: 2026-05-26
+        Hospital: City Clinic Chennai
         
-        PATIENT INFORMATION
-        Name: Patient 135
-        Insurance ID: POL-HLT-20135
-        
-        ENCOUNTER DETAILS
-        Date of Admission: 2025-03-22
-        Date of Discharge: 2025-03-25
-        
-        CLINICAL FINDINGS
         Diagnosis: Cataract Surgery
-        ICD Reference: H25.9
-        The patient was admitted and treated for the above condition.
+        ICD-10 Code: H25.9
         
-        FINANCIAL
-        Total Incurred Amount: 64343 INR
+        Course in the Hospital:
+        The patient presented with symptoms relating to Cataract Surgery. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
         
-        Signed: Dr. L. Rao (MC-5324)
+        Final Bill Amount: INR 76416
+        
+        Attending Physician: Dr. P. Singh (Reg No: MC-4220)

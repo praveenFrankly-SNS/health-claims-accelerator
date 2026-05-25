@@ -1,9 +1,19 @@
-| Hospital       | Apollo Hospital Coimbatore |
-        | Patient        | Patient 98 |
-        | Policy         | POL-HLT-20098 |
-        | Admitted       | 2026-05-24 |
-        | Discharged     | 2026-06-02 |
-        | Diagnosis      | Viral Pneumonia |
-        | ICD-10         | J12.9 |
-        | Total Bill     | 67656 |
-        | Doctor         | Dr. A. Kumar (Reg: MC-2984) |
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 134
+        Policy Number: POL-HLT-20134
+        Admission Date: 2026-05-19
+        Discharge Date: 2026-05-20
+        Hospital: Manipal Hospital Bangalore
+        
+        Diagnosis: Appendectomy
+        ICD-10 Code: K35.80
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Appendectomy. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 76292
+        
+        Attending Physician: Dr. N. Verma (Reg No: MC-7308)

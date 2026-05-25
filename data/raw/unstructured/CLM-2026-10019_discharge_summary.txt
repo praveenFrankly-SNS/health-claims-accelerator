@@ -1,9 +1,9 @@
-| Hospital       | Max Super Speciality Delhi |
-        | Patient        | Patient 190 |
-        | Policy         | POL-HLT-20190 |
-        | Admitted       | 2024-03-14 |
-        | Discharged     | 2024-03-20 |
-        | Diagnosis      | Viral Pneumonia |
-        | ICD-10         | J12.9 |
-        | Total Bill     | 94265 |
-        | Doctor         | Dr. H. Patel (Reg: MC-6900) |
+| Hospital       | Manipal Hospital Bangalore |
+        | Patient        | Patient 117 |
+        | Policy         | POL-HLT-20117 |
+        | Admitted       | 2026-04-22 |
+        | Discharged     | 2026-04-25 |
+        | Diagnosis      | Dengue Fever |
+        | ICD-10         | A90 |
+        | Total Bill     | 65002 |
+        | Doctor         | Dr. B. Iyer (Reg: MC-1824) |

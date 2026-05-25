@@ -1,9 +1,7 @@
-| Hospital       | City Clinic Chennai |
-        | Patient        | Patient 13 |
-        | Policy         | POL-HLT-20013 |
-        | Admitted       | 2026-05-03 |
-        | Discharged     | 2026-05-10 |
-        | Diagnosis      | Cataract Surgery |
-        | ICD-10         | H25.9 |
-        | Total Bill     | 134495 |
-        | Doctor         | Dr. R. Gupta (Reg: MC-6632) |
+SUMMARY OF DISCHARGE
+        Location: City Clinic Chennai
+        Name: Patient 195 - POL-HLT-20195
+        From 2026-04-17 to 2026-04-26
+        Condition: Knee Replacement [Z96.65]
+        Bill: 718001
+        Physician: Dr. S. Reddy (Reg No: MC-8931)

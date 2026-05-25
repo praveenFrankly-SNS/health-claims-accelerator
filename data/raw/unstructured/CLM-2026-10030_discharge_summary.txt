@@ -1,22 +1,7 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: AIIMS New Delhi
-        
-        PATIENT INFORMATION
-        Name: Patient 177
-        Insurance ID: POL-HLT-20177
-        
-        ENCOUNTER DETAILS
-        Date of Admission: 2026-05-21
-        Date of Discharge: 2026-05-25
-        
-        CLINICAL FINDINGS
-        Diagnosis: Dengue Fever
-        ICD Reference: A90
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 45145 INR
-        
-        Signed: Dr. R. Gupta (MC-9238)
+SUMMARY OF DISCHARGE
+        Location: AIIMS New Delhi
+        Name: Patient 32 - POL-HLT-20032
+        From 2022-05-14 to 2022-05-20
+        Condition: Dengue Fever [A90]
+        Bill: 71224
+        Physician: Dr. K. Menon (Reg No: MC-1286)

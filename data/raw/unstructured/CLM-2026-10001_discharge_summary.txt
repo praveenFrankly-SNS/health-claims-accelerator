@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 190
-        Policy Number: POL-HLT-20190
-        Admission Date: 2026-04-29
-        Discharge Date: 2026-05-05
-        Hospital: Max Super Speciality Delhi
+HOSPITAL DISCHARGE RECORD
+        Hospital: AIIMS New Delhi
+        Patient: Patient 172 | Policy: POL-HLT-20172
+        Admitted: 2023-05-11 | Discharged: 2023-05-18
         
-        Diagnosis: Cataract Surgery
-        ICD-10 Code: H25.9
+        Principal Diagnosis: Knee Replacement (Z96.65)
+        Total Charges: 276577
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Cataract Surgery. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 129343
-        
-        Attending Physician: Dr. S. Reddy (Reg No: MC-6439)
+        Physician: Dr. H. Patel, MC-7254

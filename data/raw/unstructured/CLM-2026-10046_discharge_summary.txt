@@ -1,7 +1,22 @@
-SUMMARY OF DISCHARGE
-        Location: Manipal Hospital Bangalore
-        Name: Patient 79 - POL-HLT-20079
-        From 2026-04-11 to 2026-04-12
-        Condition: Cataract Surgery [H25.9]
-        Bill: 116293
-        Physician: Dr. P. Singh (Reg No: MC-2642)
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: City Clinic Chennai
+        
+        PATIENT INFORMATION
+        Name: Patient 19
+        Insurance ID: POL-HLT-20019
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-04-20
+        Date of Discharge: 2026-04-27
+        
+        CLINICAL FINDINGS
+        Diagnosis: Knee Replacement
+        ICD Reference: Z96.65
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 842281 INR
+        
+        Signed: Dr. R. Gupta (MC-5284)

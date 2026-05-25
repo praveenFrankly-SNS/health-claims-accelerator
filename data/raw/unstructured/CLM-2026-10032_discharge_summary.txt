@@ -1,9 +1,7 @@
-| Hospital       | Manipal Hospital Bangalore |
-        | Patient        | Patient 98 |
-        | Policy         | POL-HLT-20098 |
-        | Admitted       | 2026-04-23 |
-        | Discharged     | 2026-04-28 |
-        | Diagnosis      | Knee Replacement |
-        | ICD-10         | Z96.65 |
-        | Total Bill     | 868089 |
-        | Doctor         | Dr. K. Menon (Reg: MC-8128) |
+SUMMARY OF DISCHARGE
+        Location: City Clinic Chennai
+        Name: Patient 41 - POL-HLT-20041
+        From 2022-05-12 to 2022-05-13
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 86049
+        Physician: Dr. M. Shah (Reg No: MC-9889)
