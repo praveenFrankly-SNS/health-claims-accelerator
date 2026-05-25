@@ -10,6 +10,14 @@
 
 # COMMAND ----------
 
+import IPython
+try:
+    dbutils.library.restartPython()
+except Exception:
+    pass
+
+# COMMAND ----------
+
 import os
 import re
 import time

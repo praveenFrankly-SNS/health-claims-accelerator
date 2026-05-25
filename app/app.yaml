@@ -1,1 +1,4 @@
 command: ["streamlit", "run", "app.py"]
+env:
+  - name: "DATABRICKS_HTTP_PATH"
+    value: "<REPLACE_ME_WITH_YOUR_HTTP_PATH>"
