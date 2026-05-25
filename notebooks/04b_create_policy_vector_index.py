@@ -115,7 +115,7 @@ try:
     print("Endpoint exists.")
     wait_for_endpoint(vsc, vs_endpoint_name)
 except Exception as e:
-    if "does not exist" in str(e).lower():
+    if "does not exist" in str(e).lower() or "not found" in str(e).lower():
         print(f"Creating endpoint: {vs_endpoint_name}...")
         vsc.create_endpoint(name=vs_endpoint_name, endpoint_type="STANDARD")
         wait_for_endpoint(vsc, vs_endpoint_name)
@@ -147,7 +147,7 @@ try:
     idx.sync()
     wait_for_index(vsc, vs_endpoint_name, vs_index_name)
 except Exception as e:
-    if "does not exist" in str(e).lower():
+    if "does not exist" in str(e).lower() or "not found" in str(e).lower():
         print(f"Creating Delta Sync Index: {vs_index_name}...")
         vsc.create_delta_sync_index(
             endpoint_name=vs_endpoint_name,
