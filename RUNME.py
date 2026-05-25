@@ -45,8 +45,9 @@ run_notebook("./notebooks/02_silver_preparation_spark_sim")
 
 # COMMAND ----------
 
-# 4. Train Models
+# 4. Train Models & Create Indexes
 run_notebook("./notebooks/04a_train_fraud_model")
+run_notebook("./notebooks/04b_create_policy_vector_index")
 run_notebook("./notebooks/06a_train_reserve_model")
 
 # COMMAND ----------

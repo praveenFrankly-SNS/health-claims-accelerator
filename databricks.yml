@@ -75,8 +75,15 @@ resources:
             notebook_path: ./notebooks/06a_train_reserve_model.py
             source: WORKSPACE
 
+        - task_key: create_vector_index
+          depends_on: [{ task_key: silver }]
+          job_cluster_key: default_cluster
+          notebook_task:
+            notebook_path: ./notebooks/04b_create_policy_vector_index.py
+            source: WORKSPACE
+
         - task_key: orchestrate
-          depends_on: [{ task_key: train_fraud }, { task_key: train_reserve }]
+          depends_on: [{ task_key: train_fraud }, { task_key: train_reserve }, { task_key: create_vector_index }]
           job_cluster_key: default_cluster
           notebook_task:
             notebook_path: ./notebooks/07_supervisor_orchestrator.py

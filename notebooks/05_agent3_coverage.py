@@ -76,6 +76,7 @@ def retrieve_policy_chunks(policy_number: str, diagnosis: str, hospital: str, pl
         results = index.similarity_search(
             query_text=query,
             columns=["id", "text"],
+            filters={"plan_tier": plan_tier},
             num_results=3
         )
         
