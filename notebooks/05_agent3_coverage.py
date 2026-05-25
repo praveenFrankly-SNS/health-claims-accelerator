@@ -5,7 +5,8 @@
 # MAGIC Uses sentence-transformers locally to simulate Databricks Vector Search similarity.
 
 # COMMAND ----------
-# MAGIC %pip install sentence-transformers scikit-learn
+
+# MAGIC %pip install databricks-vectorsearch sentence-transformers scikit-learn
 
 # COMMAND ----------
 
