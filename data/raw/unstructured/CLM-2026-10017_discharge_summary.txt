@@ -1,22 +1,9 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: Fortis Healthcare Mumbai
-        
-        PATIENT INFORMATION
-        Name: Patient 85
-        Insurance ID: POL-HLT-20085
-        
-        ENCOUNTER DETAILS
-        Date of Admission: 2024-05-27
-        Date of Discharge: 2024-06-06
-        
-        CLINICAL FINDINGS
-        Diagnosis: Knee Replacement
-        ICD Reference: Z96.65
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 270514 INR
-        
-        Signed: Dr. N. Verma (MC-8705)
+| Hospital       | AIIMS New Delhi |
+        | Patient        | Patient 1 |
+        | Policy         | POL-HLT-20001 |
+        | Admitted       | 2026-05-12 |
+        | Discharged     | 2026-05-15 |
+        | Diagnosis      | Knee Replacement |
+        | ICD-10         | Z96.65 |
+        | Total Bill     | 270769 |
+        | Doctor         | Dr. P. Singh (Reg: MC-1906) |

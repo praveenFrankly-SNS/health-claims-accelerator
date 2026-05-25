@@ -1,7 +1,7 @@
 SUMMARY OF DISCHARGE
-        Location: Max Super Speciality Delhi
-        Name: Patient 42 - POL-HLT-20042
-        From 2026-03-30 to 2026-04-02
-        Condition: Dengue Fever [A90]
-        Bill: 96349
-        Physician: Dr. H. Patel (Reg No: MC-7473)
+        Location: Manipal Hospital Bangalore
+        Name: Patient 173 - POL-HLT-20173
+        From 2026-05-16 to 2026-05-19
+        Condition: Cataract Surgery [H25.9]
+        Bill: 54777
+        Physician: Dr. P. Singh (Reg No: MC-9379)

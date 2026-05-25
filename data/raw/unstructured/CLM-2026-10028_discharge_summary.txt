@@ -1,9 +1,7 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 57 | Policy: POL-HLT-20057
-        Admitted: 2023-07-05 | Discharged: 2023-07-10
-        
-        Principal Diagnosis: Cataract Surgery (H25.9)
-        Total Charges: 69721
-        
-        Physician: Dr. R. Gupta, MC-3670
+SUMMARY OF DISCHARGE
+        Location: AIIMS New Delhi
+        Name: Patient 3 - POL-HLT-20003
+        From 2026-05-24 to 2026-05-26
+        Condition: Appendectomy [K35.80]
+        Bill: 79128
+        Physician: Dr. K. Menon (Reg No: MC-2265)

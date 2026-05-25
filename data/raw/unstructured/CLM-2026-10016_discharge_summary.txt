@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 134
-        Policy Number: POL-HLT-20134
-        Admission Date: 2026-05-19
-        Discharge Date: 2026-05-20
-        Hospital: Manipal Hospital Bangalore
-        
-        Diagnosis: Appendectomy
-        ICD-10 Code: K35.80
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Appendectomy. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 76292
-        
-        Attending Physician: Dr. N. Verma (Reg No: MC-7308)
+| Hospital       | City Clinic Chennai |
+        | Patient        | Patient 9 |
+        | Policy         | POL-HLT-20009 |
+        | Admitted       | 2026-05-24 |
+        | Discharged     | 2026-05-28 |
+        | Diagnosis      | Cataract Surgery |
+        | ICD-10         | H25.9 |
+        | Total Bill     | 64344 |
+        | Doctor         | Dr. M. Shah (Reg: MC-9346) |

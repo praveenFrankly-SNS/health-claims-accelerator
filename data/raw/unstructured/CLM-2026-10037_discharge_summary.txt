@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
         Hospital: Manipal Hospital Bangalore
-        Patient: Patient 54 | Policy: POL-HLT-20054
-        Admitted: 2023-03-18 | Discharged: 2023-03-20
+        Patient: Patient 157 | Policy: POL-HLT-20157
+        Admitted: 2026-03-31 | Discharged: 2026-04-03
         
         Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 291159
+        Total Charges: 998861
         
-        Physician: Dr. R. Gupta, MC-7438
+        Physician: Dr. B. Iyer, MC-2602

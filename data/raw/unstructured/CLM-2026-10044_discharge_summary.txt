@@ -1,9 +1,9 @@
-| Hospital       | City Clinic Chennai |
-        | Patient        | Patient 82 |
-        | Policy         | POL-HLT-20082 |
-        | Admitted       | 2026-05-15 |
-        | Discharged     | 2026-05-24 |
-        | Diagnosis      | Viral Pneumonia |
-        | ICD-10         | J12.9 |
-        | Total Bill     | 72123 |
-        | Doctor         | Dr. S. Reddy (Reg: MC-6983) |
+HOSPITAL DISCHARGE RECORD
+        Hospital: Max Super Speciality Delhi
+        Patient: Patient 21 | Policy: POL-HLT-20021
+        Admitted: 2026-04-14 | Discharged: 2026-04-19
+        
+        Principal Diagnosis: Knee Replacement (Z96.65)
+        Total Charges: 718800
+        
+        Physician: Dr. L. Rao, MC-9397

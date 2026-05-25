@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 191
-        Policy Number: POL-HLT-20191
-        Admission Date: 2026-05-22
-        Discharge Date: 2026-05-29
-        Hospital: AIIMS New Delhi
-        
-        Diagnosis: Dengue Fever
-        ICD-10 Code: A90
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Dengue Fever. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 45912
-        
-        Attending Physician: Dr. L. Rao (Reg No: MC-4200)
+| Hospital       | AIIMS New Delhi |
+        | Patient        | Patient 24 |
+        | Policy         | POL-HLT-20024 |
+        | Admitted       | 2026-04-11 |
+        | Discharged     | 2026-04-20 |
+        | Diagnosis      | Viral Pneumonia |
+        | ICD-10         | J12.9 |
+        | Total Bill     | 146002 |
+        | Doctor         | Dr. B. Iyer (Reg: MC-5978) |

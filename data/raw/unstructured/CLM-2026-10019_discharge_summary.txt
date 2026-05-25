@@ -1,9 +1,22 @@
-| Hospital       | Manipal Hospital Bangalore |
-        | Patient        | Patient 117 |
-        | Policy         | POL-HLT-20117 |
-        | Admitted       | 2026-04-22 |
-        | Discharged     | 2026-04-25 |
-        | Diagnosis      | Dengue Fever |
-        | ICD-10         | A90 |
-        | Total Bill     | 65002 |
-        | Doctor         | Dr. B. Iyer (Reg: MC-1824) |
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: City Clinic Chennai
+        
+        PATIENT INFORMATION
+        Name: Patient 56
+        Insurance ID: POL-HLT-20056
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-24
+        Date of Discharge: 2026-05-31
+        
+        CLINICAL FINDINGS
+        Diagnosis: Dengue Fever
+        ICD Reference: A90
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 46970 INR
+        
+        Signed: Dr. P. Singh (MC-2264)

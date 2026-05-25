@@ -1,7 +1,22 @@
-SUMMARY OF DISCHARGE
-        Location: Max Super Speciality Delhi
-        Name: Patient 47 - POL-HLT-20047
-        From 2025-06-10 to 2025-06-19
-        Condition: Viral Pneumonia [J12.9]
-        Bill: 97780
-        Physician: Dr. P. Singh (Reg No: MC-9145)
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Apollo Hospital Coimbatore
+        
+        PATIENT INFORMATION
+        Name: Patient 175
+        Insurance ID: POL-HLT-20175
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-19
+        Date of Discharge: 2026-05-26
+        
+        CLINICAL FINDINGS
+        Diagnosis: Cataract Surgery
+        ICD Reference: H25.9
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 47823 INR
+        
+        Signed: Dr. R. Gupta (MC-2153)

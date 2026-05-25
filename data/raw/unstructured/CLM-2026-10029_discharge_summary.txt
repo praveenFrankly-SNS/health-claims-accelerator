@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 49
-        Policy Number: POL-HLT-20049
-        Admission Date: 2026-05-05
-        Discharge Date: 2026-05-08
-        Hospital: Fortis Healthcare Mumbai
+HOSPITAL DISCHARGE RECORD
+        Hospital: AIIMS New Delhi
+        Patient: Patient 142 | Policy: POL-HLT-20142
+        Admitted: 2026-04-30 | Discharged: 2026-05-02
         
-        Diagnosis: Viral Pneumonia
-        ICD-10 Code: J12.9
+        Principal Diagnosis: Dengue Fever (A90)
+        Total Charges: 70308
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Viral Pneumonia. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 136000
-        
-        Attending Physician: Dr. L. Rao (Reg No: MC-8306)
+        Physician: Dr. N. Verma, MC-1649

@@ -1,22 +1,22 @@
 ========================================
         CLINICAL DISCHARGE REPORT
         ========================================
-        Facility: Apollo Hospital Coimbatore
+        Facility: Max Super Speciality Delhi
         
         PATIENT INFORMATION
-        Name: Patient 90
-        Insurance ID: POL-HLT-20090
+        Name: Patient 63
+        Insurance ID: POL-HLT-20063
         
         ENCOUNTER DETAILS
-        Date of Admission: 2026-05-23
-        Date of Discharge: 2026-06-02
+        Date of Admission: 2026-04-25
+        Date of Discharge: 2026-04-27
         
         CLINICAL FINDINGS
-        Diagnosis: Viral Pneumonia
-        ICD Reference: J12.9
+        Diagnosis: Dengue Fever
+        ICD Reference: A90
         The patient was admitted and treated for the above condition.
         
         FINANCIAL
-        Total Incurred Amount: 64913 INR
+        Total Incurred Amount: 62977 INR
         
-        Signed: Dr. K. Menon (MC-7600)
+        Signed: Dr. B. Iyer (MC-8727)

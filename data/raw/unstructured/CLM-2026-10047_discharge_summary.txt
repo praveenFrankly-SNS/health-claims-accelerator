@@ -1,7 +1,7 @@
 SUMMARY OF DISCHARGE
-        Location: Apollo Hospital Coimbatore
-        Name: Patient 104 - POL-HLT-20104
-        From 2026-05-17 to 2026-05-18
-        Condition: Appendectomy [K35.80]
-        Bill: 87631
-        Physician: Dr. A. Kumar (Reg No: MC-7704)
+        Location: AIIMS New Delhi
+        Name: Patient 187 - POL-HLT-20187
+        From 2026-05-23 to 2026-05-29
+        Condition: Knee Replacement [Z96.65]
+        Bill: 261846
+        Physician: Dr. P. Singh (Reg No: MC-9226)

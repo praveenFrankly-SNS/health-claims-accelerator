@@ -1,9 +1,19 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 91 | Policy: POL-HLT-20091
-        Admitted: 2026-04-02 | Discharged: 2026-04-04
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 181
+        Policy Number: POL-HLT-20181
+        Admission Date: 2026-05-18
+        Discharge Date: 2026-05-23
+        Hospital: City Clinic Chennai
         
-        Principal Diagnosis: Dengue Fever (A90)
-        Total Charges: 85602
+        Diagnosis: Dengue Fever
+        ICD-10 Code: A90
         
-        Physician: Dr. K. Menon, MC-6068
+        Course in the Hospital:
+        The patient presented with symptoms relating to Dengue Fever. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 36396
+        
+        Attending Physician: Dr. A. Kumar (Reg No: MC-6561)

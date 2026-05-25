@@ -1,9 +1,7 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 183 | Policy: POL-HLT-20183
-        Admitted: 2024-09-02 | Discharged: 2024-09-12
-        
-        Principal Diagnosis: Dengue Fever (A90)
-        Total Charges: 67145
-        
-        Physician: Dr. P. Singh, MC-5476
+SUMMARY OF DISCHARGE
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 129 - POL-HLT-20129
+        From 2026-04-04 to 2026-04-13
+        Condition: Viral Pneumonia [J12.9]
+        Bill: 176771
+        Physician: Dr. R. Gupta (Reg No: MC-5839)

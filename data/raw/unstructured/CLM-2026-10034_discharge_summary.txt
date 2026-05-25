@@ -1,19 +1,19 @@
 DISCHARGE SUMMARY
         -----------------
-        Patient Name: Patient 16
-        Policy Number: POL-HLT-20016
-        Admission Date: 2026-05-20
-        Discharge Date: 2026-05-26
-        Hospital: City Clinic Chennai
+        Patient Name: Patient 88
+        Policy Number: POL-HLT-20088
+        Admission Date: 2024-02-13
+        Discharge Date: 2024-02-19
+        Hospital: Apollo Hospital Coimbatore
         
-        Diagnosis: Cataract Surgery
-        ICD-10 Code: H25.9
+        Diagnosis: Dengue Fever
+        ICD-10 Code: A90
         
         Course in the Hospital:
-        The patient presented with symptoms relating to Cataract Surgery. 
+        The patient presented with symptoms relating to Dengue Fever. 
         Routine investigations were carried out. The patient was managed conservatively/surgically 
         and responded well to the treatment.
         
-        Final Bill Amount: INR 76416
+        Final Bill Amount: INR 47856
         
-        Attending Physician: Dr. P. Singh (Reg No: MC-4220)
+        Attending Physician: Dr. P. Singh (Reg No: MC-1359)

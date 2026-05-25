@@ -1,9 +1,22 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Manipal Hospital Bangalore
-        Patient: Patient 110 | Policy: POL-HLT-20110
-        Admitted: 2026-05-01 | Discharged: 2026-05-10
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Apollo Hospital Coimbatore
         
-        Principal Diagnosis: Cataract Surgery (H25.9)
-        Total Charges: 128905
+        PATIENT INFORMATION
+        Name: Patient 50
+        Insurance ID: POL-HLT-20050
         
-        Physician: Dr. H. Patel, MC-7826
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-16
+        Date of Discharge: 2026-05-22
+        
+        CLINICAL FINDINGS
+        Diagnosis: Viral Pneumonia
+        ICD Reference: J12.9
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 66891 INR
+        
+        Signed: Dr. P. Singh (MC-6997)

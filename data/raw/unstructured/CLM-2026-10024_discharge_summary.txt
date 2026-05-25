@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 3
-        Policy Number: POL-HLT-20003
-        Admission Date: 2024-03-22
-        Discharge Date: 2024-03-28
-        Hospital: Manipal Hospital Bangalore
-        
-        Diagnosis: Cataract Surgery
-        ICD-10 Code: H25.9
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Cataract Surgery. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 83015
-        
-        Attending Physician: Dr. S. Reddy (Reg No: MC-1775)
+| Hospital       | Manipal Hospital Bangalore |
+        | Patient        | Patient 35 |
+        | Policy         | POL-HLT-20035 |
+        | Admitted       | 2026-05-21 |
+        | Discharged     | 2026-05-23 |
+        | Diagnosis      | Appendectomy |
+        | ICD-10         | K35.80 |
+        | Total Bill     | 73152 |
+        | Doctor         | Dr. L. Rao (Reg: MC-8759) |

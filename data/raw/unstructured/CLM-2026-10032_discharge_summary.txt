@@ -1,7 +1,19 @@
-SUMMARY OF DISCHARGE
-        Location: City Clinic Chennai
-        Name: Patient 41 - POL-HLT-20041
-        From 2022-05-12 to 2022-05-13
-        Condition: Viral Pneumonia [J12.9]
-        Bill: 86049
-        Physician: Dr. M. Shah (Reg No: MC-9889)
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 103
+        Policy Number: POL-HLT-20103
+        Admission Date: 2024-03-10
+        Discharge Date: 2024-03-12
+        Hospital: Max Super Speciality Delhi
+        
+        Diagnosis: Cataract Surgery
+        ICD-10 Code: H25.9
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Cataract Surgery. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 61577
+        
+        Attending Physician: Dr. M. Shah (Reg No: MC-3080)

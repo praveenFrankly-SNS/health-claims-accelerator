@@ -1,19 +1,7 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 42
-        Policy Number: POL-HLT-20042
-        Admission Date: 2026-05-12
-        Discharge Date: 2026-05-17
-        Hospital: Manipal Hospital Bangalore
-        
-        Diagnosis: Appendectomy
-        ICD-10 Code: K35.80
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Appendectomy. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 80059
-        
-        Attending Physician: Dr. N. Verma (Reg No: MC-3413)
+SUMMARY OF DISCHARGE
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 99 - POL-HLT-20099
+        From 2023-01-08 to 2023-01-12
+        Condition: Dengue Fever [A90]
+        Bill: 56336
+        Physician: Dr. M. Shah (Reg No: MC-6334)

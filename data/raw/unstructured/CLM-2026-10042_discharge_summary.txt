@@ -1,7 +1,7 @@
 SUMMARY OF DISCHARGE
-        Location: Apollo Hospital Coimbatore
-        Name: Patient 194 - POL-HLT-20194
-        From 2026-04-13 to 2026-04-14
-        Condition: Viral Pneumonia [J12.9]
-        Bill: 194167
-        Physician: Dr. A. Kumar (Reg No: MC-2169)
+        Location: Manipal Hospital Bangalore
+        Name: Patient 192 - POL-HLT-20192
+        From 2026-05-16 to 2026-05-23
+        Condition: Dengue Fever [A90]
+        Bill: 38452
+        Physician: Dr. K. Menon (Reg No: MC-2144)

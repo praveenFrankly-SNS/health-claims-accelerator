@@ -1,9 +1,7 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Max Super Speciality Delhi
-        Patient: Patient 70 | Policy: POL-HLT-20070
-        Admitted: 2023-11-22 | Discharged: 2023-11-28
-        
-        Principal Diagnosis: Dengue Fever (A90)
-        Total Charges: 57499
-        
-        Physician: Dr. P. Singh, MC-2816
+SUMMARY OF DISCHARGE
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 94 - POL-HLT-20094
+        From 2026-05-18 to 2026-05-26
+        Condition: Cataract Surgery [H25.9]
+        Bill: 61239
+        Physician: Dr. A. Kumar (Reg No: MC-6993)

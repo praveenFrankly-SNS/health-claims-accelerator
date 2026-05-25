@@ -1,9 +1,9 @@
-| Hospital       | Max Super Speciality Delhi |
-        | Patient        | Patient 134 |
-        | Policy         | POL-HLT-20134 |
-        | Admitted       | 2023-10-09 |
-        | Discharged     | 2023-10-19 |
-        | Diagnosis      | Appendectomy |
-        | ICD-10         | K35.80 |
-        | Total Bill     | 80727 |
-        | Doctor         | Dr. S. Reddy (Reg: MC-1744) |
+HOSPITAL DISCHARGE RECORD
+        Hospital: Fortis Healthcare Mumbai
+        Patient: Patient 123 | Policy: POL-HLT-20123
+        Admitted: 2026-04-24 | Discharged: 2026-04-28
+        
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 131678
+        
+        Physician: Dr. N. Verma, MC-3437

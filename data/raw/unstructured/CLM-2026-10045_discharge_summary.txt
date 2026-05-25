@@ -1,7 +1,19 @@
-SUMMARY OF DISCHARGE
-        Location: Apollo Hospital Coimbatore
-        Name: Patient 32 - POL-HLT-20032
-        From 2022-05-03 to 2022-05-11
-        Condition: Knee Replacement [Z96.65]
-        Bill: 294148
-        Physician: Dr. N. Verma (Reg No: MC-3512)
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 68
+        Policy Number: POL-HLT-20068
+        Admission Date: 2026-05-17
+        Discharge Date: 2026-05-18
+        Hospital: Fortis Healthcare Mumbai
+        
+        Diagnosis: Knee Replacement
+        ICD-10 Code: Z96.65
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Knee Replacement. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 271294
+        
+        Attending Physician: Dr. B. Iyer (Reg No: MC-5055)

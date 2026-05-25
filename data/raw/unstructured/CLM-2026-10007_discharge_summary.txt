@@ -1,9 +1,7 @@
-| Hospital       | Max Super Speciality Delhi |
-        | Patient        | Patient 116 |
-        | Policy         | POL-HLT-20116 |
-        | Admitted       | 2026-04-22 |
-        | Discharged     | 2026-04-23 |
-        | Diagnosis      | Knee Replacement |
-        | ICD-10         | Z96.65 |
-        | Total Bill     | 755797 |
-        | Doctor         | Dr. H. Patel (Reg: MC-2131) |
+SUMMARY OF DISCHARGE
+        Location: Manipal Hospital Bangalore
+        Name: Patient 89 - POL-HLT-20089
+        From 2026-03-27 to 2026-04-06
+        Condition: Cataract Surgery [H25.9]
+        Bill: 117649
+        Physician: Dr. L. Rao (Reg No: MC-1400)

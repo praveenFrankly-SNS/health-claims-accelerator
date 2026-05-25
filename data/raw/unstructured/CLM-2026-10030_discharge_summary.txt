@@ -1,7 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 32 - POL-HLT-20032
-        From 2022-05-14 to 2022-05-20
-        Condition: Dengue Fever [A90]
-        Bill: 71224
-        Physician: Dr. K. Menon (Reg No: MC-1286)
+HOSPITAL DISCHARGE RECORD
+        Hospital: Max Super Speciality Delhi
+        Patient: Patient 163 | Policy: POL-HLT-20163
+        Admitted: 2023-03-12 | Discharged: 2023-03-19
+        
+        Principal Diagnosis: Cataract Surgery (H25.9)
+        Total Charges: 63403
+        
+        Physician: Dr. K. Menon, MC-9521

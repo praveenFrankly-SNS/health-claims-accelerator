@@ -1,19 +1,19 @@
 DISCHARGE SUMMARY
         -----------------
-        Patient Name: Patient 120
-        Policy Number: POL-HLT-20120
-        Admission Date: 2026-05-23
-        Discharge Date: 2026-06-01
-        Hospital: City Clinic Chennai
+        Patient Name: Patient 108
+        Policy Number: POL-HLT-20108
+        Admission Date: 2025-02-20
+        Discharge Date: 2025-02-24
+        Hospital: Fortis Healthcare Mumbai
         
-        Diagnosis: Cataract Surgery
-        ICD-10 Code: H25.9
+        Diagnosis: Viral Pneumonia
+        ICD-10 Code: J12.9
         
         Course in the Hospital:
-        The patient presented with symptoms relating to Cataract Surgery. 
+        The patient presented with symptoms relating to Viral Pneumonia. 
         Routine investigations were carried out. The patient was managed conservatively/surgically 
         and responded well to the treatment.
         
-        Final Bill Amount: INR 49759
+        Final Bill Amount: INR 73537
         
-        Attending Physician: Dr. R. Gupta (Reg No: MC-9682)
+        Attending Physician: Dr. L. Rao (Reg No: MC-8401)

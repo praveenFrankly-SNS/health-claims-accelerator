@@ -1,9 +1,7 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: AIIMS New Delhi
-        Patient: Patient 172 | Policy: POL-HLT-20172
-        Admitted: 2023-05-11 | Discharged: 2023-05-18
-        
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 276577
-        
-        Physician: Dr. H. Patel, MC-7254
+SUMMARY OF DISCHARGE
+        Location: City Clinic Chennai
+        Name: Patient 43 - POL-HLT-20043
+        From 2026-05-15 to 2026-05-22
+        Condition: Knee Replacement [Z96.65]
+        Bill: 272525
+        Physician: Dr. K. Menon (Reg No: MC-4649)

@@ -1,7 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: Apollo Hospital Coimbatore
-        Name: Patient 111 - POL-HLT-20111
-        From 2024-05-05 to 2024-05-06
-        Condition: Knee Replacement [Z96.65]
-        Bill: 276589
-        Physician: Dr. H. Patel (Reg No: MC-7436)
+HOSPITAL DISCHARGE RECORD
+        Hospital: Max Super Speciality Delhi
+        Patient: Patient 32 | Policy: POL-HLT-20032
+        Admitted: 2025-05-19 | Discharged: 2025-05-23
+        
+        Principal Diagnosis: Appendectomy (K35.80)
+        Total Charges: 95507
+        
+        Physician: Dr. R. Gupta, MC-6918

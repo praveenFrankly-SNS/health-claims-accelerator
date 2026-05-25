@@ -1,22 +1,9 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: City Clinic Chennai
-        
-        PATIENT INFORMATION
-        Name: Patient 19
-        Insurance ID: POL-HLT-20019
-        
-        ENCOUNTER DETAILS
-        Date of Admission: 2026-04-20
-        Date of Discharge: 2026-04-27
-        
-        CLINICAL FINDINGS
-        Diagnosis: Knee Replacement
-        ICD Reference: Z96.65
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 842281 INR
-        
-        Signed: Dr. R. Gupta (MC-5284)
+| Hospital       | Apollo Hospital Coimbatore |
+        | Patient        | Patient 144 |
+        | Policy         | POL-HLT-20144 |
+        | Admitted       | 2026-04-07 |
+        | Discharged     | 2026-04-10 |
+        | Diagnosis      | Dengue Fever |
+        | ICD-10         | A90 |
+        | Total Bill     | 78898 |
+        | Doctor         | Dr. B. Iyer (Reg: MC-3895) |

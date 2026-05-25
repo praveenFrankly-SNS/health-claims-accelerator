@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: AIIMS New Delhi
-        Patient: Patient 4 | Policy: POL-HLT-20004
-        Admitted: 2026-04-05 | Discharged: 2026-04-07
+        Hospital: Manipal Hospital Bangalore
+        Patient: Patient 106 | Policy: POL-HLT-20106
+        Admitted: 2026-05-19 | Discharged: 2026-05-24
         
-        Principal Diagnosis: Cataract Surgery (H25.9)
-        Total Charges: 95896
+        Principal Diagnosis: Dengue Fever (A90)
+        Total Charges: 48665
         
-        Physician: Dr. H. Patel, MC-1937
+        Physician: Dr. B. Iyer, MC-5010

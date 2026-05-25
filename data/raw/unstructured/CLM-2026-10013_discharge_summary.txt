@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 29
-        Policy Number: POL-HLT-20029
-        Admission Date: 2026-04-03
-        Discharge Date: 2026-04-09
-        Hospital: Apollo Hospital Coimbatore
+HOSPITAL DISCHARGE RECORD
+        Hospital: Fortis Healthcare Mumbai
+        Patient: Patient 120 | Policy: POL-HLT-20120
+        Admitted: 2026-05-17 | Discharged: 2026-05-22
         
-        Diagnosis: Dengue Fever
-        ICD-10 Code: A90
+        Principal Diagnosis: Knee Replacement (Z96.65)
+        Total Charges: 263079
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Dengue Fever. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 74478
-        
-        Attending Physician: Dr. K. Menon (Reg No: MC-9084)
+        Physician: Dr. B. Iyer, MC-4904

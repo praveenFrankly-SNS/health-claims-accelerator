@@ -1,7 +1,22 @@
-SUMMARY OF DISCHARGE
-        Location: Max Super Speciality Delhi
-        Name: Patient 141 - POL-HLT-20141
-        From 2025-01-04 to 2025-01-11
-        Condition: Cataract Surgery [H25.9]
-        Bill: 83226
-        Physician: Dr. S. Reddy (Reg No: MC-2832)
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Manipal Hospital Bangalore
+        
+        PATIENT INFORMATION
+        Name: Patient 46
+        Insurance ID: POL-HLT-20046
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-18
+        Date of Discharge: 2026-05-27
+        
+        CLINICAL FINDINGS
+        Diagnosis: Viral Pneumonia
+        ICD Reference: J12.9
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 74204 INR
+        
+        Signed: Dr. S. Reddy (MC-4577)

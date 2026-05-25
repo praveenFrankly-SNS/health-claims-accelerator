@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 142
-        Policy Number: POL-HLT-20142
-        Admission Date: 2026-04-22
-        Discharge Date: 2026-04-29
-        Hospital: Fortis Healthcare Mumbai
+HOSPITAL DISCHARGE RECORD
+        Hospital: City Clinic Chennai
+        Patient: Patient 32 | Policy: POL-HLT-20032
+        Admitted: 2025-05-29 | Discharged: 2025-06-08
         
-        Diagnosis: Knee Replacement
-        ICD-10 Code: Z96.65
+        Principal Diagnosis: Knee Replacement (Z96.65)
+        Total Charges: 279927
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Knee Replacement. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 977283
-        
-        Attending Physician: Dr. N. Verma (Reg No: MC-4769)
+        Physician: Dr. R. Gupta, MC-7245
