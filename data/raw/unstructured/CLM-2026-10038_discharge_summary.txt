@@ -1,22 +1,22 @@
 ========================================
         CLINICAL DISCHARGE REPORT
         ========================================
-        Facility: Fortis Healthcare Mumbai
+        Facility: Max Super Speciality Delhi
         
         PATIENT INFORMATION
-        Name: Patient 186
-        Insurance ID: POL-HLT-20186
+        Name: Patient 171
+        Insurance ID: POL-HLT-20171
         
         ENCOUNTER DETAILS
-        Date of Admission: 2026-05-18
-        Date of Discharge: 2026-05-24
+        Date of Admission: 2026-05-16
+        Date of Discharge: 2026-05-21
         
         CLINICAL FINDINGS
-        Diagnosis: Appendectomy
-        ICD Reference: K35.80
+        Diagnosis: Viral Pneumonia
+        ICD Reference: J12.9
         The patient was admitted and treated for the above condition.
         
         FINANCIAL
-        Total Incurred Amount: 85263 INR
+        Total Incurred Amount: 74879 INR
         
-        Signed: Dr. R. Sharma (MCI-9902)
+        Signed: Dr. B. Iyer (MC-6926)

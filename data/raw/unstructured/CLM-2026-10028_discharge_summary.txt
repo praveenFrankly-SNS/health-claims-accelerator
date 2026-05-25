@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 38
-        Policy Number: POL-HLT-20038
-        Admission Date: 2022-05-22
-        Discharge Date: 2022-05-29
-        Hospital: Max Super Speciality Delhi
+HOSPITAL DISCHARGE RECORD
+        Hospital: City Clinic Chennai
+        Patient: Patient 111 | Policy: POL-HLT-20111
+        Admitted: 2026-04-13 | Discharged: 2026-04-15
         
-        Diagnosis: Knee Replacement
-        ICD-10 Code: Z96.65
+        Principal Diagnosis: Knee Replacement (Z96.65)
+        Total Charges: 682476
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Knee Replacement. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 285975
-        
-        Attending Physician: Dr. Smith (Reg No: MC-5544)
+        Physician: Dr. A. Kumar, MC-7202

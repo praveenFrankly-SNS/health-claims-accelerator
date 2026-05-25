@@ -1,6 +1,22 @@
-SUMMARY OF DISCHARGE
-        Location: City Clinic Chennai
-        Name: Patient 82 - POL-HLT-20082
-        From 2026-05-22 to 2026-06-01
-        Condition: Knee Replacement [Z96.65]
-        Bill: 262811
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Max Super Speciality Delhi
+        
+        PATIENT INFORMATION
+        Name: Patient 113
+        Insurance ID: POL-HLT-20113
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-04-18
+        Date of Discharge: 2026-04-22
+        
+        CLINICAL FINDINGS
+        Diagnosis: Cataract Surgery
+        ICD Reference: H25.9
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 118227 INR
+        
+        Signed: Dr. K. Menon (MC-8851)

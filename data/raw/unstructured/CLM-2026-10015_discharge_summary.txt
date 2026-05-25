@@ -1,6 +1,22 @@
-SUMMARY OF DISCHARGE
-        Location: Fortis Healthcare Mumbai
-        Name: Patient 57 - POL-HLT-20057
-        From 2024-04-16 to 2024-04-23
-        Condition: Appendectomy [K35.80]
-        Bill: 94074
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: AIIMS New Delhi
+        
+        PATIENT INFORMATION
+        Name: Patient 175
+        Insurance ID: POL-HLT-20175
+        
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-03-28
+        Date of Discharge: 2026-04-02
+        
+        CLINICAL FINDINGS
+        Diagnosis: Cataract Surgery
+        ICD Reference: H25.9
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 96652 INR
+        
+        Signed: Dr. R. Gupta (MC-2849)

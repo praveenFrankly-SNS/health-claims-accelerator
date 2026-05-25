@@ -1,7 +1,9 @@
 # Databricks notebook source
 # MAGIC %md
-# MAGIC # Run Streamlit Dashboard
+# MAGIC # 11 Run Streamlit Dashboard
 # MAGIC This notebook uses `dbtunnel` to host the Streamlit dashboard interactively inside your Databricks workspace.
+# MAGIC Replaces 10_run_streamlit.py.
+# MAGIC **Author:** SNS Square | **Version:** 1.0 | **Last Updated:** May 2026
 
 # COMMAND ----------
 

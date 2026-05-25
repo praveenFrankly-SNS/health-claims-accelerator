@@ -73,8 +73,8 @@ def record_decision(claim_id, decision, reason):
             with connection.cursor() as cursor:
                 # Write to audit table
                 query = f"""
-                INSERT INTO health_claims_dev.audit.setup_log (event, catalog, schema, env, timestamp, run_by)
-                VALUES ('ADJUSTER_{decision}', 'health_claims_dev', 'claims', 'dev', '{timestamp}', '{user}')
+                INSERT INTO health_claims_dev.audit.adjuster_decisions (claim_id, user, action, reason, timestamp)
+                VALUES ('{claim_id}', '{user}', '{decision}', '{reason}', '{timestamp}')
                 """
                 cursor.execute(query)
         except Exception as e:

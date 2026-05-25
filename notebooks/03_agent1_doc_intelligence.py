@@ -62,7 +62,7 @@ def agent1_doc_intelligence(claim_state: dict) -> dict:
     - admission_date
     - discharge_date
     - hospital_name
-    - diagnosis_icd_code
+    - diagnosis_icd
     - claimed_amount
     - attending_physician_registration_number
     
@@ -88,7 +88,7 @@ def agent1_doc_intelligence(claim_state: dict) -> dict:
 
     # Calculate completeness score based on required fields
     required_fields = ["policy_number", "claimant_name", "admission_date", "discharge_date", 
-                       "hospital_name", "diagnosis_icd_code", "claimed_amount", "attending_physician_registration_number"]
+                       "hospital_name", "diagnosis_icd", "claimed_amount", "attending_physician_registration_number"]
     
     missing_fields = [f for f in required_fields if not extracted_data.get(f)]
     

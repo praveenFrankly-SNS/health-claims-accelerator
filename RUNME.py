@@ -41,7 +41,7 @@ except Exception as e:
 
 # 3. Bronze & Silver Ingestion
 run_notebook("./notebooks/01_bronze_ingestion")
-run_notebook("./notebooks/02_silver_dlt")
+run_notebook("./notebooks/02_silver_preparation_spark_sim")
 
 # COMMAND ----------
 

@@ -1,6 +1,19 @@
-SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 66 - POL-HLT-20066
-        From 2024-06-27 to 2024-07-02
-        Condition: Viral Pneumonia [J12.9]
-        Bill: 73008
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 28
+        Policy Number: POL-HLT-20028
+        Admission Date: 2026-05-24
+        Discharge Date: 2026-05-28
+        Hospital: Fortis Healthcare Mumbai
+        
+        Diagnosis: Dengue Fever
+        ICD-10 Code: A90
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Dengue Fever. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 40797
+        
+        Attending Physician: Dr. B. Iyer (Reg No: MC-5631)

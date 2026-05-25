@@ -1,9 +1,9 @@
 # Databricks notebook source
 # MAGIC %md
-# MAGIC # 02 Silver Data Preparation
-# MAGIC Cleans, validates, and standardizes Bronze data.
-# MAGIC Implements a quarantine pattern simulating DLT expectations.
-# MAGIC Also adds PII hashing and computes ML features (claim_velocity, days_since_inception).
+# MAGIC # 02 Silver — Delta Live Tables Simulation (Plain Spark)
+# MAGIC **Purpose:** Cleans, validates, and standardizes Bronze data using plain Spark.
+# MAGIC **Note:** This is a plain Spark simulation of Delta Live Tables (DLT) designed to run on the Databricks Free Edition. For the production DLT pipeline using decorators, refer to `02_silver_dlt_real.py`.
+# MAGIC **Author:** SNS Square | **Version:** 1.0 | **Last Updated:** May 2026
 
 # COMMAND ----------
 
@@ -25,7 +25,7 @@ claims_history_table = "claims_history"
 print(f"Reading from {bronze_table}")
 df_bronze = spark.table(bronze_table)
 
-# Validation rules
+# Validation rules (Simulated DLT expectations)
 # 1. claim_id must not be null
 # 2. claimed_amount must be > 0
 

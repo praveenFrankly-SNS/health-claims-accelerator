@@ -1,6 +1,7 @@
 SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 52 - POL-HLT-20052
-        From 2026-03-30 to 2026-04-03
-        Condition: Appendectomy [K35.80]
-        Bill: 230612
+        Location: Fortis Healthcare Mumbai
+        Name: Patient 139 - POL-HLT-20139
+        From 2023-02-06 to 2023-02-16
+        Condition: Knee Replacement [Z96.65]
+        Bill: 278494
+        Physician: Dr. S. Reddy (Reg No: MC-1820)

@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: Apollo Hospital Coimbatore
-        Patient: Patient 42 | Policy: POL-HLT-20042
-        Admitted: 2023-08-01 | Discharged: 2023-08-02
+        Hospital: Max Super Speciality Delhi
+        Patient: Patient 198 | Policy: POL-HLT-20198
+        Admitted: 2023-01-10 | Discharged: 2023-01-15
         
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 283717
+        Principal Diagnosis: Dengue Fever (A90)
+        Total Charges: 72084
         
-        Physician: Dr. A. Kumar, MC-8821
+        Physician: Dr. L. Rao, MC-3342

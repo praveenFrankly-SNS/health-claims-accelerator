@@ -1,19 +1,7 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 39
-        Policy Number: POL-HLT-20039
-        Admission Date: 2026-04-28
-        Discharge Date: 2026-05-05
-        Hospital: Apollo Hospital Coimbatore
-        
-        Diagnosis: Cataract Surgery
-        ICD-10 Code: H25.9
-        
-        Course in the Hospital:
-        The patient presented with symptoms relating to Cataract Surgery. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 90010
-        
-        Attending Physician: Dr. Smith (Reg No: MC-5544)
+SUMMARY OF DISCHARGE
+        Location: Apollo Hospital Coimbatore
+        Name: Patient 29 - POL-HLT-20029
+        From 2026-05-17 to 2026-05-26
+        Condition: Knee Replacement [Z96.65]
+        Bill: 275159
+        Physician: Dr. K. Menon (Reg No: MC-4384)

@@ -1,9 +1,9 @@
-| Hospital       | Manipal Hospital Bangalore |
-        | Patient        | Patient 102 |
-        | Policy         | POL-HLT-20102 |
-        | Admitted       | 2026-05-02 |
-        | Discharged     | 2026-05-07 |
-        | Diagnosis      | Viral Pneumonia |
-        | ICD-10         | J12.9 |
-        | Total Bill     | 192528 |
-        | Doctor         | Dr. J. Doe (Reg: MC-1122) |
+| Hospital       | Max Super Speciality Delhi |
+        | Patient        | Patient 173 |
+        | Policy         | POL-HLT-20173 |
+        | Admitted       | 2026-05-17 |
+        | Discharged     | 2026-05-19 |
+        | Diagnosis      | Knee Replacement |
+        | ICD-10         | Z96.65 |
+        | Total Bill     | 260586 |
+        | Doctor         | Dr. K. Menon (Reg: MC-3016) |

@@ -1,6 +1,7 @@
 SUMMARY OF DISCHARGE
-        Location: Fortis Healthcare Mumbai
-        Name: Patient 198 - POL-HLT-20198
-        From 2026-05-21 to 2026-05-29
+        Location: Manipal Hospital Bangalore
+        Name: Patient 79 - POL-HLT-20079
+        From 2026-04-11 to 2026-04-12
         Condition: Cataract Surgery [H25.9]
-        Bill: 63679
+        Bill: 116293
+        Physician: Dr. P. Singh (Reg No: MC-2642)

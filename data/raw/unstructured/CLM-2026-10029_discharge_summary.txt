@@ -1,6 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: Manipal Hospital Bangalore
-        Name: Patient 110 - POL-HLT-20110
-        From 2026-04-18 to 2026-04-23
-        Condition: Appendectomy [K35.80]
-        Bill: 202462
+HOSPITAL DISCHARGE RECORD
+        Hospital: AIIMS New Delhi
+        Patient: Patient 67 | Policy: POL-HLT-20067
+        Admitted: 2026-04-07 | Discharged: 2026-04-14
+        
+        Principal Diagnosis: Viral Pneumonia (J12.9)
+        Total Charges: 138036
+        
+        Physician: Dr. P. Singh, MC-1439

@@ -100,7 +100,7 @@ def agent3_coverage(claim_state: dict) -> dict:
     
     extracted = claim_state.get("extracted_data", {})
     policy_number = extracted.get("policy_number", "UNKNOWN")
-    diagnosis = extracted.get("diagnosis_icd_code", "UNKNOWN")
+    diagnosis = extracted.get("diagnosis_icd", "UNKNOWN")
     hospital = extracted.get("hospital_name", "UNKNOWN")
     plan_tier = extracted.get("plan_tier", "Silver").capitalize()  # Ensure matches file casing like Premium.txt
     

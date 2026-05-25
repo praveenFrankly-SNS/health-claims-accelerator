@@ -31,7 +31,7 @@ SELECT
     claim_id,
     get_json_object(payload, '$.pipeline_status') as pipeline_status,
     get_json_object(payload, '$.extracted_data.claimant_name') as claimant_name,
-    get_json_object(payload, '$.extracted_data.diagnosis_icd_code') as diagnosis,
+    get_json_object(payload, '$.extracted_data.diagnosis_icd') as diagnosis,
     cast(get_json_object(payload, '$.fraud.fraud_score') as double) as fraud_score,
     get_json_object(payload, '$.fraud.confidence') as fraud_confidence,
     get_json_object(payload, '$.coverage.coverage_status') as coverage_status,

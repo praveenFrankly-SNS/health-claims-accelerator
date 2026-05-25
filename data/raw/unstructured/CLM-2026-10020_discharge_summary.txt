@@ -1,22 +1,19 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: Apollo Hospital Coimbatore
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 164
+        Policy Number: POL-HLT-20164
+        Admission Date: 2026-04-15
+        Discharge Date: 2026-04-24
+        Hospital: Apollo Hospital Coimbatore
         
-        PATIENT INFORMATION
-        Name: Patient 51
-        Insurance ID: POL-HLT-20051
+        Diagnosis: Appendectomy
+        ICD-10 Code: K35.80
         
-        ENCOUNTER DETAILS
-        Date of Admission: 2026-04-11
-        Date of Discharge: 2026-04-20
+        Course in the Hospital:
+        The patient presented with symptoms relating to Appendectomy. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
         
-        CLINICAL FINDINGS
-        Diagnosis: Knee Replacement
-        ICD Reference: Z96.65
-        The patient was admitted and treated for the above condition.
+        Final Bill Amount: INR 168702
         
-        FINANCIAL
-        Total Incurred Amount: 648947 INR
-        
-        Signed: Dr. R. Sharma (MCI-9902)
+        Attending Physician: Dr. K. Menon (Reg No: MC-3792)

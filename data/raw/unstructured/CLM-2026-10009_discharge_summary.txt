@@ -1,9 +1,19 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Fortis Healthcare Mumbai
-        Patient: Patient 172 | Policy: POL-HLT-20172
-        Admitted: 2026-04-21 | Discharged: 2026-05-01
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 184
+        Policy Number: POL-HLT-20184
+        Admission Date: 2025-01-13
+        Discharge Date: 2025-01-20
+        Hospital: City Clinic Chennai
         
-        Principal Diagnosis: Appendectomy (K35.80)
-        Total Charges: 228348
+        Diagnosis: Appendectomy
+        ICD-10 Code: K35.80
         
-        Physician: Dr. A. Kumar, MC-8821
+        Course in the Hospital:
+        The patient presented with symptoms relating to Appendectomy. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 85699
+        
+        Attending Physician: Dr. L. Rao (Reg No: MC-7515)

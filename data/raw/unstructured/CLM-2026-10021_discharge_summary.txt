@@ -1,6 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: Fortis Healthcare Mumbai
-        Name: Patient 123 - POL-HLT-20123
-        From 2026-03-24 to 2026-03-30
-        Condition: Cataract Surgery [H25.9]
-        Bill: 87595
+HOSPITAL DISCHARGE RECORD
+        Hospital: City Clinic Chennai
+        Patient: Patient 146 | Policy: POL-HLT-20146
+        Admitted: 2026-05-18 | Discharged: 2026-05-26
+        
+        Principal Diagnosis: Knee Replacement (Z96.65)
+        Total Charges: 261902
+        
+        Physician: Dr. L. Rao, MC-1679

@@ -1,22 +1,22 @@
 ========================================
         CLINICAL DISCHARGE REPORT
         ========================================
-        Facility: Fortis Healthcare Mumbai
+        Facility: AIIMS New Delhi
         
         PATIENT INFORMATION
-        Name: Patient 189
-        Insurance ID: POL-HLT-20189
+        Name: Patient 84
+        Insurance ID: POL-HLT-20084
         
         ENCOUNTER DETAILS
-        Date of Admission: 2022-06-08
-        Date of Discharge: 2022-06-10
+        Date of Admission: 2026-05-16
+        Date of Discharge: 2026-05-19
         
         CLINICAL FINDINGS
-        Diagnosis: Viral Pneumonia
-        ICD Reference: J12.9
+        Diagnosis: Dengue Fever
+        ICD Reference: A90
         The patient was admitted and treated for the above condition.
         
         FINANCIAL
-        Total Incurred Amount: 94441 INR
+        Total Incurred Amount: 36270 INR
         
-        Signed: Dr. R. Sharma (MCI-9902)
+        Signed: Dr. L. Rao (MC-5298)

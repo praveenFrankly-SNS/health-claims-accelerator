@@ -181,6 +181,9 @@ def generate_synthetic_claims_and_docs(hospitals, policies, history, num_claims=
     print(f"Generated {num_claims} structured claims at {csv_file}")
 
 def generate_discharge_summary(claim, diagnosis, admin_date, discharge_date, hospital):
+    physician_name = random.choice(['A. Kumar', 'S. Reddy', 'P. Singh', 'H. Patel', 'M. Shah', 'R. Gupta', 'N. Verma', 'K. Menon', 'L. Rao', 'B. Iyer'])
+    physician_reg = f"MC-{random.randint(1000, 9999)}"
+
     templates = [
         # Template 1: Standard
         """
@@ -202,7 +205,7 @@ def generate_discharge_summary(claim, diagnosis, admin_date, discharge_date, hos
         
         Final Bill Amount: INR {amount}
         
-        Attending Physician: Dr. Smith (Reg No: MC-5544)
+        Attending Physician: Dr. {physician_name} (Reg No: {physician_reg})
         """,
         # Template 2: Minimal
         """
@@ -214,7 +217,7 @@ def generate_discharge_summary(claim, diagnosis, admin_date, discharge_date, hos
         Principal Diagnosis: {diag_desc} ({icd})
         Total Charges: {amount}
         
-        Physician: Dr. A. Kumar, MC-8821
+        Physician: Dr. {physician_name}, {physician_reg}
         """,
         # Template 3: Verbose
         """
@@ -239,9 +242,9 @@ def generate_discharge_summary(claim, diagnosis, admin_date, discharge_date, hos
         FINANCIAL
         Total Incurred Amount: {amount} INR
         
-        Signed: Dr. R. Sharma (MCI-9902)
+        Signed: Dr. {physician_name} ({physician_reg})
         """,
-        # Template 4: Missing Physician
+        # Template 4: Minimal with Physician
         """
         SUMMARY OF DISCHARGE
         Location: {hospital}
@@ -249,6 +252,7 @@ def generate_discharge_summary(claim, diagnosis, admin_date, discharge_date, hos
         From {admit} to {discharge}
         Condition: {diag_desc} [{icd}]
         Bill: {amount}
+        Physician: Dr. {physician_name} (Reg No: {physician_reg})
         """,
         # Template 5: Tabular
         """
@@ -260,7 +264,7 @@ def generate_discharge_summary(claim, diagnosis, admin_date, discharge_date, hos
         | Diagnosis      | {diag_desc} |
         | ICD-10         | {icd} |
         | Total Bill     | {amount} |
-        | Doctor         | Dr. J. Doe (Reg: MC-1122) |
+        | Doctor         | Dr. {physician_name} (Reg: {physician_reg}) |
         """
     ]
     
@@ -273,7 +277,9 @@ def generate_discharge_summary(claim, diagnosis, admin_date, discharge_date, hos
         hospital=hospital['hospital_name'],
         diag_desc=diagnosis['desc'],
         icd=diagnosis['code'],
-        amount=claim['claimed_amount']
+        amount=claim['claimed_amount'],
+        physician_name=physician_name,
+        physician_reg=physician_reg
     )
     
     filename = f"{repo_root}/data/raw/unstructured/{claim['claim_id']}_discharge_summary.txt"

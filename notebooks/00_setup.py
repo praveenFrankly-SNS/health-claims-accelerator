@@ -93,6 +93,19 @@ seed_gold_table("network_hospitals.csv", "network_hospitals")
 
 
 # COMMAND ----------
+# DBTITLE 1,Create adjuster decisions audit table
+spark.sql(f"""
+    CREATE TABLE IF NOT EXISTS `{catalog}`.`audit`.`adjuster_decisions` (
+        claim_id STRING,
+        user STRING,
+        action STRING,
+        reason STRING,
+        timestamp STRING
+    ) USING delta
+""")
+print("✓ Table audit.adjuster_decisions ready")
+
+# COMMAND ----------
 # DBTITLE 1,Write setup completion record to audit log
 from datetime import datetime
 import json

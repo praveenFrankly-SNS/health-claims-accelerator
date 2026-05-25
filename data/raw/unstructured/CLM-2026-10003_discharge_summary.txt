@@ -1,19 +1,22 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 3
-        Policy Number: POL-HLT-20003
-        Admission Date: 2024-06-25
-        Discharge Date: 2024-07-05
-        Hospital: AIIMS New Delhi
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: Fortis Healthcare Mumbai
         
-        Diagnosis: Appendectomy
-        ICD-10 Code: K35.80
+        PATIENT INFORMATION
+        Name: Patient 63
+        Insurance ID: POL-HLT-20063
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Appendectomy. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-22
+        Date of Discharge: 2026-05-27
         
-        Final Bill Amount: INR 85577
+        CLINICAL FINDINGS
+        Diagnosis: Knee Replacement
+        ICD Reference: Z96.65
+        The patient was admitted and treated for the above condition.
         
-        Attending Physician: Dr. Smith (Reg No: MC-5544)
+        FINANCIAL
+        Total Incurred Amount: 296246 INR
+        
+        Signed: Dr. M. Shah (MC-3691)

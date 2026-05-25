@@ -1,9 +1,19 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Manipal Hospital Bangalore
-        Patient: Patient 164 | Policy: POL-HLT-20164
-        Admitted: 2026-04-27 | Discharged: 2026-05-04
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 190
+        Policy Number: POL-HLT-20190
+        Admission Date: 2026-04-29
+        Discharge Date: 2026-05-05
+        Hospital: Max Super Speciality Delhi
         
-        Principal Diagnosis: Dengue Fever (A90)
-        Total Charges: 81339
+        Diagnosis: Cataract Surgery
+        ICD-10 Code: H25.9
         
-        Physician: Dr. A. Kumar, MC-8821
+        Course in the Hospital:
+        The patient presented with symptoms relating to Cataract Surgery. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 129343
+        
+        Attending Physician: Dr. S. Reddy (Reg No: MC-6439)

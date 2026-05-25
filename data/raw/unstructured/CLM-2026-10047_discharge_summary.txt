@@ -1,9 +1,19 @@
-| Hospital       | Max Super Speciality Delhi |
-        | Patient        | Patient 148 |
-        | Policy         | POL-HLT-20148 |
-        | Admitted       | 2023-01-16 |
-        | Discharged     | 2023-01-21 |
-        | Diagnosis      | Dengue Fever |
-        | ICD-10         | A90 |
-        | Total Bill     | 68038 |
-        | Doctor         | Dr. J. Doe (Reg: MC-1122) |
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 42
+        Policy Number: POL-HLT-20042
+        Admission Date: 2026-05-18
+        Discharge Date: 2026-05-27
+        Hospital: Apollo Hospital Coimbatore
+        
+        Diagnosis: Appendectomy
+        ICD-10 Code: K35.80
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Appendectomy. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 80958
+        
+        Attending Physician: Dr. N. Verma (Reg No: MC-4108)

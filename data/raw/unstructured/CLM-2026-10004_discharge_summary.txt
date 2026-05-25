@@ -1,19 +1,9 @@
-DISCHARGE SUMMARY
-        -----------------
-        Patient Name: Patient 21
-        Policy Number: POL-HLT-20021
-        Admission Date: 2026-05-15
-        Discharge Date: 2026-05-22
+HOSPITAL DISCHARGE RECORD
         Hospital: Max Super Speciality Delhi
+        Patient: Patient 177 | Policy: POL-HLT-20177
+        Admitted: 2026-05-22 | Discharged: 2026-05-24
         
-        Diagnosis: Dengue Fever
-        ICD-10 Code: A90
+        Principal Diagnosis: Viral Pneumonia (J12.9)
+        Total Charges: 77748
         
-        Course in the Hospital:
-        The patient presented with symptoms relating to Dengue Fever. 
-        Routine investigations were carried out. The patient was managed conservatively/surgically 
-        and responded well to the treatment.
-        
-        Final Bill Amount: INR 44652
-        
-        Attending Physician: Dr. Smith (Reg No: MC-5544)
+        Physician: Dr. N. Verma, MC-9887

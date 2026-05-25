@@ -1,6 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: AIIMS New Delhi
-        Name: Patient 79 - POL-HLT-20079
-        From 2026-05-14 to 2026-05-20
-        Condition: Viral Pneumonia [J12.9]
-        Bill: 67947
+| Hospital       | Apollo Hospital Coimbatore |
+        | Patient        | Patient 152 |
+        | Policy         | POL-HLT-20152 |
+        | Admitted       | 2026-05-23 |
+        | Discharged     | 2026-05-24 |
+        | Diagnosis      | Cataract Surgery |
+        | ICD-10         | H25.9 |
+        | Total Bill     | 57072 |
+        | Doctor         | Dr. K. Menon (Reg: MC-9509) |

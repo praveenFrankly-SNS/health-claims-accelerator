@@ -71,7 +71,7 @@ class GenericLLMClient:
             name_match = re.search(r"Patient \d+", prompt)
             policy = pol_match.group(0) if pol_match else "MOCK-POL"
             name = name_match.group(0) if name_match else "Mock Patient"
-            return f'{{"policy_number": "{policy}", "claimant_name": "{name}", "admission_date": "2026-01-01", "discharge_date": "2026-01-05", "hospital_name": "Apollo Hospital Coimbatore", "diagnosis_icd_code": "J18.9", "claimed_amount": 50000, "attending_physician_registration_number": "MC-5544"}}'
+            return f'{{"policy_number": "{policy}", "claimant_name": "{name}", "admission_date": "2026-01-01", "discharge_date": "2026-01-05", "hospital_name": "Apollo Hospital Coimbatore", "diagnosis_icd": "J18.9", "claimed_amount": 50000, "attending_physician_registration_number": "MC-5544"}}'
         return '{"result": "Mocked fallback response"}'
 
 llm = GenericLLMClient()

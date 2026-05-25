@@ -1,6 +1,19 @@
-SUMMARY OF DISCHARGE
-        Location: Max Super Speciality Delhi
-        Name: Patient 149 - POL-HLT-20149
-        From 2026-05-03 to 2026-05-07
-        Condition: Knee Replacement [Z96.65]
-        Bill: 889706
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 70
+        Policy Number: POL-HLT-20070
+        Admission Date: 2026-05-21
+        Discharge Date: 2026-05-28
+        Hospital: Manipal Hospital Bangalore
+        
+        Diagnosis: Knee Replacement
+        ICD-10 Code: Z96.65
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Knee Replacement. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 263905
+        
+        Attending Physician: Dr. L. Rao (Reg No: MC-5007)

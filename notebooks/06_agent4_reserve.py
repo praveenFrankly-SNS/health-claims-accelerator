@@ -49,7 +49,7 @@ def agent4_reserve(claim_state: dict) -> dict:
     import pickle
     
     # 1. Base reserve from GBM models
-    diagnosis = extracted.get("diagnosis_icd_code", "UNKNOWN")
+    diagnosis = extracted.get("diagnosis_icd", "UNKNOWN")
     df_features = pd.DataFrame({"diagnosis_icd": [diagnosis]})
     
     # Load models
@@ -103,7 +103,7 @@ def agent4_reserve(claim_state: dict) -> dict:
         print(f"[Agent 4] Could not fetch comparable claims: {e}")
         
     # LLM Severity Uplift based on diagnosis
-    diagnosis = extracted.get("diagnosis_icd_code", "UNKNOWN")
+    diagnosis = extracted.get("diagnosis_icd", "UNKNOWN")
     prompt = f"""
     You are an AI Reserve Estimation Agent. Assess the severity of this medical diagnosis and recommend an uplift multiplier (1.0 to 1.5).
     Diagnosis: {diagnosis}

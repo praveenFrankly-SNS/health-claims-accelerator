@@ -1,9 +1,22 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: AIIMS New Delhi
-        Patient: Patient 188 | Policy: POL-HLT-20188
-        Admitted: 2026-05-17 | Discharged: 2026-05-18
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: AIIMS New Delhi
         
-        Principal Diagnosis: Knee Replacement (Z96.65)
-        Total Charges: 267498
+        PATIENT INFORMATION
+        Name: Patient 177
+        Insurance ID: POL-HLT-20177
         
-        Physician: Dr. A. Kumar, MC-8821
+        ENCOUNTER DETAILS
+        Date of Admission: 2026-05-21
+        Date of Discharge: 2026-05-25
+        
+        CLINICAL FINDINGS
+        Diagnosis: Dengue Fever
+        ICD Reference: A90
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 45145 INR
+        
+        Signed: Dr. R. Gupta (MC-9238)

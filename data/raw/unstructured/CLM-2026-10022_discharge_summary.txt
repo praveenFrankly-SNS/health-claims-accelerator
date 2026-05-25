@@ -1,6 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: Max Super Speciality Delhi
-        Name: Patient 49 - POL-HLT-20049
-        From 2026-04-26 to 2026-05-06
-        Condition: Viral Pneumonia [J12.9]
-        Bill: 133073
+HOSPITAL DISCHARGE RECORD
+        Hospital: Max Super Speciality Delhi
+        Patient: Patient 147 | Policy: POL-HLT-20147
+        Admitted: 2026-05-17 | Discharged: 2026-05-19
+        
+        Principal Diagnosis: Dengue Fever (A90)
+        Total Charges: 35042
+        
+        Physician: Dr. A. Kumar, MC-3961

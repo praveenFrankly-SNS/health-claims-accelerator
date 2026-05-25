@@ -1,6 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: City Clinic Chennai
-        Name: Patient 60 - POL-HLT-20060
-        From 2026-05-20 to 2026-05-23
-        Condition: Dengue Fever [A90]
-        Bill: 38880
+| Hospital       | Max Super Speciality Delhi |
+        | Patient        | Patient 132 |
+        | Policy         | POL-HLT-20132 |
+        | Admitted       | 2026-05-24 |
+        | Discharged     | 2026-05-31 |
+        | Diagnosis      | Viral Pneumonia |
+        | ICD-10         | J12.9 |
+        | Total Bill     | 68183 |
+        | Doctor         | Dr. B. Iyer (Reg: MC-2062) |

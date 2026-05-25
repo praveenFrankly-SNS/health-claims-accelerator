@@ -1,22 +1,9 @@
-========================================
-        CLINICAL DISCHARGE REPORT
-        ========================================
-        Facility: AIIMS New Delhi
+HOSPITAL DISCHARGE RECORD
+        Hospital: AIIMS New Delhi
+        Patient: Patient 180 | Policy: POL-HLT-20180
+        Admitted: 2024-04-15 | Discharged: 2024-04-17
         
-        PATIENT INFORMATION
-        Name: Patient 140
-        Insurance ID: POL-HLT-20140
+        Principal Diagnosis: Knee Replacement (Z96.65)
+        Total Charges: 285709
         
-        ENCOUNTER DETAILS
-        Date of Admission: 2024-10-11
-        Date of Discharge: 2024-10-21
-        
-        CLINICAL FINDINGS
-        Diagnosis: Cataract Surgery
-        ICD Reference: H25.9
-        The patient was admitted and treated for the above condition.
-        
-        FINANCIAL
-        Total Incurred Amount: 83911 INR
-        
-        Signed: Dr. R. Sharma (MCI-9902)
+        Physician: Dr. N. Verma, MC-4957

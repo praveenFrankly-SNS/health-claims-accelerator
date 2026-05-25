@@ -114,7 +114,7 @@ for _, row in eval_df.iterrows():
         "claim_id": row['claim_id'],
         "extracted_data": {
             "claimed_amount": row['claimed_amount'],
-            "diagnosis_icd_code": "J12.9", # Hardcoded since it doesn't exist in claims.csv
+            "diagnosis_icd": "J12.9", # Hardcoded since it doesn't exist in claims.csv
             "policy_number": row['policy_number']
         },
         # Simulate Silver feature enrichment

@@ -1,9 +1,7 @@
-| Hospital       | Fortis Healthcare Mumbai |
-        | Patient        | Patient 63 |
-        | Policy         | POL-HLT-20063 |
-        | Admitted       | 2026-05-22 |
-        | Discharged     | 2026-05-27 |
-        | Diagnosis      | Knee Replacement |
-        | ICD-10         | Z96.65 |
-        | Total Bill     | 274398 |
-        | Doctor         | Dr. J. Doe (Reg: MC-1122) |
+SUMMARY OF DISCHARGE
+        Location: Max Super Speciality Delhi
+        Name: Patient 41 - POL-HLT-20041
+        From 2022-11-14 to 2022-11-22
+        Condition: Cataract Surgery [H25.9]
+        Bill: 83319
+        Physician: Dr. A. Kumar (Reg No: MC-5789)

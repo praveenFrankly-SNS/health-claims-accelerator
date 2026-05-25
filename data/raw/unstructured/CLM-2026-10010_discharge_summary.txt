@@ -1,9 +1,22 @@
-HOSPITAL DISCHARGE RECORD
-        Hospital: Manipal Hospital Bangalore
-        Patient: Patient 169 | Policy: POL-HLT-20169
-        Admitted: 2026-03-25 | Discharged: 2026-04-02
+========================================
+        CLINICAL DISCHARGE REPORT
+        ========================================
+        Facility: City Clinic Chennai
         
-        Principal Diagnosis: Appendectomy (K35.80)
-        Total Charges: 158409
+        PATIENT INFORMATION
+        Name: Patient 86
+        Insurance ID: POL-HLT-20086
         
-        Physician: Dr. A. Kumar, MC-8821
+        ENCOUNTER DETAILS
+        Date of Admission: 2024-10-03
+        Date of Discharge: 2024-10-08
+        
+        CLINICAL FINDINGS
+        Diagnosis: Appendectomy
+        ICD Reference: K35.80
+        The patient was admitted and treated for the above condition.
+        
+        FINANCIAL
+        Total Incurred Amount: 85439 INR
+        
+        Signed: Dr. L. Rao (MC-8097)

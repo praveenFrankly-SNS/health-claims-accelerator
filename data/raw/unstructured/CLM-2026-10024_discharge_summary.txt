@@ -1,6 +1,19 @@
-SUMMARY OF DISCHARGE
-        Location: Fortis Healthcare Mumbai
-        Name: Patient 160 - POL-HLT-20160
-        From 2026-04-18 to 2026-04-21
-        Condition: Viral Pneumonia [J12.9]
-        Bill: 147621
+DISCHARGE SUMMARY
+        -----------------
+        Patient Name: Patient 61
+        Policy Number: POL-HLT-20061
+        Admission Date: 2026-05-16
+        Discharge Date: 2026-05-21
+        Hospital: Fortis Healthcare Mumbai
+        
+        Diagnosis: Dengue Fever
+        ICD-10 Code: A90
+        
+        Course in the Hospital:
+        The patient presented with symptoms relating to Dengue Fever. 
+        Routine investigations were carried out. The patient was managed conservatively/surgically 
+        and responded well to the treatment.
+        
+        Final Bill Amount: INR 47838
+        
+        Attending Physician: Dr. P. Singh (Reg No: MC-4809)

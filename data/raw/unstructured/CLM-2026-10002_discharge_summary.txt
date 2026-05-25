@@ -1,6 +1,9 @@
-SUMMARY OF DISCHARGE
-        Location: Apollo Hospital Coimbatore
-        Name: Patient 131 - POL-HLT-20131
-        From 2023-05-17 to 2023-05-20
-        Condition: Dengue Fever [A90]
-        Bill: 61868
+| Hospital       | Apollo Hospital Coimbatore |
+        | Patient        | Patient 22 |
+        | Policy         | POL-HLT-20022 |
+        | Admitted       | 2026-04-26 |
+        | Discharged     | 2026-04-27 |
+        | Diagnosis      | Cataract Surgery |
+        | ICD-10         | H25.9 |
+        | Total Bill     | 136837 |
+        | Doctor         | Dr. M. Shah (Reg: MC-1876) |

@@ -1,9 +1,9 @@
 HOSPITAL DISCHARGE RECORD
-        Hospital: Manipal Hospital Bangalore
-        Patient: Patient 62 | Policy: POL-HLT-20062
-        Admitted: 2024-02-09 | Discharged: 2024-02-18
+        Hospital: City Clinic Chennai
+        Patient: Patient 39 | Policy: POL-HLT-20039
+        Admitted: 2026-05-21 | Discharged: 2026-05-22
         
-        Principal Diagnosis: Viral Pneumonia (J12.9)
-        Total Charges: 90519
+        Principal Diagnosis: Knee Replacement (Z96.65)
+        Total Charges: 269422
         
-        Physician: Dr. A. Kumar, MC-8821
+        Physician: Dr. N. Verma, MC-9869
